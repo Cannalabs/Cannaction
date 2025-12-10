@@ -1,0 +1,68 @@
+/* src\pages\App\navigation\Navigation.styles.css */
+
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+	position: relative !important;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+	/* top: 46px !important; */
+	top: 64px !important;
+}
+
+.toolbar {
+	min-height: 177px !important;
+	background-color: #1b7f75 !important;
+	background-image: linear-gradient(
+		135deg,
+		#1b7f75 0%,
+		rgba(0, 43, 38, 0.8) 100%
+	) !important;
+}
+
+.dashboard svg {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.drawer {
+	width: 240px;
+	flex-shrink: 0;
+	white-space: nowrap;
+	transition: width 0.3s ease;
+}
+
+.content {
+	transition: margin-left 0.3s ease;
+}
+
+/* .appBar {
+	background-color: white !important;
+}
+
+.css-1u2w381-MuiModal-root-MuiDrawer-root {
+	z-index: 1 !important;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #212832;
+} */
+
+.menu-selected .nav-link,
+.menu-selected svg {
+	color: #1b7f75;
+	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	.drawer {
+		width: 100%; /* Drawer ocupa a largura total em telas pequenas */
+	}
+
+	.expanded .drawer {
+		width: 100%; /* Drawer ocupa a largura total mesmo expandido em telas pequenas */
+	}
+
+	.expanded .root {
+		margin-left: 0; /* Não aplica margem quando expandido em telas pequenas */
+	}
+}

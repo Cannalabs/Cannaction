@@ -1,0 +1,1708 @@
+{
+	"general": {
+		"submit": "Lähettää",
+		"tableFooter": {
+			"tableFooterShow": "Esitys",
+			"tableFooterTo": "-lla",
+			"tableFooterOf": "-",
+			"tableFooterEntries": "Merkinnät"
+		},
+		"informationIcon": {
+			"icon": "Valitse Kuva Lataa vain kuvia .jpg, .jpeg, .png ja gif -laajennus ja koko alle 150 kt, enimmäisleveys: 1024px ja enimmäiskorkeus: 768px"
+		},
+		"active": "Aktiivinen",
+		"disabled": "Vammainen",
+		"noImage": "Kuvaa ei ladattu. Napsauta alla lisätäksesi kuvan.",
+		"createFirst": "Luo ensin kuva.",
+		"uploadNewImage": "Lataa uusi kuva",
+		"clubCardNoPassword": "Klubikortin käyttäjällä ei ole salasanaa!",
+		"clubCardUserFound": "Klubikortin käyttäjä löysi! Anna salasana."
+	},
+	"cannaction": {
+		"samples": "Hanki näytteitä ilmaiseksi, tulosta promokoodeja, kerää pisteitä, voita palkintoja,\nJa paljon muuta.",
+		"howItWorks": "Kuinka se toimii",
+		"about": "Noin",
+		"masterclass": "Mestariluokka"
+	},
+	"login": {
+		"welcome": "Tervetuloa jhk",
+		"signIn": "Kirjaudu sisään jatkaaksesi.",
+		"shareEmail": "Emme koskaan jaa sähköpostiasi kenenkään muun kanssa.",
+		"forgotPassword": "Unohditko salasanasi?",
+		"noAccount": "Eikö sinulla ole vielä tiliä?",
+		"register": "Liity klubiin täällä",
+		"emailNickname": "Sähköpostisi tai lempinimesi",
+		"password": "Salasanasi",
+		"passwordMailSent": "Olemme lähettäneet sinulle sähköpostin, joka sisältää uuden salasanasi!"
+	},
+	"register": {
+		"errors": {
+			"termsConditions": "Ehdot vaaditaan",
+			"privacyPolicy": "Tietosuojakäytäntö vaaditaan",
+			"userType": "Käyttäjätyyppi tarvitaan",
+			"firstName": "Etunimi vaaditaan",
+			"lastName": "Sukunimi vaaditaan",
+			"store": "Kauppa vaaditaan asiakkaalle",
+			"country": "Maa vaaditaan",
+			"language": "Kieli vaaditaan",
+			"nickname": "NIMPANimi on vaaditaan",
+			"email": "Sähköposti vaaditaan",
+			"password": "Anna salasanasi.",
+			"passwordNotMatch": "Salasanat eivät vastaa."
+		},
+		"userCreated": "Käyttäjä loi menestyksekkäästi!",
+		"previous": "Edellinen",
+		"next": "Seuraava"
+	},
+	"marketing": {
+		"routes": {
+			"dashboard": {
+				"subtitle": "Yleiskatsaus ja yhteenveto"
+			},
+			"downloads": {
+				"subtitle": "Kirjoita kansiot ja lataa tiedostot"
+			},
+			"archives": {
+				"subtitle": "Arkiston hallinta"
+			},
+			"promoReport": {
+				"subtitle": "Esineet jakautuvat"
+			},
+			"salesReport": {
+				"subtitle": "Tuotteiden mukaan"
+			},
+			"promotions": {
+				"subtitle": "Kaikki tarjoukset saatavilla",
+				"detailsTitle": "Ylennystiedot"
+			},
+			"redeemedItems": {
+				"subtitle": "Tarkistettava"
+			},
+			"productsAvailable": {
+				"subtitle": "Tuotteita saatavilla",
+				"detailsTitle": "Tuotetiedot"
+			},
+			"quiz": {
+				"subtitle": "Kaikki luotu tietokilpailuja",
+				"detailsTitle": "Tietokilpailutiedot",
+				"editTitle": "Muokata tietokilpailua",
+				"replyTitle": "Vastauskilpailu",
+				"reportTitle": "Tietokilpailuraportti"
+			},
+			"stores": {
+				"subtitle": "Kaikki kaupat",
+				"detailsTitle": "Säilyttää yksityiskohdat"
+			},
+			"users": {
+				"subtitle": "Käyttäjän raportti",
+				"detailsTitle": "Käyttäjätiedot"
+			},
+			"checkChangeShop": {
+				"subtitle": "Tarkista Change Shop -raportti"
+			},
+			"profilePunctuation": {
+				"subtitle": "Pisteiden hallinta"
+			},
+			"upload": {
+				"subtitle": "Luo kansioita ja lataa tiedostoja"
+			},
+			"targets": {
+				"subtitle": "Kaikki tavoitteet"
+			},
+			"newsletter": {
+				"subtitle": "Kaikki uutiskirjeet"
+			},
+			"notification": {
+				"subtitle": "Kaikki ilmoitukset",
+				"detailsTitle": "Ilmoitustiedot"
+			},
+			"coupons": {
+				"subtitle": "Kuponkeja validoimaan ja esineisiin jaetaan"
+			},
+			"pointsStatement": {
+				"subtitle": "Katso pontinatiohistoria"
+			},
+			"salesPointsStatement": {
+				"subtitle": "Tuotteiden mukaan"
+			},
+			"customers": {
+				"subtitle": "Kaikki asiakkaat",
+				"detailsTitle": "Asiakastiedot"
+			},
+			"exchangePoints": {
+				"subtitle": "Kaikki käytettävissä olevat vaihtopisteet",
+				"detailsTitle": "Vaihtopisteiden yksityiskohdat"
+			},
+			"inviteFriend": {
+				"subtitle": "Lähetä kutsu kaikille ystäville"
+			},
+			"changeShop": {
+				"subtitle": "Haluatko vaihtaa myymälöitä? Ilmoita meille!"
+			},
+			"generalReport": {
+				"subtitle": "Yleisraportti"
+			},
+			"permissions": {
+				"subtitle": "Käyttöoikeudet"
+			}
+		},
+		"dashboard": {
+			"title": "Kojelauta",
+			"description": "Yleiskatsaus ja yhteenveto",
+			"cannapediaTitleBox": "Kannapedia",
+			"cannapediaDescriptionBox": "Pääsy järjestelmän toimintadokumentaatioon",
+			"storesTitleBox": "Kaupat",
+			"storesDescriptionBox": "Hallitse kauppoja",
+			"targetsTitleBox": "Kohteet",
+			"targetsDescriptionBox": "Nopea pääsy kojelautaan",
+			"usersTitleBox": "Käyttäjät",
+			"usersDescriptionBox": "Nopea pääsy käyttäjäpaneeliin",
+			"storeTargets": {
+				"storeTargetReached": "Kaupan tavoite saavutettiin!",
+				"store": "Myymälä",
+				"target": "Kohde",
+				"prizeMoney": "Palkita rahat",
+				"prizeItem": "Palkintokappale",
+				"limitDate": "Rajapäivä",
+				"confirmTarget": "Vahvista tavoite"
+			},
+			"userTargets": {
+				"targetReached": "Tavoite saavutettiin!",
+				"user": "Käyttäjä"
+			},
+			"shopsTableTitle": "Kaupat maata kohti",
+			"shopsCount": "Kaupan lukumäärä",
+			"shopsTableCountryColumn": "Maa",
+			"shopsTableActiveColumn": "Aktiivinen",
+			"shopsTableInactiveColumn": "Passiivinen",
+			"shopsTableTotalColumn": "Kokonais",
+			"usersTableTitle": "Käyttäjät maata kohti",
+			"usersCount": "Käyttäjät laskevat",
+			"usersTableCountryColumn": "Maa",
+			"usersTableActiveColumn": "Aktiivinen",
+			"usersTableInactiveColumn": "Passiivinen",
+			"usersTableTotalColumn": "Kokonais",
+			"salesTitle": "Myynti",
+			"byStore": "myymälällä",
+			"bestSellingTitle": "Myydyimmät tuotteet",
+			"noSalesYet": "Ei vielä myyntiä!",
+			"byYear": "Vuoden mukaan"
+		},
+		"promoReport": {
+			"title": "Promeraportti",
+			"description": "Esineet jakautuvat",
+			"ItemDropDown": "Valitse kohde",
+			"CountryDropDown": "Valitse maa",
+			"StoreDropDown": "Valitse myymälä",
+			"dateInit": "Päivämäärä init",
+			"dateEnd": "Päivämäärä",
+			"filterButton": "Suodattaa",
+			"clearButton": "Selkeä",
+			"couponsTableTitle": "Kupongit",
+			"exchange": "Vaihtaa",
+			"couponsTableEntriesDropdown": "Merkinnät sivua kohti",
+			"couponsTableSearchInput": "Haku...",
+			"couponsTableCodeColumn": "Koodi",
+			"couponsTableItemColumn": "Esine",
+			"couponsTableDateColumn": "Päivämäärä",
+			"couponsTableCustomerColumn": "Asiakas",
+			"couponsTableStoreColumn": "Myymälä",
+			"couponsTableCountryColumn": "Maa",
+			"couponsTableActionsColumn": "Toimet",
+			"actionsColumnDetailsTooltip": "Yksityiskohdat",
+			"detailsModalTitle": "Kuponkitiedot",
+			"detailsModalPromo": "Ylennys",
+			"detailsModalDescription": "Kuvaus",
+			"detailsModalCustomer": "Asiakas",
+			"detailsModalStore": "Myymälä",
+			"detailsModalCountry": "Maa"
+		},
+		"salesReport": {
+			"title": "Myyntiraportti",
+			"description": "Tuotteiden mukaan",
+			"byStore": "Myymälällä",
+			"byProduct": "Tuote",
+			"ItemDropDown": "Valitse kohde",
+			"CountryDropDown": "Valitse maa",
+			"StoreDropDown": "Valitse myymälä",
+			"dateInit": "Päivämäärä init",
+			"dateEnd": "Päivämäärä",
+			"filterButton": "Suodattaa",
+			"clearButton": "Selkeä",
+			"salesTableTitle": "Myynti",
+			"salesTableEntriesDropdown": "Merkinnät sivua kohti",
+			"salesTableSearchInput": "Haku...",
+			"salesTableStoresColumn": "Kaupat",
+			"salesTableCountryColumn": "Maa",
+			"salesTableSalesColumn": "Myynti",
+			"salesTablePercentColumn": "Prosenttia (%)",
+			"salesGraphic": "Myyntigrafiikka",
+			"salesGraphicCountry": "Myyntigrafiikka maittain",
+			"columns": {
+				"stores": "Kaupat",
+				"products": "Tuotteet",
+				"country": "Maa",
+				"sales": "Myynti",
+				"percent": "Prosenttia (%)"
+			}
+		},
+		"promotions": {
+			"title": "Ylennykset",
+			"description": "Kaikki tarjoukset saatavilla",
+			"promotionsTableTitle": "Ylennykset",
+			"promotionsTableAddButtonTooltip": "Lisätä",
+			"promotionsTableEntriesDropdown": "Merkinnät sivua kohti",
+			"promotionsTableSearchInput": "Haku...",
+			"promotionsTableThumbColumn": "Peukalo",
+			"promotionsTablePromotionColumn": "Edistäminen",
+			"promotionsTableCouponsColumn": "Kupongit",
+			"promotionsTableCreatedColumn": "Luotu",
+			"promotionsTableStatusColumn": "Status",
+			"promotionsTableActionsColumn": "Toimet",
+			"actionsColumnMoreTooltip": "Lisää",
+			"actionsColumnRemoveTooltip": "Poistaa",
+			"actionsMoreButtonDisable": "Poistaa käytöstä",
+			"actionsMoreButtonDetails": "Yksityiskohdat",
+			"actionsMoreButtonEdit": "Muokata",
+			"promotionUpdated": "Ylennystila päivitettiin onnistuneesti!",
+			"promotionDeleted": "Ylennys poistettiin onnistuneesti!",
+			"promotionDeleteConfirm": "Haluatko varmasti poistaa tämän kampanjan? Tätä toimintaa ei voida kumota.",
+			"promotionDelete": "Poista ylennys",
+			"columns": {
+				"code": "Koodi",
+				"promotion": "Edistäminen",
+				"item": "Esine",
+				"date": "Päivämäärä",
+				"customer": "Asiakas",
+				"store": "Myymälä",
+				"country": "Maa",
+				"actions": "Toimet"
+			}
+		},
+		"addPromotion": {
+			"title": "Lisää ylennys",
+			"backButton": "Takaisin",
+			"promotionThumb": "Ylennys peukalo",
+			"dropImagem": "Pudota",
+			"PromotionInformation": "Ylennystiedot",
+			"itemListDropdown": "Tuotekatsu",
+			"nameInput": "Nimi",
+			"emailInput": "Sähköposti",
+			"countryDropDown": "Maa",
+			"couponsInput": "Kupongit",
+			"beginDateInput": "Alkaa päivämäärä",
+			"endDateInput": "Päätepäivä",
+			"storesDropdown": "Kaupat",
+			"cancelButton": "Peruuttaa",
+			"submitButton": "Lähettää",
+			"promotionThumbUpdate": "Ylennys peukalo päivitettiin onnistuneesti!",
+			"promotionMaxCoupons": "Ylennysmaksikuponit",
+			"selectAll": "Valitse kaikki"
+		},
+		"editPromotion": {
+			"title": "Muokkaa ylennystä"
+		},
+		"redeemedItems": {
+			"title": "Lunastettuja esineitä",
+			"description": "Tarkistettava",
+			"itemsCheckTableTitle": "Tarkistettavat kohteet",
+			"itemsCheckTableEntriesDropdown": "Merkinnät sivua kohti",
+			"itemsCheckTableSearchInput": "Haku...",
+			"itemsCheckTableCodeColumn": "Koodi",
+			"itemsCheckTablePromotionColumn": "Edistäminen",
+			"itemsCheckTableCreatedColumn": "Luotu",
+			"itemsCheckTableCustomerColumn": "Asiakas",
+			"itemsCheckTableStoreColumn": "Myymälä",
+			"itemsCheckTableLocationColumn": "Sijainti",
+			"itemsCheckTableActionsColumn": "Toimet",
+			"historyCheckedTableTitle": "Tarkistettujen esineiden historia",
+			"historyCheckedTableEntriesDropdown": "Merkinnät sivua kohti",
+			"historyCheckedTableSearchInput": "Haku...",
+			"historyCheckedTableCodeColumn": "Koodi",
+			"historyCheckedTablePromotionColumn": "Edistäminen",
+			"historyCheckedTableCreatedColumn": "Luotu",
+			"historyCheckedTableCustomerColumn": "Asiakas",
+			"historyCheckedTableStoreColumn": "Myymälä",
+			"historyCheckedTableLocationColumn": "Sijainti",
+			"historyCheckedTableActionsColumn": "Toimet",
+			"itemRedeemed": "Tuote lunastettiin onnistuneesti!",
+			"columns": {
+				"code": "Koodi",
+				"promotion": "Edistäminen",
+				"created": "Luotu",
+				"checked": "Tarkistettu",
+				"customer": "Asiakas",
+				"store": "Myymälä",
+				"location": "Sijainti",
+				"actions": "Toimet"
+			}
+		},
+		"productsAvailable": {
+			"title": "Tuotteita saatavilla",
+			"description": "Tuotteita saatavilla",
+			"productsTableTitle": "Tuotteet",
+			"productsTableAddButtonTootip": "Lisätä",
+			"productsTableEntriesDropdown": "Merkinnät sivua kohti",
+			"productsTableSearchInput": "Haku...",
+			"productsTableThumbColumn": "Peukalo",
+			"productsTableProductNameColumn": "Tuotteen nimi",
+			"productsTableDescriptionColumn": "Kuvaus",
+			"productsTablePointsColumn": "Piste",
+			"productsTableStatusColumn": "Status",
+			"productsTableActionsColumn": "Toimet",
+			"actionsMoreButtonActivate": "Aktivoida",
+			"actionsMoreButtonDisable": "Poistaa käytöstä",
+			"actionsMoreButtonDetails": "Yksityiskohdat",
+			"actionsMoreButtonEdit": "Muokata",
+			"productRemoved": "Tuote on onnistuneesti poistettu!",
+			"productStatus": "Tuotteen tila muuttui onnistuneesti!",
+			"productDeleteConfirm": "Haluatko varmasti poistaa tämän kohteen? Tätä toimintaa ei voida kumota.",
+			"productDelete": "Poista kohde"
+		},
+		"addProduct": {
+			"title": "Lisätä tuotetta",
+			"backButton": "Takaisin",
+			"productThumb": "Esine peukalo",
+			"dropImagem": "Pudota",
+			"productInformation": "Tuotetiedot",
+			"productCategoryDropdown": "Tuoteryhmä",
+			"nameInput": "Tuotteen nimi",
+			"descriptionInput": "Tuotekuvaus",
+			"pointsInput": "Piste",
+			"maxCouponsInput": "Enimmäiskupongit",
+			"barCodeInput": "Viivakoodi",
+			"cancelButton": "Peruuttaa",
+			"submitButton": "Lähettää",
+			"itemThumbUpdate": "Tuote peukalo päivitettiin onnistuneesti!",
+			"productSize": "Tuotekoko",
+			"productType": "Tuotetyyppi"
+		},
+		"editProduct": {
+			"title": "Muokkaustuote"
+		},
+		"Quiz": {
+			"title": "Tietokilpailu",
+			"description": "Kaikki luotu Quitions",
+			"quizTableTitle": "Tietokilpailu",
+			"quizTableAddButtonTooltip": "Lisätä",
+			"quizTableEntriesDropdown": "Merkinnät sivua kohti",
+			"quizTableSearchInput": "Haku...",
+			"quizTableNameColumn": "Nimi",
+			"quizTablePointsColumn": "Piste",
+			"quizTableCountryColumn": "Maa",
+			"quizTableCreatedColumn": "Luotu",
+			"quizTableStatusColumn": "Status",
+			"quizTableActionsColumn": "Toimet",
+			"actionsColumnMoreTooltip": "Lisää",
+			"actionsColumnViewReportTooltip": "Näytä raportti",
+			"actionsColumnRemoveTooltip": "Poistaa",
+			"actionsMoreButtonActivate": "Aktivoida",
+			"actionsMoreButtonDisable": "Poistaa käytöstä",
+			"actionsMoreButtonDetails": "Yksityiskohdat",
+			"actionsMoreButtonEdit": "Muokata",
+			"quizStatus": "Tietokilpailun tila päivitettiin onnistuneesti!",
+			"quizDeleted": "Tietokilpailu poistettiin onnistuneesti!",
+			"quizRemoveConfirm": "Haluatko varmasti poistaa tämän tietokilpailun? Tätä toimintaa ei voida kumota.",
+			"quizRemove": "Poistaa tietokilpailun"
+		},
+		"addQuiz": {
+			"addQuiz": "Lisätä tietokilpailua",
+			"quizInfo": "Tietokilpailutiedot",
+			"questionText": "Kyseenalaista",
+			"typeQuestion": "Kysymystyyppi",
+			"addQuestion": "Lisätä kysymystä",
+			"removeQuestion": "Poistaa kysymys",
+			"text": "Teksti",
+			"select": "Valita",
+			"separateQuestions": "Erota kysymykset puolipiste",
+			"quizName": "Tietokilpailun nimi"
+		},
+		"Stores": {
+			"title": "Kaupat",
+			"description": "Kaikki kaupat",
+			"CountryDropDown": "Valitse maa",
+			"RegionDropDown": "Alue/osavaltio",
+			"CityDropDown": "Valitse kaupunki",
+			"filterButton": "Suodattaa",
+			"clearButton": "Selkeä",
+			"storesTableTitle": "Kaupat",
+			"storesleAddButtonTooltip": "Lisätä",
+			"storesTableEntriesDropdown": "Merkinnät sivua kohti",
+			"storesTableSearchInput": "Haku...",
+			"storesTableCodeColumn": "Koodi",
+			"storesTableItemColumn": "Esine",
+			"storesTableDateColumn": "Päivämäärä",
+			"storesTableCustomerColumn": "Asiakas",
+			"storesTableStoreColumn": "Myymälä",
+			"storesTableCountryColumn": "Maa",
+			"storesTableActionsColumn": "Toimet",
+			"actionsColumnMoreTooltip": "Lisää",
+			"actionsColumnViewReportTooltip": "Kaupat -asetus",
+			"actionsMoreButtonActivate": "Aktivoida",
+			"actionsMoreButtonDisable": "Poistaa käytöstä",
+			"actionsMoreButtonDetails": "Yksityiskohdat",
+			"actionsMoreButtonEdit": "Muokata",
+			"storeStatus": "Kaupan tila päivitettiin onnistuneesti!"
+		},
+		"addStore": {
+			"title": "Lisää myymälä",
+			"backButton": "Takaisin",
+			"promotionThumb": "Hämärä",
+			"storeInformation": "Tallentaa",
+			"dropImagem": "Pudota",
+			"doingBusinessInput": "Tehdä liiketoimintaa kuin",
+			"phoneInput": "Puhelin",
+			"emailInput": "Sähköposti",
+			"adressInput": "Osoitus",
+			"countryDropDown": "Maa",
+			"stateDropdown": "Valtion/alue",
+			"cityDropdown": "Kaupunki",
+			"masterUserDropdown": "Pääkäyttäjä",
+			"storeNameMandatory": "Kaupan nimi on pakollinen!",
+			"storeCountryMandatory": "Maa on pakollinen!",
+			"storeUpdated": "Päivitetty menestyksekkäästi!",
+			"storeCreated": "Luotu menestyksekkäästi!",
+			"selectStoreWorkers": "Valitse Store -työntekijät",
+			"storeLogoUpdated": "Store -logo päivitetty onnistuneesti!"
+		},
+		"editStore": {
+			"title": "Muokkausmyymälä"
+		},
+		"storesSetting": {
+			"title": "Myymäläasetus",
+			"backButton": "Takaisin",
+			"linkCustomer": "Linkki asiakasrekisteriin",
+			"saveButtonLinkTooltip": "Tallentaa",
+			"stockTableTitle": "Varaston",
+			"stockTableEntriesDropdown": "Merkinnät sivua kohti",
+			"stockTableSearchInput": "Haku...",
+			"stockTableProductColumn": "Tuote",
+			"stockTableLastUpdateColumn": "Viimeinen päivitys",
+			"stockTableInputColumn": "Syöttö",
+			"stockTableOutputColumn": "Tulos",
+			"stockTableBalanceColumn": "Saldo",
+			"stockTableActionsColumn": "Toimet",
+			"pointsBox": "Kertyneet kohdat",
+			"couponsBox": "Kupongit validoitu",
+			"ProducstsBox": "Tuotteita saatavilla",
+			"totalSalesBox": "Kaupan kokonaismyynti",
+			"customersBox": "Aktiiviset asiakkaat",
+			"promotionsBox": "Kampanjat",
+			"pointsTableTitle": "Pistekuljetus",
+			"pointsTableEntriesDropdown": "Merkinnät sivua kohti",
+			"pointsTableSearchInput": "Haku...",
+			"pointsTableDescriptionColumn": "Kuvaus",
+			"pointsTableTypeColumn": "Tyyppi",
+			"pointsTablePointsColumn": "Piste",
+			"pointsTableTotalColumn": "Kokonais",
+			"pointsTableBalanceColumn": "Saldo",
+			"pointsTablecreatedColumn": "luotu",
+			"promotionsTableTitle": "Ylennykset",
+			"promotionsTableEntriesDropdown": "Merkinnät sivua kohti",
+			"promotionsTableSearchInput": "Haku...",
+			"promotionsTablePromotionColumn": "Edistäminen",
+			"promotionsTableCouponsColumn": "Kupongit",
+			"promotionsTableCreatedColumn": "Luotu",
+			"promotionsTableStatusColumn": "Status",
+			"customersTableTitle": "Asiakkaat",
+			"customersTableEntriesDropdown": "Merkinnät sivua kohti",
+			"customersTableSearchInput": "Haku...",
+			"customersTableCodeColumn": "Koodi",
+			"customersTableNameColumn": "Nimi",
+			"customersTableEmailColumn": "Sähköposti",
+			"customersTableStatusColumn": "Status",
+			"moneybackTarget": "Rahankäyttötavoite",
+			"moneyPrizeInput": "Rahapalkinto",
+			"itembackTarget": "Promo -tavoite",
+			"itemPrizeInput": "Valitse palkinto",
+			"userTargets": "Kaupankäynnin tavoitteet",
+			"targetInput": "Kohde",
+			"dateFinalTarget": "Päivämäärä lopullinen tavoite",
+			"storeTargetCreated": "Kaupan tavoite, joka on luotu onnistuneesti!",
+			"storeTargetUpdated": "Säilytä kohde päivitetty onnistuneesti!",
+			"userTargetCreated": "Kaupanvartija Target Lurattu onnistuneesti!",
+			"userTargetUpdated": "Kauppias Target päivitettiin onnistuneesti!",
+			"itemMandatory": "Kohde on pakollinen!",
+			"targetMandatory": "Tavoite on pakollinen!",
+			"dateMandatory": "Tavoite lopullinen päivämäärä on pakollinen!",
+			"userTarget": "Kauppiaskohde",
+			"activeTarget": "Aktiivinen kohde",
+			"workers": "Työntekijät",
+			"shopkeeperTargetUser": "Kauppias Target - Käyttäjä",
+			"storeSlugUpdated": "Store Slug päivitetty onnistuneesti!",
+			"storeSlug": "Enter Store Slug",
+			"linkCustomeRegister": "Linkki asiakasrekisteriin"
+		},
+		"users": {
+			"title": "Käyttäjät",
+			"description": "Käyttäjän raportti",
+			"CountryDropDown": "Valitse maa",
+			"RegionDropDown": "Alue/osavaltio",
+			"CityDropDown": "Valitse kaupunki",
+			"filterButton": "Suodattaa",
+			"clearButton": "Selkeä",
+			"usersTableTitle": "Käyttäjät",
+			"usersTableDownloadButtonTooltip": "Ladata",
+			"usersTableAddButtonTooltip": "Lisätä",
+			"usersTableEntriesDropdown": "Merkinnät sivua kohti",
+			"usersTableSearchInput": "Haku...",
+			"usersTableNameColumn": "Nimi",
+			"usersTableStoreColumn": "Myymälä",
+			"usersTableLastInteractionColumn": "Viimeinen vuorovaikutuspäivä",
+			"usersTableCountryColumn": "Maa",
+			"usersTableRoleColumn": "Rooli",
+			"usersTableStatusColumn": "Status",
+			"usersTableActionsColumn": "Toimet",
+			"actionsColumnMoreTooltip": "Lisää",
+			"actionsColumnRemoveTooltip": "Poistaa",
+			"actionsMoreButtonActivate": "Aktivoida",
+			"actionsMoreButtonDisable": "Poistaa käytöstä",
+			"actionsMoreButtonDetails": "Yksityiskohdat",
+			"actionsMoreButtonEdit": "Muokata",
+			"userStatusUpdated": "Käyttäjän tila päivitettiin onnistuneesti!",
+			"userDeleted": "Käyttäjä poistettu onnistuneesti!",
+			"userDeleteConfirm": "Haluatko varmasti poistaa tämän käyttäjän? Tätä toimintaa ei voida kumota.",
+			"userDelete": "Poista käyttäjä"
+		},
+		"addUser": {
+			"title": "Lisätä käyttäjää",
+			"backButton": "Takaisin",
+			"userPic": "Käyttäjäprofiilikuva",
+			"dropImagem": "Pudota",
+			"userInformation": "Käyttäjätiedot",
+			"firstNameInput": "Etunimi",
+			"lastName": "Sukunimi",
+			"nicknameInput": "Lempinimi",
+			"emailInput": "Sähköposti",
+			"userTypeDropdown": "Käyttäjätyyppi",
+			"countryDropDown": "Maa",
+			"switchInput": "Vastaanota uutiskirje",
+			"userPicUpdated": "Käyttäjäprofiili PIC Päivitetty onnistuneesti!",
+			"password": "Salasana",
+			"createUser": "Luo käyttäjää",
+			"updateUser": "Päivitä käyttäjä"
+		},
+		"editUser": {
+			"title": "Muokkaa käyttäjää"
+		},
+		"clubCard": {
+			"title": "Klubikortti",
+			"description": "Kaikki kortit",
+			"cardsTableTitle": "Kortit",
+			"cardsTableAddButtonTooltip": "Lisätä",
+			"cardsTableEntriesDropdown": "Merkinnät sivua kohti",
+			"cardsTableSearchInput": "Haku...",
+			"cardsTableCardIdColumn": "Korttitunnus",
+			"cardsTableCreatedColumn": "Luotu",
+			"cardsTableLinkedStoreColumn": "Linkitetty myymälä",
+			"cardsTableStatusColumn": "Status",
+			"cardsTableActionsColumn": "Toimet",
+			"actionsColumnEditTooltip": "Muokata",
+			"actionsColumnRemoveTooltip": "Poistaa",
+			"clubCardRemoved": "Klubikortin käyttäjä poistettu onnistuneesti!",
+			"clubCardRemoveConfirm": "Haluatko varmasti poistaa tämän kortin? Tätä toimintaa ei voida kumota.",
+			"clubCardRemove": "Poistaa kortti"
+		},
+		"addCard": {
+			"title": "Lisää kortti",
+			"codeInput": "Koodi",
+			"dateInput": "Luotu jhk",
+			"storeDropdown": "Valitse linkitetty myymälä",
+			"enterValidEmail": "Anna kelvollinen sähköposti!"
+		},
+		"editCard": {
+			"title": "Muokkauskortti"
+		},
+		"checkChangShop": {
+			"title": "Tarkista Change Shop",
+			"description": "Tarkista Change Shop -raportti",
+			"shopTableTitle": "Myydä tarkistamaan",
+			"shopTableEntriesDropdown": "Merkinnät sivua kohti",
+			"shopTableSearchInput": "Haku...",
+			"shopTableCustomerColumn": "Asiakas",
+			"shopTableOldShopColumn": "Vanha kauppa",
+			"shopTableNewShopColumn": "Uusi kauppa",
+			"shopTableCreatedColumn": "Luotu",
+			"shopTableReasontoChangeColumn": "Syy muutokseen",
+			"shopTableActionsColumn": "Toimet",
+			"historyShopTableTitle": "Tarkistettujen kauppojen historia",
+			"historyShopTableEntriesDropdown": "Merkinnät sivua kohti",
+			"historyShopTableSearchInput": "Haku...",
+			"historyShopTableCustomerColumn": "Asiakas",
+			"historyShopTableOldShopColumn": "Vanha kauppa",
+			"historyShopTableNewShopColumn": "Uusi kauppa",
+			"historyShopTableCreatedColumn": "Luotu",
+			"historyShopTableReasontoChangeColumn": "Syy muutokseen",
+			"historyShopTableStatusColumn": "Status",
+			"changeShopRequest": "Vaihda myymäläpyyntö",
+			"denied": "Kieltäytyi menestyksekkäästi!",
+			"accepted": "Hyväksytty menestyksekkäästi!",
+			"accept": "Hyväksyä",
+			"reject": "Hylätä"
+		},
+		"profilePunctuation": {
+			"title": "Profiilin välimerkit",
+			"description": "Pisteiden hallinta",
+			"signupBoxTitle": "Ilmoittautua",
+			"signupBoxInput": "Ilmoittautua",
+			"signupBoxText": "Käyttäjän rekisteröinnin tarjoamat kohdat.",
+			"signupStoreBoxTitle": "Ilmoittautumismyymälä",
+			"signupStoreBoxInput": "Ilmoittautumismyymälä",
+			"signupStoreBoxText": "Myymälän rekisteröinnin tarjoamat kohdat.",
+			"couponBoxTitle": "Kupongin validointi",
+			"couponBoxInput": "Kupongin validointi",
+			"couponBoxText": "Pisteet aina kun kuponki validoidaan.",
+			"lastNameBoxTitle": "Sukunimi",
+			"lastNameBoxInput": "Sukunimi",
+			"lastNameBoxText": "Pisteet, jotka ilmoitetaan sukunimelle.",
+			"birthdateBoxTitle": "Syntymäpäivä",
+			"birthdateBoxInput": "Syntymäpäivä",
+			"birthdateBoxText": "Syntymäpäivälle ilmoitettuja pisteitä.",
+			"genderBoxTitle": "Sukupuoli",
+			"genderBoxInput": "Sukupuoli",
+			"genderBoxText": "Sukupuolelle ilmoitettua pistettä.",
+			"emailBoxTitle": "Sähköposti",
+			"emailBoxInput": "Sähköposti",
+			"emailBoxText": "Pisteet, jotka ilmoitetaan sähköpostitse.",
+			"telephoneBoxTitle": "Puhelin",
+			"telephoneBoxInput": "Puhelin",
+			"telephoneBoxText": "Pisteet, jotka ilmoitetaan puhelinnumeroon.",
+			"friendInvitationBoxTitle": "Ystäväkutsu",
+			"friendInvitationBoxInput": "Ystäväkutsu",
+			"friendInvitationBoxText": "Pisteet aina, kun kutsu lähetetään.",
+			"friendSubscribeBoxTitle": "Ystävä tilaa",
+			"friendSubscribeBoxInput": "Ystävä tilaa",
+			"friendSubscribeBoxText": "Pisteet aina kun ystävä hyväksyy kutsun.",
+			"saveButton": "Tallentaa"
+		},
+		"targets": {
+			"title": "Kohteet",
+			"description": "Kaikki tavoitteet",
+			"moneybackTargets": "Moneyback -tavoitteet",
+			"itembackTargets": "Promo -tavoitteet",
+			"userbackTargets": "Kaupankäynnin tavoitteet",
+			"CountryDropDown": "Valitse maa",
+			"StoreDropDown": "Valitse myymälä",
+			"filterButton": "Suodattaa",
+			"clearButton": "Selkeä",
+			"moneyTableTitle": "Rahankuulu",
+			"moneyTableEntriesDropdown": "Merkinnät sivua kohti",
+			"moneyTableSearchInput": "Haku...",
+			"moneyTableCountryColumn": "Maa",
+			"moneyTableStoreColumn": "Myymälä",
+			"moneyTableTargetColumn": "Kohde",
+			"moneyTableProgressColumn": "Edistyminen",
+			"moneyTablePrizeColumn": "Palkinto",
+			"moneyTableDeadlineColumn": "Määräaika",
+			"moneyTableStatusColumn": "Status",
+			"moneyTableActionsColumn": "Toimet",
+			"actionsColumnDisableTooltip": "Poistaa käytöstä",
+			"actionsColumnRemoveTooltip": "Poistaa",
+			"targetsReachedTableTitle": "Saavutetut tai vanhentuneet tavoitteet",
+			"targetsReachedTableEntriesDropdown": "Merkinnät sivua kohti",
+			"targetsReachedTableSearchInput": "Haku...",
+			"targetsReachedTableCountryColumn": "Maa",
+			"targetsReachedTableStoreColumn": "Myymälä",
+			"targetsReachedTableTargetColumn": "Kohde",
+			"targetsReachedTableProgressColumn": "Edistyminen",
+			"targetsReachedTablePrizeColumn": "Palkinto",
+			"targetsReachedTableCreatedColumn": "Luotu",
+			"targetsReachedTableDeadlineColumn": "Määräaika",
+			"targetsReachedTableStatusColumn": "Status",
+			"prizeGraphic": "Palkintografiikka myymälä",
+			"prizeGraphicCountry": "Palkintografiikka maittain",
+			"targetStatus": "Kohdetila päivitetty onnistuneesti!",
+			"targetDeleted": "Kohde poistettu onnistuneesti!",
+			"targetDeleteConfirm": "Haluatko varmasti poistaa tämän tavoitteen? Tätä toimintaa ei voida kumota.",
+			"targetDelete": "Poistaa kohde",
+			"activeAllTargets": "Kohteet aktivoituvat onnistuneesti!",
+			"activeTargets": "Aktiiviset kaikki tavoitteet"
+		},
+		"newsletter": {
+			"title": "Nesletter",
+			"description": "Kaikki uutiskirjeet",
+			"newslettersTableTitle": "Nesletterit",
+			"newslettersTableAddButtonTooltip": "Lisätä",
+			"newslettersTableEntriesDropdown": "Merkinnät sivua kohti",
+			"newslettersTableSearchInput": "Haku...",
+			"newslettersTableNewsletterTitleColumn": "Uutiskirjeen otsikko",
+			"newslettersTableUserTypeColumn": "Käyttäjätyyppi",
+			"newslettersTableCountryColumn": "Maa",
+			"newslettersTableCreatedColumn": "Luotu",
+			"newslettersTableStatusColumn": "Status",
+			"newslettersTableActionsColumn": "Toimet",
+			"actionsColumnEditTooltip": "Muokata",
+			"actionsColumnRemoveTooltip": "Poistaa"
+		},
+		"addNewsletter": {
+			"title": "Lisää uutiskirje",
+			"backButton": "Takaisin",
+			"countryDropdown": "Valitse maa",
+			"userTypeDropdown": "Käyttäjätyyppi",
+			"userTypeDropdownAll": "Kaikki",
+			"userTypeDropdownCustomer": "Asiakas",
+			"userTypeDropdownStore": "Myymälä",
+			"clearButton": "Selkeä",
+			"newsletterTitleInput": "Uutiskirjeen otsikko",
+			"newsletterBody": "Kirjoita runko tähän",
+			"saveDraft": "Pelastaa luonnos",
+			"saveNow": "Tallenna ja lähetä nyt",
+			"newsletterDeleted": "Uutiskirje poistettiin onnistuneesti!",
+			"newsletterDeleteConfirm": "Haluatko varmasti poistaa tämän uutiskirjeen? Tätä toimintaa ei voida kumota.",
+			"newsletterDelete": "Poista uutiskirje"
+		},
+		"editNewsletter": {
+			"title": "Muokkaa uutiskirjettä"
+		},
+		"notification": {
+			"title": "Ilmoitus",
+			"description": "Kaikki ilmoitus",
+			"notificationTableTitle": "Ilmoitusluettelo",
+			"notificationTableAddButtonTooltip": "Lisätä",
+			"notificationTableEntriesDropdown": "Merkinnät sivua kohti",
+			"notificationTableSearchInput": "Haku...",
+			"notificationTableNewsletterTitleColumn": "Uutiskirjeen otsikko",
+			"notificationTableUserTypeColumn": "Käyttäjätyyppi",
+			"notificationTableCountryColumn": "Maa",
+			"notificationTableCreatedColumn": "Luotu",
+			"notificationTableStatusColumn": "Status",
+			"notificationTableActionsColumn": "Toimet",
+			"actionsColumnMoreTooltip": "Lisää",
+			"actionsColumnRemoveTooltip": "Poistaa",
+			"actionsMoreButtonActivate": "Aktivoida",
+			"actionsMoreButtonDisable": "Poistaa käytöstä",
+			"actionsMoreButtonDetails": "Yksityiskohdat",
+			"actionsMoreButtonEdit": "Muokata",
+			"notificationStatus": "Ilmoituksen tila muuttui onnistuneesti!",
+			"notificationDeleted": "Ilmoitus onnistuneesti poistettu!",
+			"notificationDeleteConfirm": "Haluatko varmasti poistaa tämän ilmoituksen? Tätä toimintaa ei voida kumota.",
+			"notificationDelete": "Poista ilmoitus"
+		},
+		"addNotification": {
+			"title": "Lisää ilmoitus",
+			"backButton": "Takaisin",
+			"countryDropdown": "Valitse maa",
+			"userTypeDropdown": "Käyttäjätyyppi",
+			"userTypeDropdownAll": "Kaikki",
+			"userTypeDropdownCustomer": "Asiakas",
+			"userTypeDropdownStore": "Myymälä",
+			"clearButton": "Selkeä",
+			"newsletterTitleInput": "Ilmoituksen otsikko",
+			"newsletterBody": "Kirjoita runko tähän",
+			"saveNow": "Tallenna ja lähetä nyt",
+			"saveDisabled": "Tallenna vammaiseksi"
+		},
+		"editNotification": {
+			"title": "Muokkaa ilmoitusta"
+		},
+		"upload": {
+			"title": "Lataa",
+			"description": "Lähetä tiedostoja ja asiakirjoja"
+		}
+	},
+	"menu": {
+		"dashboard": "Kojelauta",
+		"promotions": "Ylennykset",
+		"quiz": "Tietokilpailu",
+		"notification": "Ilmoitus",
+		"promoReport": "Promeraportti",
+		"salesReport": "Myyntiraportti",
+		"redeemedItems": "Lunastettuja esineitä",
+		"clubCard": "Klubikortti",
+		"productsAvailable": "Tuotteita saatavilla",
+		"stores": "Kaupat",
+		"users": "Käyttäjät",
+		"checkChangeShop": "Tarkista Change Shop",
+		"profilePunctuation": "Profiilin välimerkit",
+		"targets": "Kohteet",
+		"upload": "Lataa",
+		"pointsStatement": "Pistekuljetus",
+		"coupons": "Kupongit",
+		"customers": "Asiakkaat",
+		"downloads": "Lataukset",
+		"exchangePoints": "Vaihtopisteet",
+		"changeShop": "Vaihtaa kauppa"
+	},
+	"tables": {
+		"userStore": {
+			"dashboard": {
+				"pointRegistration": {
+					"tableTitle": "Pisteen rekisteröinti",
+					"pointRegistration": "Pisteen rekisteröinti",
+					"type": "Tyyppi",
+					"points": "Piste",
+					"quantity": "Määrä",
+					"total": "Kokonais",
+					"balance": "Saldo",
+					"created": "Luotu"
+				},
+				"stock": {
+					"tableTitle": "Varaston",
+					"product": "Tuote",
+					"lastUpdate": "Viimeinen päivitys",
+					"input": "Syöttö",
+					"output": "Tulos",
+					"total": "Kokonais"
+				}
+			},
+			"promotions": {
+				"tableTitle": "Ylennykset",
+				"thumb": "Peukalo",
+				"promotion": "Edistäminen",
+				"coupons": "Kupongit",
+				"created": "Luotu",
+				"actions": "Toimet"
+			},
+			"quiz": {
+				"tableTitle": "Tietokilpailu",
+				"name": "Nimi",
+				"points": "Piste",
+				"created": "Luotu",
+				"actions": "Toimet"
+			},
+			"quizAnswered": {
+				"tableTitle": "Tietokilpailu vastasi",
+				"name": "Nimi",
+				"points": "Piste",
+				"created": "Luotu",
+				"answered": "Vastattu"
+			},
+			"coupon": {
+				"coupons": {
+					"tableTitle": "Kupongit",
+					"code": "Koodi",
+					"item": "Esine",
+					"amount": "Määrä",
+					"date": "Päivämäärä",
+					"customer": "Asiakas",
+					"actions": "Toimet"
+				},
+				"couponsChecked": {
+					"tableTitle": "Kupongit tarkistettu",
+					"code": "Koodi",
+					"promotion": "Edistäminen",
+					"created": "Luotu",
+					"checked": "Tarkistettu"
+				}
+			},
+			"customer": {
+				"customers": {
+					"tableTitle": "Asiakkaat",
+					"name": "Nimi",
+					"email": "Sähköposti",
+					"joined": "Liittynyt",
+					"status": "Status",
+					"actions": "Toimet",
+					"cardId": "Korttitunnus"
+				},
+				"cards": {
+					"tableTitle": "Kortit",
+					"cardId": "Korttitunnus",
+					"joined": "Liittynyt",
+					"status": "Status",
+					"actions": "Toimet"
+				}
+			},
+			"download": {
+				"downloads": {
+					"tableTitle": "Kansiot",
+					"folder": "Kansio",
+					"actions": "Toimet"
+				}
+			},
+			"clubCard": {
+				"tableTitle": "Kortit",
+				"cardId": "Korttitunnus",
+				"name": "Nimi",
+				"email": "Sähköposti",
+				"birthdate": "Syntymäpäivä",
+				"created": "Luotu",
+				"linkedStore": "Linkitetty myymälä",
+				"status": "Status",
+				"actions": "Toimet"
+			}
+		},
+		"userMarketing": {
+			"clubCardCodeList": {
+				"tableTitle": "Klubikorttikoodit",
+				"code": "Koodi",
+				"status": "Status"
+			},
+			"promotions": {
+				"tableTitle": "Ylennykset",
+				"thumb": "Peukalo",
+				"promotion": "Edistäminen",
+				"maxCoupons": "Enimmäiskupongit",
+				"created": "Luotu",
+				"status": "Status",
+				"actions": "Toimet"
+			},
+			"quiz": {
+				"tableTitle": "Tietokilpailu",
+				"name": "Nimi",
+				"points": "Piste",
+				"country": "Maa",
+				"created": "Luotu",
+				"status": "Status",
+				"actions": "Toimet"
+			},
+			"notification": {
+				"tableTitle": "Ilmoitus",
+				"title": "Otsikko",
+				"typeUser": "Käyttäjätyyppi",
+				"country": "Maa",
+				"created": "Luotu",
+				"status": "Status",
+				"actions": "Toimet"
+			},
+			"clubCard": {
+				"tableTitle": "Kortit",
+				"cardId": "Korttitunnus",
+				"name": "Nimi",
+				"email": "Sähköposti",
+				"birthdate": "Syntymäpäivä",
+				"created": "Luotu",
+				"linkedStore": "Linkitetty myymälä",
+				"status": "Status",
+				"actions": "Toimet"
+			},
+			"productsAvailable": {
+				"tableTitle": "Tuotteita saatavilla",
+				"thumb": "Peukalo",
+				"name": "Nimi",
+				"description": "Kuvaus",
+				"points": "Piste",
+				"status": "Status",
+				"type": "Tyyppi",
+				"actions": "Toimet"
+			},
+			"users": {
+				"tableTitle": "Käyttäjät",
+				"name": "Nimi",
+				"email": "Sähköposti",
+				"country": "Maa",
+				"role": "Rooli",
+				"status": "Status",
+				"actions": "Toimet"
+			},
+			"checkChangeShop": {
+				"columnsShopToCheck": {
+					"tableTitle": "Myydä tarkistamaan",
+					"customer": "Asiakas",
+					"oldShop": "Vanha kauppa",
+					"newShop": "Uusi kauppa",
+					"created": "Luotu",
+					"reasonToChange": "Syy muutokseen",
+					"actions": "Toimet"
+				},
+				"columnsHistoryCheckedShops": {
+					"tableTitle": "Historia tarkisti kaupat",
+					"customer": "Asiakas",
+					"oldShop": "Vanha kauppa",
+					"newShop": "Uusi kauppa",
+					"created": "Luotu",
+					"checked": "Tarkistettu"
+				}
+			},
+			"targets": {
+				"moneybackTargets": {
+					"tableTitle": "Kohteet",
+					"country": "Maa",
+					"store": "Myymälä",
+					"target": "Kohde",
+					"prize": "Palkinto",
+					"deadline": "Määräaika",
+					"progress": "Edistyminen",
+					"status": "Status",
+					"actions": "Toimet"
+				},
+				"targetsReachedOrExpired": {
+					"tableTitle": "Saavutetut tai vanhentuneet tavoitteet",
+					"country": "Maa",
+					"store": "Myymälä",
+					"target": "Kohde",
+					"progress": "Edistyminen",
+					"prize": "Palkinto",
+					"created": "Luotu",
+					"deadline": "Määräaika",
+					"status": "Status"
+				}
+			},
+			"upload": {
+				"tableTitle": "Lataa",
+				"folder": "Kansio",
+				"created": "Luotu",
+				"actions": "Toimet"
+			}
+		},
+		"products": {
+			"columns": {
+				"thumb": "Peukalo",
+				"productName": "Tuotteen nimi",
+				"description": "Kuvaus",
+				"points": "Piste",
+				"status": "Status",
+				"actions": "Toimet"
+			}
+		},
+		"quiz": {
+			"columns": {
+				"name": "Nimi",
+				"points": "Piste",
+				"country": "Maa",
+				"created": "Luotu",
+				"status": "Status",
+				"actions": "Toimet"
+			}
+		},
+		"stores": {
+			"columns": {
+				"name": "Nimi",
+				"country": "Maa",
+				"region": "Alue/osavaltio",
+				"city": "Kaupunki",
+				"status": "Status",
+				"lastInteraction": "Viimeinen vuorovaikutus",
+				"actions": "Toimet"
+			}
+		},
+		"users": {
+			"columns": {
+				"name": "Nimi",
+				"store": "Myymälä",
+				"lastInteraction": "Viimeinen vuorovaikutuspäivä",
+				"country": "Maa",
+				"role": "Rooli",
+				"status": "Status",
+				"actions": "Toimet"
+			}
+		},
+		"clubCard": {
+			"columns": {
+				"cardId": "Korttitunnus",
+				"created": "Luotu",
+				"linkedStore": "Linkitetty myymälä",
+				"status": "Status",
+				"actions": "Toimet"
+			}
+		},
+		"checkChangeShop": {
+			"columns": {
+				"customer": "Asiakas",
+				"oldShop": "Vanha kauppa",
+				"newShop": "Uusi kauppa",
+				"created": "Luotu",
+				"reasonToChange": "Syy muutokseen",
+				"status": "Status",
+				"actions": "Toimet"
+			}
+		},
+		"targets": {
+			"columns": {
+				"country": "Maa",
+				"store": "Myymälä",
+				"target": "Kohde",
+				"progress": "Edistyminen",
+				"prize": "Palkinto",
+				"deadline": "Määräaika",
+				"status": "Status",
+				"actions": "Toimet"
+			}
+		},
+		"newsletter": {
+			"columns": {
+				"title": "Uutiskirjeen otsikko",
+				"userType": "Käyttäjätyyppi",
+				"country": "Maa",
+				"created": "Luotu",
+				"status": "Status",
+				"actions": "Toimet"
+			}
+		},
+		"notification": {
+			"columns": {
+				"title": "Ilmoituksen otsikko",
+				"userType": "Käyttäjätyyppi",
+				"country": "Maa",
+				"created": "Luotu",
+				"status": "Status",
+				"actions": "Toimet"
+			}
+		},
+		"downloads": {
+			"columns": {
+				"name": "Nimi",
+				"type": "Tyyppi",
+				"size": "Koko",
+				"created": "Luotu",
+				"actions": "Toimet"
+			}
+		},
+		"pointsStatement": {
+			"columns": {
+				"description": "Kuvaus",
+				"type": "Tyyppi",
+				"points": "Piste",
+				"total": "Kokonais",
+				"balance": "Saldo",
+				"created": "Luotu"
+			}
+		}
+	},
+	"store": {
+		"routes": {
+			"pointsStatement": {
+				"title": "Pistekuljetus",
+				"subtitle": "Pistekuljetus"
+			},
+			"coupons": {
+				"title": "Kupongit",
+				"subtitle": "Kupongit"
+			},
+			"customers": {
+				"title": "Asiakkaat",
+				"subtitle": "Kaikki asiakkaat"
+			},
+			"downloads": {
+				"title": "Lataukset",
+				"subtitle": "Kaikki lataukset"
+			},
+			"clubCard": {
+				"title": "Klubikortti",
+				"subtitle": "Kaikki klubikortit"
+			}
+		},
+		"storeDashboard": {
+			"welcomeBack": "Tervetuloa takaisin,",
+			"storeNameLabel": "Kauppa:",
+			"enterStock": "Syötä tuotteet varastossa",
+			"scanCard": "Skannauskerhokortti",
+			"cardNotFound": "Klubikortin käyttäjä ei löydy!",
+			"scanClubCard": "Skannaa tai tyyppiklubikoodi",
+			"summary": {
+				"storeTotalPoints": "Säilytä kokonaispisteitä",
+				"shopkeeperTotalPoints": "Kaupankäynnin kokonaispisteet",
+				"activeCustomers": "Aktiiviset asiakkaat",
+				"inactiveCustomers": "Passiiviset asiakkaat",
+				"couponsToValidate": "Kupongit (validoimaan)",
+				"couponsValidated": "Kupongit (validoitu)"
+			},
+			"quickAccess": {
+				"customers": "Nopea pääsy asiakkaiden sivulle",
+				"coupons": "Hallitse kuponkeja",
+				"promotions": "Katso käytettävissä olevat tarjoukset"
+			},
+			"targets": {
+				"prizeRequested": "Palkinto pyydettiin onnistuneesti!",
+				"reached": "Saavutettu!",
+				"pointsInTarget": "Pisteitä tässä tavoitteessa",
+				"requestPrize": "Tavoite saavutettiin! Pyydä palkintoa napsauttamalla tätä!",
+				"prizeRequestedWarning": "Palkinto pyydettiin!"
+			}
+		},
+		"storePointsTable": {
+			"title": "Pisteiden lausunto - Store",
+			"entriesDropdown": "Merkinnät sivua kohti",
+			"searchPlaceholder": "Haku...",
+			"descriptionColumn": "Pisteen rekisteröinti",
+			"typeColumn": "Tyyppi",
+			"pointsColumn": "Piste",
+			"quantityColumn": "Määrä",
+			"totalColumn": "Kokonais",
+			"balanceColumn": "Saldo",
+			"createdColumn": "Luotu"
+		},
+		"storeStock": {
+			"title": "Varaston",
+			"entriesDropdown": "Merkinnät sivua kohti",
+			"searchPlaceholder": "Haku...",
+			"productColumn": "Tuote",
+			"lastUpdateColumn": "Viimeinen päivitys",
+			"inputColumn": "Syöttö",
+			"outputColumn": "Tulos",
+			"totalColumn": "Kokonais"
+		},
+		"quiz": {
+			"title": "Tietokilpailu",
+			"description": "Kaikki luotu Quitions",
+			"unansweredQuizzes": "Vastaamatta",
+			"answeredQuizzes": "Vastaus viittaa",
+			"tableEntriesDropdown": "Merkinnät sivua kohti",
+			"searchPlaceholder": "Haku...",
+			"tableNameColumn": "Nimi",
+			"tablePointsColumn": "Piste",
+			"tableCreatedColumn": "Luotu",
+			"tableAnsweredColumn": "Vastattu",
+			"tableActionsColumn": "Toimet",
+			"reply": "Vastata",
+			"pagination": {
+				"showing": "Esitys",
+				"to": "-lla",
+				"of": "-",
+				"entries": "merkinnät"
+			}
+		},
+		"notification": {
+			"title": "Ilmoituskeskus",
+			"description": "Tarkista ilmoituskeskuksesi määräajoin, jotta et missaa mitään viestejämme!",
+			"allNotifications": "Kaikki ilmoitukset",
+			"emptyState": "Ilmoituksia ei ole käytettävissä",
+			"dateLabel": "Päivämäärä"
+		},
+		"notificationDetail": {
+			"title": "Ilmoitustiedot",
+			"backButton": "Takaisin",
+			"linkText": "Napsauta tätä",
+			"linkComplement": "päästä"
+		},
+		"pointsStatement": {
+			"title": "Pistekuljetus",
+			"description": "Katso pontinatiohistoria",
+			"userStoreTitle": "Point -lausunto - Käyttäjävarasto",
+			"addProductButton": "Syötä tuotteet varastossa",
+			"table": {
+				"entriesDropdown": "Merkinnät sivua kohti",
+				"searchInput": "Haku...",
+				"descriptionColumn": "Pisteen rekisteröinti",
+				"typeColumn": "Tyyppi",
+				"pointsColumn": "Piste",
+				"quantityColumn": "Määrä",
+				"totalColumn": "Kokonais",
+				"balanceColumn": "Saldo",
+				"createdColumn": "Luotu"
+			}
+		},
+		"productScan": {
+			"title": "Tuotekannaus",
+			"subtitle": "Syötä tuotteet varastossa",
+			"backButton": "Takaisin",
+			"barcodePlaceholder": "Skannaa tai kirjoita viivakoodi",
+			"dropdownPlaceholder": "Valitse tuoteluettelosta",
+			"productNameLabel": "Tuotteen nimi",
+			"quantityLabel": "Määrä",
+			"stockLabel": "Kokonaisvarasto",
+			"addItemButton": "Lisätä kohde",
+			"pointsLabel": "Kaupan tuotepisteet",
+			"submitButton": "Lähettää",
+			"stockSuccess": "Tuote on rekisteröity osakkeelle menestyksekkäästi!",
+			"productNotFound": "Tuotteet eivät löydä viivakoodia!",
+			"productNotFoundList": "Tuotteita ei löydy käytettävissä olevasta tuotealuettelosta!",
+			"productNotOnStock": "Tuote ei ole saatavana varastossa!",
+			"productQuantityAdjusted": "Määrä on oikaistu varastossa käytettävissä olevaan enimmäismäärään",
+			"totalPointsCustomer": "Kokonaispisteiden asiakas",
+			"table": {
+				"productColumn": "Tuote",
+				"quantityColumn": "Määrä",
+				"pointsColumn": "Piste",
+				"actionColumn": "Toiminta"
+			}
+		},
+		"coupons": {
+			"title": "Kupongit",
+			"subtitle": "Kuponkeja validoimaan ja esineisiin jaetaan",
+			"itemsToCheckTitle": "Tarkistettavat kohteet",
+			"historyCheckedTitle": "Tarkistettujen esineiden historia",
+			"entriesDropdown": "Merkinnät sivua kohti",
+			"searchPlaceholder": "Haku...",
+			"itemRedeemed": "Tuote lunastettiin onnistuneesti!",
+			"tableToCheck": {
+				"codeColumn": "Koodi",
+				"itemColumn": "Esine",
+				"amountColumn": "Määrä",
+				"dateColumn": "Päivämäärä",
+				"customerColumn": "Asiakas",
+				"actionsColumn": "Toimet",
+				"viewTooltip": "Katso yksityiskohdat",
+				"validateTooltip": "Validoi kuponki"
+			},
+			"tableChecked": {
+				"codeColumn": "Koodi",
+				"promotionColumn": "Edistäminen",
+				"createdColumn": "Luotu",
+				"checkedDateColumn": "Tarkistettu päivämäärä",
+				"itemColumn": "Esine",
+				"amountColumn": "Määrä",
+				"customerColumn": "Asiakas"
+			}
+		},
+		"couponsDetailsModal": {
+			"title": "Kuponkitiedot",
+			"promoLabel": "Ylennys",
+			"descriptionLabel": "Kuvaus",
+			"customerLabel": "Asiakas",
+			"createdLabel": "Luotu",
+			"closeButton": "Lähellä"
+		},
+		"customers": {
+			"title": "Asiakkaat",
+			"subtitle": "Kaikki asiakkaat",
+			"saleSubmited": "Myynti jätti menestyksekkäästi!",
+			"table": {
+				"title": "Asiakkaat",
+				"entriesDropdown": "Merkinnät sivua kohti",
+				"searchInput": "Haku...",
+				"nameColumn": "Nimi",
+				"emailColumn": "Sähköposti",
+				"joinedColumn": "Liittynyt",
+				"statusColumn": "Status",
+				"actionsColumn": "Toimet",
+				"viewTooltip": "Katso yksityiskohdat",
+				"purchaseTooltip": "Hankehistoria"
+			},
+			"cards": {
+				"title": "Kortit",
+				"entriesDropdown": "Merkinnät sivua kohti",
+				"searchInput": "Haku...",
+				"cardIdColumn": "Korttitunnus",
+				"nameColumn": "Nimi",
+				"emailColumn": "Sähköposti",
+				"birthdateColumn": "Syntymäpäivä",
+				"createdColumn": "Luotu",
+				"linkedStoreColumn": "Linkitetty myymälä",
+				"statusColumn": "Status",
+				"actionsColumn": "Toimet",
+				"editTooltip": "Muokata",
+				"viewTooltip": "Katso yksityiskohdat"
+			},
+			"customerInfoModal": {
+				"title": "Käyttäjätiedot",
+				"name": "Nimi",
+				"email": "Sähköposti",
+				"sex": "Sukupuoli",
+				"birthdate": "Syntymäpäivä",
+				"closeButton": "Lähellä"
+			},
+			"promotions": {
+				"title": "Ylennykset",
+				"description": "Kaikki tarjoukset saatavilla",
+				"table": {
+					"title": "Ylennykset",
+					"entriesDropdown": "Merkinnät sivua kohti",
+					"searchInput": "Haku...",
+					"columns": {
+						"thumb": "Peukalo",
+						"promotion": "Edistäminen",
+						"coupons": "Kupongit",
+						"created": "Luotu",
+						"actions": "Toimet"
+					},
+					"emptyMessage": "Ylennystä ei löydy."
+				}
+			},
+			"downloads": {
+				"title": "Lataukset",
+				"description": "Kirjoita kansiot ja lataa tiedostot",
+				"table": {
+					"title": "Kansiot",
+					"entriesDropdown": "Merkinnät sivua kohti",
+					"searchInput": "Haku...",
+					"columns": {
+						"folder": "Kansio",
+						"actions": "Toimet"
+					},
+					"emptyMessage": "Ei kansioita."
+				}
+			},
+			"archives": {
+				"title": "Arkistot",
+				"download": "Ladata",
+				"allCountries": "Kaikki maat",
+				"allUsers": "Kaikki käyttäjät",
+				"table": {
+					"entriesDropdown": "Merkinnät sivua kohti",
+					"searchInput": "Haku...",
+					"columns": {
+						"archive": "Arkisto",
+						"created": "Luotu",
+						"userType": "Käyttäjätyyppi",
+						"country": "Maa",
+						"actions": "Toimet"
+					},
+					"emptyMessage": "Arkistoja ei löydy."
+				},
+				"backButton": "Takaisin"
+			},
+			"clubCard": {
+				"title": "Klubikortti",
+				"subtitle": "Kaikki kortit",
+				"table": {
+					"entriesDropdown": "Merkinnät sivua kohti",
+					"searchInput": "Haku...",
+					"columns": {
+						"cardId": "Korttitunnus",
+						"name": "Nimi",
+						"email": "Sähköposti",
+						"birthdate": "Syntymäpäivä",
+						"created": "Luotu",
+						"linkedStore": "Linkitetty myymälä",
+						"status": "Status",
+						"actions": "Toimet"
+					},
+					"emptyMessage": "Kortteja ei löydy."
+				}
+			},
+			"clubCardModal": {
+				"title": "Lisää kortti",
+				"codePlaceholder": "Koodi",
+				"createdAtLabel": "Luotu jhk",
+				"namePlaceholder": "Nimi",
+				"lastNamePlaceholder": "Sukunimi",
+				"emailPlaceholder": "Sähköposti",
+				"birthdatePlaceholder": "Yyyyy/mm/dd",
+				"buttons": {
+					"close": "LÄHELLÄ",
+					"save": "TALLENTAA"
+				}
+			}
+		}
+	},
+	"customer": {
+		"customerDashboard": {
+			"welcome": "Tervetuloa takaisin",
+			"generateCouponButton": "Luo ilmainen kuponki",
+			"exchangePointsTitle": "Vaihtopisteet",
+			"quizCard": {
+				"title": "Tietokilpailu",
+				"description": "Vastaa tietokilpailuihin ja ansaitse pisteitä!"
+			},
+			"notificationsCard": {
+				"title": "Ilmoitukset",
+				"description": "Jatka uusimpia päivityksiämme!"
+			},
+			"updateProfileCard": {
+				"title": "Päivitysprofiili",
+				"description": "Suorita profiilisi ja ansaitse pisteitä nyt!"
+			},
+			"pointsStatement": {
+				"title": "Pisteiden lausunto - asiakas",
+				"table": {
+					"description": "Pisteiden rekisteröinti",
+					"type": "Tyyppi",
+					"points": "Piste",
+					"quantity": "Määrä",
+					"total": "Kokonais",
+					"balance": "Saldo",
+					"created": "Luotu"
+				}
+			},
+			"couponHistory": {
+				"title": "Kuponkihistoria",
+				"table": {
+					"key": "Avainkoodi",
+					"item": "Esine",
+					"promotion": "Edistäminen",
+					"store": "Myymälä",
+					"createdAt": "Luotu jhk",
+					"checked": "Tarkistettu",
+					"checkedDate": "Tarkistettu päivämäärä",
+					"yes": "Kyllä",
+					"no": "Ei"
+				}
+			}
+		},
+		"promotionsPage": {
+			"title": "Ylennykset",
+			"subtitle": "Kaikki tarjoukset saatavilla",
+			"noPromotionsTitle": "Ei tarjouksia tällä hetkellä!",
+			"noPromotionsDescription": "Tällä hetkellä meillä ei ole tarjolla olevia tarjouksia. Pysy kuitenkin ajan tasalla päivityksistä, koska tarjoamme jatkuvasti uusia tarjouksia.",
+			"couponGenerated": "Kuponki syntyi onnistuneesti!",
+			"enjoy": "Nauti",
+			"copied": "Leikepöydälle kopioitu kuponkikoodi!",
+			"couponGeneratedInit": "Sinulla on jo luotu kuponki tähän kampanjaan: käytä koodia",
+			"couponGeneratedEnd": "myymälässäsi lunastamaan tuotteesi."
+		},
+		"quizPage": {
+			"title": "Tietokilpailu",
+			"subtitle": "Kaikki luotu Quitions",
+			"unansweredTitle": "Vastaamatta",
+			"answeredTitle": "Vastaus viittaa",
+			"table": {
+				"name": "Nimi",
+				"points": "Piste",
+				"created": "Luotu",
+				"answered": "Vastattu",
+				"actions": "Toimet"
+			},
+			"pagination": {
+				"showing": "{Start} - {end} {yhteensä} merkinnät"
+			},
+			"searchPlaceholder": "Haku...",
+			"question": "Kyseenalaistaa"
+		},
+		"customerNotificationsPage": {
+			"title": "Ilmoituskeskus",
+			"subtitle": "Tarkista ilmoituskeskuksesi määräajoin, jotta et missaa mitään viestejämme!",
+			"allNotifications": "Kaikki ilmoitukset"
+		},
+		"notificationDetailsPage": {
+			"title": "Ilmoitustiedot",
+			"back": "Takaisin",
+			"linkPrefix": "Napsauta tätä",
+			"linkSuffix": "päästä"
+		},
+		"exchangePointsPage": {
+			"title": "Vaihtopisteet",
+			"subtitle": "Kaikki käytettävissä olevat vaihtopisteet",
+			"pointsSuffix": "piste"
+		},
+		"exchangePointsDetailsPage": {
+			"title": "Vaihtopisteiden yksityiskohdat",
+			"enjoyText": "Nauti {ProductName}!",
+			"amount": "Määrä",
+			"totalPoints": "Kokonaispisteet",
+			"generateCoupon": "Luoda kuponki",
+			"back": "Takaisin"
+		},
+		"couponsPage": {
+			"title": "Kupongit",
+			"subtitle": "Kuponkeja validoimaan ja esineisiin jaetaan",
+			"table": {
+				"title": "Kuponkihistoria",
+				"columns": {
+					"keyCode": "Avainkoodi",
+					"item": "Esine",
+					"promotion": "Edistäminen",
+					"store": "Myymälä",
+					"createdAt": "Luotu jhk",
+					"checked": "Tarkistettu",
+					"checkedDate": "Tarkistettu päivämäärä"
+				}
+			},
+			"pagination": {
+				"showing": "{Start} - {end} {yhteensä} merkinnät"
+			}
+		},
+		"changeShopPage": {
+			"title": "Vaihtaa kauppa",
+			"subtitle": "Haluatko vaihtaa myymälöitä? Ilmoita meille!",
+			"form": {
+				"country": "Valitse maa",
+				"store": "Valitse myymälä",
+				"reason": "Kuvaile syytä muuttaa kauppaa",
+				"submit": "Pyyntömuutos",
+				"changeShopRequested": "Vaihda myymäläpyyntö, joka on luotu menestyksekkäästi!"
+			},
+			"history": {
+				"title": "Muutoshistoria",
+				"table": {
+					"columns": {
+						"oldShop": "Vanha kauppa",
+						"newShop": "Uusi kauppa",
+						"requestDate": "Pyyntöpäivä",
+						"reason": "Syy",
+						"status": "Status"
+					}
+				},
+				"pagination": {
+					"showing": "{Start} - {end} {yhteensä} merkinnät"
+				}
+			}
+		},
+		"downloadsPage": {
+			"title": "Lataukset",
+			"subtitle": "Kirjoita kansiot ja lataa tiedostot",
+			"table": {
+				"columns": {
+					"folder": "Kansio",
+					"actions": "Toimet"
+				},
+				"pagination": {
+					"showing": "{Start} - {end} {yhteensä} merkinnät"
+				},
+				"searchPlaceholder": "Haku..."
+			}
+		}
+	},
+	"accountProfile": {
+		"profilePic": "Profiilikuva",
+		"language": "Valitse kieli",
+		"password": "Vaihda salasana",
+		"currentPassword": "Nykyinen salasana",
+		"newPassword": "Uusi salasana",
+		"repeatPassword": "Toista uusi salasana",
+		"passwordsMatch": "Salasanojen on vastattava!",
+		"changeEmail": "Vaihda sähköposti",
+		"currentEmail": "Nykyinen sähköposti",
+		"newEmail": "Uusi sähköposti",
+		"informNewPassword": "Ilmoita uudelle salasanasi!"
+	},
+	"enums": {
+		"clubCardCodeList": {
+			"validated": "Vahvistettu",
+			"notValidated": "Ei käytetty"
+		},
+		"status": {
+			"active": "Aktiivinen",
+			"disabled": "Vammainen"
+		},
+		"couponType": {
+			"promo": "Ylennys",
+			"withPoints": "Pistellä"
+		},
+		"moneyBackStatus": {
+			"targetDisabled": "Vammainen",
+			"targetInProgress": "Käynnissä"
+		},
+		"customersStatus": {
+			"activated": "Aktivoitu",
+			"disabled": "Vammainen"
+		},
+		"extractOperator": {
+			"addition": "Lisäys",
+			"deduction": "Vähennys"
+		},
+		"inviteStatus": {
+			"sent": "Lähetetty",
+			"accepted": "Hyväksytty"
+		},
+		"productType": {
+			"clothing": "Vaatteet",
+			"other": "Muu"
+		},
+		"newsletterStatus": {
+			"send": "Lähettää",
+			"draft": "Luonnos"
+		},
+		"newsletterUserType": {
+			"all": "Kaikki",
+			"store": "Myymälä",
+			"customer": "Asiakas"
+		},
+		"notificationStatus": {
+			"activated": "Aktivoitu",
+			"disabled": "Vammainen"
+		},
+		"quizStatus": {
+			"unpublished": "Julkaisematon",
+			"published": "Julkaistu"
+		},
+		"shopStatus": {
+			"waiting": "Odotus",
+			"accepted": "Hyväksytty",
+			"refused": "Kieltäytynyt"
+		},
+		"situation": {
+			"accepted": "Hyväksytty",
+			"rejected": "Hylätty",
+			"pending": "Odotettavissa oleva"
+		},
+		"targetStatus": {
+			"targetReached": "Saavutettu",
+			"targetExpired": "Vanhentunut"
+		},
+		"userType": {
+			"customer": "Asiakas",
+			"store": "Myymälä",
+			"marketing": "Markkinointi"
+		}
+	},
+	"passwordValidation": {
+		"upperCase": "Isot kirjaimet",
+		"lowerCase": "Pienet kirjaimet",
+		"specialCharacters": "Erikoismerkit",
+		"numbers": "Numerot",
+		"shouldContain": "Salasanassasi tulisi olla:",
+		"length": "vähintään 6 merkkiä pitkä",
+		"validEmail": "Anna kelvollinen sähköpostiosoite."
+	}
+}

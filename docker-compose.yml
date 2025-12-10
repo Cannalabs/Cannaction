@@ -1,0 +1,77 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16.0
+    container_name: cannaction-db
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_DATABASE}
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USERNAME}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./cannaction-new-system-backend
+      dockerfile: Dockerfile
+    container_name: cannaction-backend
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "8002:3001"
+    environment:
+      NODE_ENV: production
+      PORT: 3001
+      ORIGIN: ${ORIGIN}
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USERNAME: ${DB_USERNAME}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_DATABASE: ${DB_DATABASE}
+      JWT_SECRET: ${JWT_SECRET}
+      BASIC_USER: ${BASIC_USER}
+      BASIC_PASS: ${BASIC_PASS}
+      MAIL_HOST: ${MAIL_HOST}
+      MAIL_PORT: ${MAIL_PORT}
+      MAIL_USER: ${MAIL_USER}
+      MAIL_PASSWORD: ${MAIL_PASSWORD}
+      S3_BUCKET: ${S3_BUCKET}
+      IAM_USER_KEY: ${IAM_USER_KEY}
+      IAM_USER_SECRET: ${IAM_USER_SECRET}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./cannaction-new-system-backend/logs:/app/logs
+
+  frontend:
+    build:
+      context: ./cannaction-new-system-frontend
+      dockerfile: Dockerfile
+    container_name: cannaction-frontend
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "5174:80"
+    environment:
+      - VITE_APP_BASE_URL=${VITE_APP_BASE_URL}
+      - VITE_APP_BASIC_TOKEN=${VITE_APP_BASIC_TOKEN}
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+

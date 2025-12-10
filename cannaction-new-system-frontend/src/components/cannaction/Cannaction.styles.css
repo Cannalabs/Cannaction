@@ -1,0 +1,31 @@
+/* src/components/cannaction/Cannaction.styles.css */
+
+.flag-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: right;
+}
+
+.flag {
+	height: 16px;
+	width: auto;
+	object-fit: contain;
+	opacity: 0.5;
+	transition: opacity 0.3s ease;
+	padding-left: 14px;
+}
+
+.flag:hover {
+	opacity: 1;
+}
+
+.Link:focus,
+.Link:hover {
+	color: #ccc;
+}
+
+a:focus,
+a:hover {
+	color: #ccc;
+	text-decoration: underline;
+}

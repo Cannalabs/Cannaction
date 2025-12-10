@@ -1,0 +1,1708 @@
+{
+	"general": {
+		"submit": "Einreichen",
+		"tableFooter": {
+			"tableFooterShow": "Zeigen",
+			"tableFooterTo": "Zu",
+			"tableFooterOf": "von",
+			"tableFooterEntries": "Einträge"
+		},
+		"informationIcon": {
+			"icon": "Wählen Sie Bild hochladen nur Bilder mit .jpg, .jpeg, .png und GIF -Erweiterung und Größe weniger als 150 KB, maximaler Breite: 1024px und maximal"
+		},
+		"active": "Aktiv",
+		"disabled": "Deaktiviert",
+		"noImage": "Kein Bild hochgeladen. Klicken Sie unten, um ein Bild hinzuzufügen.",
+		"createFirst": "Erstellen Sie zuerst, um Bild hinzuzufügen.",
+		"uploadNewImage": "Laden Sie neues Bild hoch",
+		"clubCardNoPassword": "Clubkartenbenutzer hat kein Passwort!",
+		"clubCardUserFound": "Clubkartenbenutzer gefunden! Bitte geben Sie das Passwort ein."
+	},
+	"cannaction": {
+		"samples": "Holen Sie sich Proben kostenlos, drucken Sie Promo -Codes, sammeln Sie Punkte, gewinnen Sie Preise,\nund viel mehr.",
+		"howItWorks": "Wie es funktioniert",
+		"about": "Um",
+		"masterclass": "Meisterklasse"
+	},
+	"login": {
+		"welcome": "Willkommen in der",
+		"signIn": "Melden Sie sich an, um fortzufahren.",
+		"shareEmail": "Wir werden Ihre E -Mail niemals mit jemand anderem teilen.",
+		"forgotPassword": "Ihr Passwort vergessen?",
+		"noAccount": "Haben Sie noch keinen Account?",
+		"register": "Treten Sie dem Club hier bei",
+		"emailNickname": "Ihre E -Mail oder Ihren Spitznamen",
+		"password": "Ihr Passwort",
+		"passwordMailSent": "Wir haben dir eine E-Mail mit deinem neuen Passwort geschickt!"
+	},
+	"register": {
+		"errors": {
+			"termsConditions": "Allgemeine Geschäftsbedingungen sind erforderlich",
+			"privacyPolicy": "Datenschutzrichtlinien sind erforderlich",
+			"userType": "Benutzertyp ist erforderlich",
+			"firstName": "Vorname ist erforderlich",
+			"lastName": "Nachname ist erforderlich",
+			"store": "Geschäft ist für den Kunden erforderlich",
+			"country": "Land ist erforderlich",
+			"language": "Sprache ist erforderlich",
+			"nickname": "Spitzname ist erforderlich",
+			"email": "E -Mail ist erforderlich",
+			"password": "Bitte geben Sie Ihr Passwort ein.",
+			"passwordNotMatch": "Passwörter stimmen nicht überein."
+		},
+		"userCreated": "Benutzer erstellt erfolgreich!",
+		"previous": "Vorherige",
+		"next": "Nächste"
+	},
+	"marketing": {
+		"routes": {
+			"dashboard": {
+				"subtitle": "Übersicht und Zusammenfassung"
+			},
+			"downloads": {
+				"subtitle": "Geben Sie Ordner ein und laden Sie Dateien herunter"
+			},
+			"archives": {
+				"subtitle": "Archivverwaltung"
+			},
+			"promoReport": {
+				"subtitle": "Gegenstände verteilt"
+			},
+			"salesReport": {
+				"subtitle": "Durch Produkte"
+			},
+			"promotions": {
+				"subtitle": "Alle verfügbaren Werbeaktionen",
+				"detailsTitle": "Promotionsdetails"
+			},
+			"redeemedItems": {
+				"subtitle": "Überprüft werden"
+			},
+			"productsAvailable": {
+				"subtitle": "Produkte erhältlich",
+				"detailsTitle": "Produktdetails"
+			},
+			"quiz": {
+				"subtitle": "Alle erstellten Quiz",
+				"detailsTitle": "Quizdetails",
+				"editTitle": "Quiz bearbeiten",
+				"replyTitle": "Antwort Quiz",
+				"reportTitle": "Quizbericht"
+			},
+			"stores": {
+				"subtitle": "Alle Geschäfte",
+				"detailsTitle": "Details speichern"
+			},
+			"users": {
+				"subtitle": "Benutzerbericht",
+				"detailsTitle": "Benutzerdetails"
+			},
+			"checkChangeShop": {
+				"subtitle": "Überprüfen Sie den Bericht des Änderungsladens"
+			},
+			"profilePunctuation": {
+				"subtitle": "Punktmanagement"
+			},
+			"upload": {
+				"subtitle": "Ordner erstellen und Dateien hochladen"
+			},
+			"targets": {
+				"subtitle": "Alle Ziele"
+			},
+			"newsletter": {
+				"subtitle": "Alle Newsletter"
+			},
+			"notification": {
+				"subtitle": "Alle Benachrichtigungen",
+				"detailsTitle": "Benachrichtigungsdetails"
+			},
+			"coupons": {
+				"subtitle": "Gutscheine, um zu validieren und Artikel verteilt"
+			},
+			"pointsStatement": {
+				"subtitle": "Siehe Pontuation History"
+			},
+			"salesPointsStatement": {
+				"subtitle": "Durch Produkte"
+			},
+			"customers": {
+				"subtitle": "Alle Kunden",
+				"detailsTitle": "Kundendetails"
+			},
+			"exchangePoints": {
+				"subtitle": "Alle Austauschpunkte verfügbar",
+				"detailsTitle": "Austauschpunkte Details"
+			},
+			"inviteFriend": {
+				"subtitle": "Senden Sie alle Freunde Einladung"
+			},
+			"changeShop": {
+				"subtitle": "Möchten Sie die Geschäfte wechseln? Informieren Sie uns!"
+			},
+			"generalReport": {
+				"subtitle": "Allgemeiner Bericht"
+			},
+			"permissions": {
+				"subtitle": "Berechtigungen"
+			}
+		},
+		"dashboard": {
+			"title": "Armaturenbrett",
+			"description": "Übersicht und Zusammenfassung",
+			"cannapediaTitleBox": "Cannapedia",
+			"cannapediaDescriptionBox": "Zugriff auf die Betriebsdokumentation des Systems",
+			"storesTitleBox": "Geschäfte",
+			"storesDescriptionBox": "Geschäfte verwalten",
+			"targetsTitleBox": "Ziele",
+			"targetsDescriptionBox": "Schneller Zugang zum Dashboard",
+			"usersTitleBox": "Benutzer",
+			"usersDescriptionBox": "Schneller Zugriff auf das Benutzerbereich",
+			"storeTargets": {
+				"storeTargetReached": "Speicher Ziel erreicht!",
+				"store": "Speichern",
+				"target": "Ziel",
+				"prizeMoney": "Preisgeld",
+				"prizeItem": "Preisartikel",
+				"limitDate": "Grenzdatum",
+				"confirmTarget": "Ziel bestätigen"
+			},
+			"userTargets": {
+				"targetReached": "Ziel erreicht!",
+				"user": "Benutzer"
+			},
+			"shopsTableTitle": "Geschäfte pro Land",
+			"shopsCount": "Shop Count",
+			"shopsTableCountryColumn": "Land",
+			"shopsTableActiveColumn": "Aktiv",
+			"shopsTableInactiveColumn": "Inaktiv",
+			"shopsTableTotalColumn": "Gesamt",
+			"usersTableTitle": "Benutzer pro Land",
+			"usersCount": "Benutzer zählen",
+			"usersTableCountryColumn": "Land",
+			"usersTableActiveColumn": "Aktiv",
+			"usersTableInactiveColumn": "Inaktiv",
+			"usersTableTotalColumn": "Gesamt",
+			"salesTitle": "Verkäufe",
+			"byStore": "im Laden",
+			"bestSellingTitle": "Bestseller Produkte",
+			"noSalesYet": "Noch keinen Umsatz!",
+			"byYear": "Nach Jahr"
+		},
+		"promoReport": {
+			"title": "Promo -Bericht",
+			"description": "Gegenstände verteilt",
+			"ItemDropDown": "Wählen Sie Artikel",
+			"CountryDropDown": "Wählen Sie Land",
+			"StoreDropDown": "Wählen Sie Store",
+			"dateInit": "Datum init",
+			"dateEnd": "Datumende",
+			"filterButton": "Filter",
+			"clearButton": "Klar",
+			"couponsTableTitle": "Gutscheine",
+			"exchange": "Austausch",
+			"couponsTableEntriesDropdown": "Einträge pro Seite",
+			"couponsTableSearchInput": "Suchen...",
+			"couponsTableCodeColumn": "Code",
+			"couponsTableItemColumn": "Artikel",
+			"couponsTableDateColumn": "Datum",
+			"couponsTableCustomerColumn": "Kunde",
+			"couponsTableStoreColumn": "Speichern",
+			"couponsTableCountryColumn": "Land",
+			"couponsTableActionsColumn": "Aktionen",
+			"actionsColumnDetailsTooltip": "Details",
+			"detailsModalTitle": "Gutscheininfo",
+			"detailsModalPromo": "Promo",
+			"detailsModalDescription": "Beschreibung",
+			"detailsModalCustomer": "Kunde",
+			"detailsModalStore": "Speichern",
+			"detailsModalCountry": "Land"
+		},
+		"salesReport": {
+			"title": "Verkaufsbericht",
+			"description": "Durch Produkte",
+			"byStore": "Im Laden",
+			"byProduct": "Nach Produkt",
+			"ItemDropDown": "Wählen Sie Artikel",
+			"CountryDropDown": "Wählen Sie Land",
+			"StoreDropDown": "Wählen Sie Store",
+			"dateInit": "Datum init",
+			"dateEnd": "Datumende",
+			"filterButton": "Filter",
+			"clearButton": "Klar",
+			"salesTableTitle": "Verkäufe",
+			"salesTableEntriesDropdown": "Einträge pro Seite",
+			"salesTableSearchInput": "Suchen...",
+			"salesTableStoresColumn": "Geschäfte",
+			"salesTableCountryColumn": "Land",
+			"salesTableSalesColumn": "Verkäufe",
+			"salesTablePercentColumn": "Prozent(%)",
+			"salesGraphic": "Verkaufsgrafik",
+			"salesGraphicCountry": "Verkaufsgrafik nach Land",
+			"columns": {
+				"stores": "Geschäfte",
+				"products": "Produkte",
+				"country": "Land",
+				"sales": "Verkäufe",
+				"percent": "Prozent (%)"
+			}
+		},
+		"promotions": {
+			"title": "Werbeaktionen",
+			"description": "Alle verfügbaren Werbeaktionen",
+			"promotionsTableTitle": "Werbeaktionen",
+			"promotionsTableAddButtonTooltip": "Hinzufügen",
+			"promotionsTableEntriesDropdown": "Einträge pro Seite",
+			"promotionsTableSearchInput": "Suchen...",
+			"promotionsTableThumbColumn": "Daumen",
+			"promotionsTablePromotionColumn": "Förderung",
+			"promotionsTableCouponsColumn": "Gutscheine",
+			"promotionsTableCreatedColumn": "Erstellt",
+			"promotionsTableStatusColumn": "Status",
+			"promotionsTableActionsColumn": "Aktionen",
+			"actionsColumnMoreTooltip": "Mehr",
+			"actionsColumnRemoveTooltip": "Entfernen",
+			"actionsMoreButtonDisable": "Deaktivieren",
+			"actionsMoreButtonDetails": "Details",
+			"actionsMoreButtonEdit": "Bearbeiten",
+			"promotionUpdated": "Promotion -Status erfolgreich aktualisiert!",
+			"promotionDeleted": "Aktion erfolgreich gelöscht!",
+			"promotionDeleteConfirm": "Sind Sie sicher, dass Sie diese Aktion löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+			"promotionDelete": "Werbung löschen",
+			"columns": {
+				"code": "Code",
+				"promotion": "Förderung",
+				"item": "Artikel",
+				"date": "Datum",
+				"customer": "Kunde",
+				"store": "Speichern",
+				"country": "Land",
+				"actions": "Aktionen"
+			}
+		},
+		"addPromotion": {
+			"title": "Werbung hinzufügen",
+			"backButton": "Zurück",
+			"promotionThumb": "Promotion Daumen",
+			"dropImagem": "Fallen und runter",
+			"PromotionInformation": "Promotionsinformationen",
+			"itemListDropdown": "Elemente Liste",
+			"nameInput": "Name",
+			"emailInput": "E-Mail",
+			"countryDropDown": "Land",
+			"couponsInput": "Gutscheine",
+			"beginDateInput": "Datum beginnen",
+			"endDateInput": "Enddatum",
+			"storesDropdown": "Geschäfte",
+			"cancelButton": "Stornieren",
+			"submitButton": "Einreichen",
+			"promotionThumbUpdate": "Promotion Thumb erfolgreich aktualisiert!",
+			"promotionMaxCoupons": "Promotion Maximale Gutscheine",
+			"selectAll": "Wählen Sie alle aus"
+		},
+		"editPromotion": {
+			"title": "Promotion bearbeiten"
+		},
+		"redeemedItems": {
+			"title": "Erlöste Gegenstände",
+			"description": "Überprüft werden",
+			"itemsCheckTableTitle": "Artikel zu überprüfen",
+			"itemsCheckTableEntriesDropdown": "Einträge pro Seite",
+			"itemsCheckTableSearchInput": "Suchen...",
+			"itemsCheckTableCodeColumn": "Code",
+			"itemsCheckTablePromotionColumn": "Förderung",
+			"itemsCheckTableCreatedColumn": "Erstellt",
+			"itemsCheckTableCustomerColumn": "Kunde",
+			"itemsCheckTableStoreColumn": "Speichern",
+			"itemsCheckTableLocationColumn": "Standort",
+			"itemsCheckTableActionsColumn": "Aktionen",
+			"historyCheckedTableTitle": "Geschichte der überprüften Gegenstände",
+			"historyCheckedTableEntriesDropdown": "Einträge pro Seite",
+			"historyCheckedTableSearchInput": "Suchen...",
+			"historyCheckedTableCodeColumn": "Code",
+			"historyCheckedTablePromotionColumn": "Förderung",
+			"historyCheckedTableCreatedColumn": "Erstellt",
+			"historyCheckedTableCustomerColumn": "Kunde",
+			"historyCheckedTableStoreColumn": "Speichern",
+			"historyCheckedTableLocationColumn": "Standort",
+			"historyCheckedTableActionsColumn": "Aktionen",
+			"itemRedeemed": "Artikel erfolgreich eingelöst!",
+			"columns": {
+				"code": "Code",
+				"promotion": "Förderung",
+				"created": "Erstellt",
+				"checked": "Überprüft",
+				"customer": "Kunde",
+				"store": "Speichern",
+				"location": "Standort",
+				"actions": "Aktionen"
+			}
+		},
+		"productsAvailable": {
+			"title": "Produkte erhältlich",
+			"description": "Produkte erhältlich",
+			"productsTableTitle": "Produkte",
+			"productsTableAddButtonTootip": "Hinzufügen",
+			"productsTableEntriesDropdown": "Einträge pro Seite",
+			"productsTableSearchInput": "Suchen...",
+			"productsTableThumbColumn": "Daumen",
+			"productsTableProductNameColumn": "Produktname",
+			"productsTableDescriptionColumn": "Beschreibung",
+			"productsTablePointsColumn": "Punkte",
+			"productsTableStatusColumn": "Status",
+			"productsTableActionsColumn": "Aktionen",
+			"actionsMoreButtonActivate": "Aktivieren",
+			"actionsMoreButtonDisable": "Deaktivieren",
+			"actionsMoreButtonDetails": "Details",
+			"actionsMoreButtonEdit": "Bearbeiten",
+			"productRemoved": "Produkt erfolgreich entfernt!",
+			"productStatus": "Der Produktstatus hat sich erfolgreich geändert!",
+			"productDeleteConfirm": "Sind Sie sicher, dass Sie diesen Artikel löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+			"productDelete": "Artikel löschen"
+		},
+		"addProduct": {
+			"title": "Produkt hinzufügen",
+			"backButton": "Zurück",
+			"productThumb": "Gegenstand Daumen",
+			"dropImagem": "Fallen und runter",
+			"productInformation": "Produktinformationen",
+			"productCategoryDropdown": "Produktkategorie",
+			"nameInput": "Produktname",
+			"descriptionInput": "Produktbeschreibung",
+			"pointsInput": "Punkte",
+			"maxCouponsInput": "Max -Gutscheine",
+			"barCodeInput": "Barcode",
+			"cancelButton": "Stornieren",
+			"submitButton": "Einreichen",
+			"itemThumbUpdate": "Item Thumb erfolgreich aktualisiert!",
+			"productSize": "Produktgröße",
+			"productType": "Produkttyp"
+		},
+		"editProduct": {
+			"title": "Produkt bearbeiten"
+		},
+		"Quiz": {
+			"title": "Quiz",
+			"description": "Alle erstellten Quises",
+			"quizTableTitle": "Quiz",
+			"quizTableAddButtonTooltip": "Hinzufügen",
+			"quizTableEntriesDropdown": "Einträge pro Seite",
+			"quizTableSearchInput": "Suchen...",
+			"quizTableNameColumn": "Name",
+			"quizTablePointsColumn": "Punkte",
+			"quizTableCountryColumn": "Land",
+			"quizTableCreatedColumn": "Erstellt",
+			"quizTableStatusColumn": "Status",
+			"quizTableActionsColumn": "Aktionen",
+			"actionsColumnMoreTooltip": "Mehr",
+			"actionsColumnViewReportTooltip": "Bericht anzeigen",
+			"actionsColumnRemoveTooltip": "Entfernen",
+			"actionsMoreButtonActivate": "Aktivieren",
+			"actionsMoreButtonDisable": "Deaktivieren",
+			"actionsMoreButtonDetails": "Details",
+			"actionsMoreButtonEdit": "Bearbeiten",
+			"quizStatus": "Quizstatus erfolgreich aktualisiert!",
+			"quizDeleted": "Quiz erfolgreich gelöscht!",
+			"quizRemoveConfirm": "Sind Sie sicher, dass Sie dieses Quiz löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+			"quizRemove": "Quiz löschen"
+		},
+		"addQuiz": {
+			"addQuiz": "Quiz hinzufügen",
+			"quizInfo": "Quizinformationen",
+			"questionText": "Befragtext",
+			"typeQuestion": "Fragetyp",
+			"addQuestion": "Frage hinzufügen",
+			"removeQuestion": "Frage entfernen",
+			"text": "Text",
+			"select": "Wählen",
+			"separateQuestions": "Trennen Sie die Fragen durch ein Semikolon",
+			"quizName": "Quizname"
+		},
+		"Stores": {
+			"title": "Geschäfte",
+			"description": "Alle Geschäfte",
+			"CountryDropDown": "Wählen Sie Land",
+			"RegionDropDown": "Region/Staat",
+			"CityDropDown": "Wählen Sie Stadt",
+			"filterButton": "Filter",
+			"clearButton": "Klar",
+			"storesTableTitle": "Geschäfte",
+			"storesleAddButtonTooltip": "Hinzufügen",
+			"storesTableEntriesDropdown": "Einträge pro Seite",
+			"storesTableSearchInput": "Suchen...",
+			"storesTableCodeColumn": "Code",
+			"storesTableItemColumn": "Artikel",
+			"storesTableDateColumn": "Datum",
+			"storesTableCustomerColumn": "Kunde",
+			"storesTableStoreColumn": "Speichern",
+			"storesTableCountryColumn": "Land",
+			"storesTableActionsColumn": "Aktionen",
+			"actionsColumnMoreTooltip": "Mehr",
+			"actionsColumnViewReportTooltip": "Geschäfte Einstellung",
+			"actionsMoreButtonActivate": "Aktivieren",
+			"actionsMoreButtonDisable": "Deaktivieren",
+			"actionsMoreButtonDetails": "Details",
+			"actionsMoreButtonEdit": "Bearbeiten",
+			"storeStatus": "Store Status erfolgreich aktualisiert!"
+		},
+		"addStore": {
+			"title": "Store hinzufügen",
+			"backButton": "Zurück",
+			"promotionThumb": "Daumen speichern",
+			"storeInformation": "Informationen speichern",
+			"dropImagem": "Fallen und runter",
+			"doingBusinessInput": "Geschäfte machen als",
+			"phoneInput": "Telefon",
+			"emailInput": "E-Mail",
+			"adressInput": "Anziehen",
+			"countryDropDown": "Land",
+			"stateDropdown": "Staat/Region",
+			"cityDropdown": "Stadt",
+			"masterUserDropdown": "Master -Benutzer",
+			"storeNameMandatory": "Ladenname ist obligatorisch!",
+			"storeCountryMandatory": "Land ist obligatorisch!",
+			"storeUpdated": "Aktualisiert erfolgreich!",
+			"storeCreated": "erstellt erfolgreich!",
+			"selectStoreWorkers": "Wählen Sie Filiale",
+			"storeLogoUpdated": "Store Logo erfolgreich aktualisiert!"
+		},
+		"editStore": {
+			"title": "Store bearbeiten"
+		},
+		"storesSetting": {
+			"title": "Speichereinstellung",
+			"backButton": "Zurück",
+			"linkCustomer": "Link zum Kundenregister",
+			"saveButtonLinkTooltip": "Speichern",
+			"stockTableTitle": "Aktie",
+			"stockTableEntriesDropdown": "Einträge pro Seite",
+			"stockTableSearchInput": "Suchen...",
+			"stockTableProductColumn": "Produkt",
+			"stockTableLastUpdateColumn": "Letztes Update",
+			"stockTableInputColumn": "Eingang",
+			"stockTableOutputColumn": "Ausgabe",
+			"stockTableBalanceColumn": "Gleichgewicht",
+			"stockTableActionsColumn": "Aktionen",
+			"pointsBox": "Akkumulierte Punkte",
+			"couponsBox": "Gutscheine validiert",
+			"ProducstsBox": "Produkte erhältlich",
+			"totalSalesBox": "Gesamtgeschäfteverkäufe",
+			"customersBox": "Aktive Kunden",
+			"promotionsBox": "Werbeaktionen laufen",
+			"pointsTableTitle": "Punkte Statement",
+			"pointsTableEntriesDropdown": "Einträge pro Seite",
+			"pointsTableSearchInput": "Suchen...",
+			"pointsTableDescriptionColumn": "Beschreibung",
+			"pointsTableTypeColumn": "Typ",
+			"pointsTablePointsColumn": "Punkte",
+			"pointsTableTotalColumn": "Gesamt",
+			"pointsTableBalanceColumn": "Gleichgewicht",
+			"pointsTablecreatedColumn": "erstellt",
+			"promotionsTableTitle": "Werbeaktionen",
+			"promotionsTableEntriesDropdown": "Einträge pro Seite",
+			"promotionsTableSearchInput": "Suchen...",
+			"promotionsTablePromotionColumn": "Förderung",
+			"promotionsTableCouponsColumn": "Gutscheine",
+			"promotionsTableCreatedColumn": "Erstellt",
+			"promotionsTableStatusColumn": "Status",
+			"customersTableTitle": "Kunden",
+			"customersTableEntriesDropdown": "Einträge pro Seite",
+			"customersTableSearchInput": "Suchen...",
+			"customersTableCodeColumn": "Code",
+			"customersTableNameColumn": "Name",
+			"customersTableEmailColumn": "E-Mail",
+			"customersTableStatusColumn": "Status",
+			"moneybackTarget": "Geldback -Ziel",
+			"moneyPrizeInput": "Geldpreis",
+			"itembackTarget": "Promo -Ziel",
+			"itemPrizeInput": "Wählen Sie den Preis",
+			"userTargets": "Ladenbesitzerziele",
+			"targetInput": "Ziel",
+			"dateFinalTarget": "Datum endgültiges Ziel",
+			"storeTargetCreated": "Store Target erfolgreich erstellt!",
+			"storeTargetUpdated": "Das Ziel speichern erfolgreich aktualisiert!",
+			"userTargetCreated": "Das Shopkeeper -Ziel erfolgreich erstellt!",
+			"userTargetUpdated": "Shopkeeper Target erfolgreich aktualisiert!",
+			"itemMandatory": "Artikel ist obligatorisch!",
+			"targetMandatory": "Ziel ist obligatorisch!",
+			"dateMandatory": "Ziel -Enddatum ist obligatorisch!",
+			"userTarget": "Ladenbesitzerziel",
+			"activeTarget": "Aktives Ziel",
+			"workers": "Arbeiter",
+			"shopkeeperTargetUser": "Ladenbesitzerziel - Benutzer",
+			"storeSlugUpdated": "STORE SLUG EINFACH SELDUNG VERFÜGBAR!",
+			"storeSlug": "Geben Sie die Ladenschnecke ein",
+			"linkCustomeRegister": "Link zum Kundenregister"
+		},
+		"users": {
+			"title": "Benutzer",
+			"description": "Benutzerbericht",
+			"CountryDropDown": "Wählen Sie Land",
+			"RegionDropDown": "Region/Staat",
+			"CityDropDown": "Wählen Sie Stadt",
+			"filterButton": "Filter",
+			"clearButton": "Klar",
+			"usersTableTitle": "Benutzer",
+			"usersTableDownloadButtonTooltip": "Herunterladen",
+			"usersTableAddButtonTooltip": "Hinzufügen",
+			"usersTableEntriesDropdown": "Einträge pro Seite",
+			"usersTableSearchInput": "Suchen...",
+			"usersTableNameColumn": "Name",
+			"usersTableStoreColumn": "Speichern",
+			"usersTableLastInteractionColumn": "Letzte Interaktionsdatum",
+			"usersTableCountryColumn": "Land",
+			"usersTableRoleColumn": "Rolle",
+			"usersTableStatusColumn": "Status",
+			"usersTableActionsColumn": "Aktionen",
+			"actionsColumnMoreTooltip": "Mehr",
+			"actionsColumnRemoveTooltip": "Entfernen",
+			"actionsMoreButtonActivate": "Aktivieren",
+			"actionsMoreButtonDisable": "Deaktivieren",
+			"actionsMoreButtonDetails": "Details",
+			"actionsMoreButtonEdit": "Bearbeiten",
+			"userStatusUpdated": "Benutzerstatus erfolgreich aktualisiert!",
+			"userDeleted": "Benutzer erfolgreich gelöscht!",
+			"userDeleteConfirm": "Sind Sie sicher, dass Sie diesen Benutzer löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+			"userDelete": "Benutzer löschen"
+		},
+		"addUser": {
+			"title": "Benutzer hinzufügen",
+			"backButton": "Zurück",
+			"userPic": "Benutzerprofil Bild",
+			"dropImagem": "Fallen und runter",
+			"userInformation": "Benutzerinformationen",
+			"firstNameInput": "Vorname",
+			"lastName": "Nachname",
+			"nicknameInput": "Spitzname",
+			"emailInput": "E-Mail",
+			"userTypeDropdown": "Benutzerart",
+			"countryDropDown": "Land",
+			"switchInput": "NEWSLETTER erhalten",
+			"userPicUpdated": "Benutzerprofil Bild erfolgreich aktualisiert!",
+			"password": "Passwort",
+			"createUser": "Benutzer erstellen",
+			"updateUser": "Benutzer aktualisieren"
+		},
+		"editUser": {
+			"title": "Benutzer bearbeiten"
+		},
+		"clubCard": {
+			"title": "Clubkarte",
+			"description": "Alle Karten",
+			"cardsTableTitle": "Karten",
+			"cardsTableAddButtonTooltip": "Hinzufügen",
+			"cardsTableEntriesDropdown": "Einträge pro Seite",
+			"cardsTableSearchInput": "Suchen...",
+			"cardsTableCardIdColumn": "Karten -ID",
+			"cardsTableCreatedColumn": "Erstellt",
+			"cardsTableLinkedStoreColumn": "Verknüpfter Laden",
+			"cardsTableStatusColumn": "Status",
+			"cardsTableActionsColumn": "Aktionen",
+			"actionsColumnEditTooltip": "Bearbeiten",
+			"actionsColumnRemoveTooltip": "Entfernen",
+			"clubCardRemoved": "Clubkartenbenutzer erfolgreich gelöscht!",
+			"clubCardRemoveConfirm": "Sind Sie sicher, dass Sie diese Karte löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+			"clubCardRemove": "Karte löschen"
+		},
+		"addCard": {
+			"title": "Karte hinzufügen",
+			"codeInput": "Code",
+			"dateInput": "Erstellt at",
+			"storeDropdown": "Wählen Sie den verknüpften Laden",
+			"enterValidEmail": "Bitte geben Sie eine gültige E -Mail ein!"
+		},
+		"editCard": {
+			"title": "Karte bearbeiten"
+		},
+		"checkChangShop": {
+			"title": "Überprüfen Sie den Change Shop",
+			"description": "Überprüfen Sie den Bericht des Änderungsladens",
+			"shopTableTitle": "Laden Sie ein, um zu überprüfen",
+			"shopTableEntriesDropdown": "Einträge pro Seite",
+			"shopTableSearchInput": "Suchen...",
+			"shopTableCustomerColumn": "Kunde",
+			"shopTableOldShopColumn": "Alter Laden",
+			"shopTableNewShopColumn": "Neuer Laden",
+			"shopTableCreatedColumn": "Erstellt",
+			"shopTableReasontoChangeColumn": "Grund zu ändern",
+			"shopTableActionsColumn": "Aktionen",
+			"historyShopTableTitle": "Geschichte der überprüften Geschäfte",
+			"historyShopTableEntriesDropdown": "Einträge pro Seite",
+			"historyShopTableSearchInput": "Suchen...",
+			"historyShopTableCustomerColumn": "Kunde",
+			"historyShopTableOldShopColumn": "Alter Laden",
+			"historyShopTableNewShopColumn": "Neuer Laden",
+			"historyShopTableCreatedColumn": "Erstellt",
+			"historyShopTableReasontoChangeColumn": "Grund zu ändern",
+			"historyShopTableStatusColumn": "Status",
+			"changeShopRequest": "Ladenanfrage ändern",
+			"denied": "Verweigert erfolgreich!",
+			"accepted": "Akzeptiert erfolgreich!",
+			"accept": "Akzeptieren",
+			"reject": "Ablehnen"
+		},
+		"profilePunctuation": {
+			"title": "Profil Interpunktion",
+			"description": "Punktmanagement",
+			"signupBoxTitle": "Melden Sie sich an",
+			"signupBoxInput": "Melden Sie sich an",
+			"signupBoxText": "Punkte, die durch Benutzerregistrierung bereitgestellt werden.",
+			"signupStoreBoxTitle": "Anmeldegeschäft",
+			"signupStoreBoxInput": "Anmeldegeschäft",
+			"signupStoreBoxText": "Punkte, die durch die Registrierung der Ladengeschäfte bereitgestellt werden.",
+			"couponBoxTitle": "Gutscheinvalidierung",
+			"couponBoxInput": "Gutscheinvalidierung",
+			"couponBoxText": "Punkte angegeben, wenn ein Gutschein validiert wird.",
+			"lastNameBoxTitle": "Nachname",
+			"lastNameBoxInput": "Nachname",
+			"lastNameBoxText": "Punkte angegeben, wenn Sie den Nachnamen informieren.",
+			"birthdateBoxTitle": "Geburtsdatum",
+			"birthdateBoxInput": "Geburtsdatum",
+			"birthdateBoxText": "Punkte angegeben, wenn Sie den Geburtsdatum informieren.",
+			"genderBoxTitle": "Geschlecht",
+			"genderBoxInput": "Geschlecht",
+			"genderBoxText": "Punkte angegeben, wenn Sie das Geschlecht informieren.",
+			"emailBoxTitle": "E-Mail",
+			"emailBoxInput": "E-Mail",
+			"emailBoxText": "Punkte angegeben, wenn Sie die E-Mail informieren.",
+			"telephoneBoxTitle": "Telefon",
+			"telephoneBoxInput": "Telefon",
+			"telephoneBoxText": "Punkte angegeben, wenn sie die Telefonnummer informieren.",
+			"friendInvitationBoxTitle": "Freund Einladung",
+			"friendInvitationBoxInput": "Freund Einladung",
+			"friendInvitationBoxText": "Punkte angegeben, wenn eine Einladung gesendet wird.",
+			"friendSubscribeBoxTitle": "Freund abonnieren",
+			"friendSubscribeBoxInput": "Freund abonnieren",
+			"friendSubscribeBoxText": "Punkte angegeben, wenn ein Freund die Einladung akzeptiert.",
+			"saveButton": "Speichern"
+		},
+		"targets": {
+			"title": "Ziele",
+			"description": "Alle Ziele",
+			"moneybackTargets": "Geldbackziele",
+			"itembackTargets": "Promo -Ziele",
+			"userbackTargets": "Ladenbesitzerziele",
+			"CountryDropDown": "Wählen Sie Land",
+			"StoreDropDown": "Wählen Sie Store",
+			"filterButton": "Filter",
+			"clearButton": "Klar",
+			"moneyTableTitle": "Geldback",
+			"moneyTableEntriesDropdown": "Einträge pro Seite",
+			"moneyTableSearchInput": "Suchen...",
+			"moneyTableCountryColumn": "Land",
+			"moneyTableStoreColumn": "Speichern",
+			"moneyTableTargetColumn": "Ziel",
+			"moneyTableProgressColumn": "Fortschritt",
+			"moneyTablePrizeColumn": "Preis",
+			"moneyTableDeadlineColumn": "Frist",
+			"moneyTableStatusColumn": "Status",
+			"moneyTableActionsColumn": "Aktionen",
+			"actionsColumnDisableTooltip": "Deaktivieren",
+			"actionsColumnRemoveTooltip": "Entfernen",
+			"targetsReachedTableTitle": "Ziele erreicht oder abgelaufen",
+			"targetsReachedTableEntriesDropdown": "Einträge pro Seite",
+			"targetsReachedTableSearchInput": "Suchen...",
+			"targetsReachedTableCountryColumn": "Land",
+			"targetsReachedTableStoreColumn": "Speichern",
+			"targetsReachedTableTargetColumn": "Ziel",
+			"targetsReachedTableProgressColumn": "Fortschritt",
+			"targetsReachedTablePrizeColumn": "Preis",
+			"targetsReachedTableCreatedColumn": "Erstellt",
+			"targetsReachedTableDeadlineColumn": "Frist",
+			"targetsReachedTableStatusColumn": "Status",
+			"prizeGraphic": "Preisgrafik für Store",
+			"prizeGraphicCountry": "Preisgrafik nach Land",
+			"targetStatus": "Zielstatus erfolgreich aktualisiert!",
+			"targetDeleted": "Ziel erfolgreich gelöscht!",
+			"targetDeleteConfirm": "Sind Sie sicher, dass Sie dieses Ziel löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+			"targetDelete": "Ziel löschen",
+			"activeAllTargets": "Ziele aktiviert erfolgreich!",
+			"activeTargets": "Alle Ziele aktiv"
+		},
+		"newsletter": {
+			"title": "NESLETTER",
+			"description": "Alle Newsletter",
+			"newslettersTableTitle": "Nesletter",
+			"newslettersTableAddButtonTooltip": "Hinzufügen",
+			"newslettersTableEntriesDropdown": "Einträge pro Seite",
+			"newslettersTableSearchInput": "Suchen...",
+			"newslettersTableNewsletterTitleColumn": "Newsletter -Titel",
+			"newslettersTableUserTypeColumn": "Benutzerart",
+			"newslettersTableCountryColumn": "Land",
+			"newslettersTableCreatedColumn": "Erstellt",
+			"newslettersTableStatusColumn": "Status",
+			"newslettersTableActionsColumn": "Aktionen",
+			"actionsColumnEditTooltip": "Bearbeiten",
+			"actionsColumnRemoveTooltip": "Entfernen"
+		},
+		"addNewsletter": {
+			"title": "Newsletter hinzufügen",
+			"backButton": "Zurück",
+			"countryDropdown": "Wählen Sie Land",
+			"userTypeDropdown": "Benutzerart",
+			"userTypeDropdownAll": "Alle",
+			"userTypeDropdownCustomer": "Kunde",
+			"userTypeDropdownStore": "Speichern",
+			"clearButton": "Klar",
+			"newsletterTitleInput": "Newsletter -Titel",
+			"newsletterBody": "Geben Sie hier den Körper ein",
+			"saveDraft": "Speichern Sie als Entwurf",
+			"saveNow": "Speichern und jetzt senden",
+			"newsletterDeleted": "Newsletter erfolgreich gelöscht!",
+			"newsletterDeleteConfirm": "Sind Sie sicher, dass Sie diesen Newsletter löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+			"newsletterDelete": "Newsletter löschen"
+		},
+		"editNewsletter": {
+			"title": "Newsletter bearbeiten"
+		},
+		"notification": {
+			"title": "Benachrichtigung",
+			"description": "Alle Benachrichtigungen",
+			"notificationTableTitle": "Benachrichtigungsliste",
+			"notificationTableAddButtonTooltip": "Hinzufügen",
+			"notificationTableEntriesDropdown": "Einträge pro Seite",
+			"notificationTableSearchInput": "Suchen...",
+			"notificationTableNewsletterTitleColumn": "Newsletter -Titel",
+			"notificationTableUserTypeColumn": "Benutzerart",
+			"notificationTableCountryColumn": "Land",
+			"notificationTableCreatedColumn": "Erstellt",
+			"notificationTableStatusColumn": "Status",
+			"notificationTableActionsColumn": "Aktionen",
+			"actionsColumnMoreTooltip": "Mehr",
+			"actionsColumnRemoveTooltip": "Entfernen",
+			"actionsMoreButtonActivate": "Aktivieren",
+			"actionsMoreButtonDisable": "Deaktivieren",
+			"actionsMoreButtonDetails": "Details",
+			"actionsMoreButtonEdit": "Bearbeiten",
+			"notificationStatus": "Benachrichtigungsstatus wurde erfolgreich geändert!",
+			"notificationDeleted": "Benachrichtigung erfolgreich entfernt!",
+			"notificationDeleteConfirm": "Sind Sie sicher, dass Sie diese Benachrichtigung löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+			"notificationDelete": "Benachrichtigung löschen"
+		},
+		"addNotification": {
+			"title": "Benachrichtigung hinzufügen",
+			"backButton": "Zurück",
+			"countryDropdown": "Wählen Sie Land",
+			"userTypeDropdown": "Benutzerart",
+			"userTypeDropdownAll": "Alle",
+			"userTypeDropdownCustomer": "Kunde",
+			"userTypeDropdownStore": "Speichern",
+			"clearButton": "Klar",
+			"newsletterTitleInput": "Benachrichtigungstitel",
+			"newsletterBody": "Geben Sie hier den Körper ein",
+			"saveNow": "Speichern und jetzt senden",
+			"saveDisabled": "Speichern Sie als deaktiviert"
+		},
+		"editNotification": {
+			"title": "Benachrichtigung bearbeiten"
+		},
+		"upload": {
+			"title": "Hochladen",
+			"description": "Laden Sie Dateien und Dokumente hoch hoch"
+		}
+	},
+	"menu": {
+		"dashboard": "Armaturenbrett",
+		"promotions": "Werbeaktionen",
+		"quiz": "Quiz",
+		"notification": "Benachrichtigung",
+		"promoReport": "Promo -Bericht",
+		"salesReport": "Verkaufsbericht",
+		"redeemedItems": "Erlöste Gegenstände",
+		"clubCard": "Clubkarte",
+		"productsAvailable": "Produkte erhältlich",
+		"stores": "Geschäfte",
+		"users": "Benutzer",
+		"checkChangeShop": "Überprüfen Sie den Change Shop",
+		"profilePunctuation": "Profil Interpunktion",
+		"targets": "Ziele",
+		"upload": "Hochladen",
+		"pointsStatement": "Punkte Statement",
+		"coupons": "Gutscheine",
+		"customers": "Kunden",
+		"downloads": "Downloads",
+		"exchangePoints": "Austauschpunkte",
+		"changeShop": "Shop wechseln"
+	},
+	"tables": {
+		"userStore": {
+			"dashboard": {
+				"pointRegistration": {
+					"tableTitle": "Punktregistrierung",
+					"pointRegistration": "Punktregistrierung",
+					"type": "Typ",
+					"points": "Punkte",
+					"quantity": "Menge",
+					"total": "Gesamt",
+					"balance": "Gleichgewicht",
+					"created": "Erstellt"
+				},
+				"stock": {
+					"tableTitle": "Aktie",
+					"product": "Produkt",
+					"lastUpdate": "Letztes Update",
+					"input": "Eingang",
+					"output": "Ausgabe",
+					"total": "Gesamt"
+				}
+			},
+			"promotions": {
+				"tableTitle": "Werbeaktionen",
+				"thumb": "Daumen",
+				"promotion": "Förderung",
+				"coupons": "Gutscheine",
+				"created": "Erstellt",
+				"actions": "Aktionen"
+			},
+			"quiz": {
+				"tableTitle": "Quiz",
+				"name": "Name",
+				"points": "Punkte",
+				"created": "Erstellt",
+				"actions": "Aktionen"
+			},
+			"quizAnswered": {
+				"tableTitle": "Quiz antwortete",
+				"name": "Name",
+				"points": "Punkte",
+				"created": "Erstellt",
+				"answered": "Antwortete"
+			},
+			"coupon": {
+				"coupons": {
+					"tableTitle": "Gutscheine",
+					"code": "Code",
+					"item": "Artikel",
+					"amount": "Menge",
+					"date": "Datum",
+					"customer": "Kunde",
+					"actions": "Aktionen"
+				},
+				"couponsChecked": {
+					"tableTitle": "Gutscheine überprüft",
+					"code": "Code",
+					"promotion": "Förderung",
+					"created": "Erstellt",
+					"checked": "Überprüft"
+				}
+			},
+			"customer": {
+				"customers": {
+					"tableTitle": "Kunden",
+					"name": "Name",
+					"email": "E-Mail",
+					"joined": "Verbunden",
+					"status": "Status",
+					"actions": "Aktionen",
+					"cardId": "Karten -ID"
+				},
+				"cards": {
+					"tableTitle": "Karten",
+					"cardId": "Karten -ID",
+					"joined": "Verbunden",
+					"status": "Status",
+					"actions": "Aktionen"
+				}
+			},
+			"download": {
+				"downloads": {
+					"tableTitle": "Ordner",
+					"folder": "Ordner",
+					"actions": "Aktionen"
+				}
+			},
+			"clubCard": {
+				"tableTitle": "Karten",
+				"cardId": "Karten -ID",
+				"name": "Name",
+				"email": "E-Mail",
+				"birthdate": "Geburtsdatum",
+				"created": "Erstellt",
+				"linkedStore": "Verknüpfter Laden",
+				"status": "Status",
+				"actions": "Aktionen"
+			}
+		},
+		"userMarketing": {
+			"clubCardCodeList": {
+				"tableTitle": "Clubkartenkodetabelle",
+				"code": "Kod",
+				"status": "Status"
+			},
+			"promotions": {
+				"tableTitle": "Werbeaktionen",
+				"thumb": "Daumen",
+				"promotion": "Förderung",
+				"maxCoupons": "Max -Gutscheine",
+				"created": "Erstellt",
+				"status": "Status",
+				"actions": "Aktionen"
+			},
+			"quiz": {
+				"tableTitle": "Quiz",
+				"name": "Name",
+				"points": "Punkte",
+				"country": "Land",
+				"created": "Erstellt",
+				"status": "Status",
+				"actions": "Aktionen"
+			},
+			"notification": {
+				"tableTitle": "Benachrichtigung",
+				"title": "Titel",
+				"typeUser": "Benutzerart",
+				"country": "Land",
+				"created": "Erstellt",
+				"status": "Status",
+				"actions": "Aktionen"
+			},
+			"clubCard": {
+				"tableTitle": "Karten",
+				"cardId": "Karten -ID",
+				"name": "Name",
+				"email": "E-Mail",
+				"birthdate": "Geburtsdatum",
+				"created": "Erstellt",
+				"linkedStore": "Verknüpfter Laden",
+				"status": "Status",
+				"actions": "Aktionen"
+			},
+			"productsAvailable": {
+				"tableTitle": "Produkte erhältlich",
+				"thumb": "Daumen",
+				"name": "Name",
+				"description": "Beschreibung",
+				"points": "Punkte",
+				"status": "Status",
+				"type": "Typ",
+				"actions": "Aktionen"
+			},
+			"users": {
+				"tableTitle": "Benutzer",
+				"name": "Name",
+				"email": "E-Mail",
+				"country": "Land",
+				"role": "Rolle",
+				"status": "Status",
+				"actions": "Aktionen"
+			},
+			"checkChangeShop": {
+				"columnsShopToCheck": {
+					"tableTitle": "Laden Sie ein, um zu überprüfen",
+					"customer": "Kunde",
+					"oldShop": "Alter Laden",
+					"newShop": "Neuer Laden",
+					"created": "Erstellt",
+					"reasonToChange": "Grund zu ändern",
+					"actions": "Aktionen"
+				},
+				"columnsHistoryCheckedShops": {
+					"tableTitle": "Geschichte überprüfte Geschäfte",
+					"customer": "Kunde",
+					"oldShop": "Alter Laden",
+					"newShop": "Neuer Laden",
+					"created": "Erstellt",
+					"checked": "Überprüft"
+				}
+			},
+			"targets": {
+				"moneybackTargets": {
+					"tableTitle": "Ziele",
+					"country": "Land",
+					"store": "Speichern",
+					"target": "Ziel",
+					"prize": "Preis",
+					"deadline": "Frist",
+					"progress": "Fortschritt",
+					"status": "Status",
+					"actions": "Aktionen"
+				},
+				"targetsReachedOrExpired": {
+					"tableTitle": "Ziele erreicht oder abgelaufen",
+					"country": "Land",
+					"store": "Speichern",
+					"target": "Ziel",
+					"progress": "Fortschritt",
+					"prize": "Preis",
+					"created": "Erstellt",
+					"deadline": "Frist",
+					"status": "Status"
+				}
+			},
+			"upload": {
+				"tableTitle": "Hochladen",
+				"folder": "Ordner",
+				"created": "Erstellt",
+				"actions": "Aktionen"
+			}
+		},
+		"products": {
+			"columns": {
+				"thumb": "Daumen",
+				"productName": "Produktname",
+				"description": "Beschreibung",
+				"points": "Punkte",
+				"status": "Status",
+				"actions": "Aktionen"
+			}
+		},
+		"quiz": {
+			"columns": {
+				"name": "Name",
+				"points": "Punkte",
+				"country": "Land",
+				"created": "Erstellt",
+				"status": "Status",
+				"actions": "Aktionen"
+			}
+		},
+		"stores": {
+			"columns": {
+				"name": "Name",
+				"country": "Land",
+				"region": "Region/Staat",
+				"city": "Stadt",
+				"status": "Status",
+				"lastInteraction": "Letzte Interaktion",
+				"actions": "Aktionen"
+			}
+		},
+		"users": {
+			"columns": {
+				"name": "Name",
+				"store": "Speichern",
+				"lastInteraction": "Letzte Interaktionsdatum",
+				"country": "Land",
+				"role": "Rolle",
+				"status": "Status",
+				"actions": "Aktionen"
+			}
+		},
+		"clubCard": {
+			"columns": {
+				"cardId": "Karten -ID",
+				"created": "Erstellt",
+				"linkedStore": "Verknüpfter Laden",
+				"status": "Status",
+				"actions": "Aktionen"
+			}
+		},
+		"checkChangeShop": {
+			"columns": {
+				"customer": "Kunde",
+				"oldShop": "Alter Laden",
+				"newShop": "Neuer Laden",
+				"created": "Erstellt",
+				"reasonToChange": "Grund zu ändern",
+				"status": "Status",
+				"actions": "Aktionen"
+			}
+		},
+		"targets": {
+			"columns": {
+				"country": "Land",
+				"store": "Speichern",
+				"target": "Ziel",
+				"progress": "Fortschritt",
+				"prize": "Preis",
+				"deadline": "Frist",
+				"status": "Status",
+				"actions": "Aktionen"
+			}
+		},
+		"newsletter": {
+			"columns": {
+				"title": "Newsletter -Titel",
+				"userType": "Benutzerart",
+				"country": "Land",
+				"created": "Erstellt",
+				"status": "Status",
+				"actions": "Aktionen"
+			}
+		},
+		"notification": {
+			"columns": {
+				"title": "Benachrichtigungstitel",
+				"userType": "Benutzerart",
+				"country": "Land",
+				"created": "Erstellt",
+				"status": "Status",
+				"actions": "Aktionen"
+			}
+		},
+		"downloads": {
+			"columns": {
+				"name": "Name",
+				"type": "Typ",
+				"size": "Größe",
+				"created": "Erstellt",
+				"actions": "Aktionen"
+			}
+		},
+		"pointsStatement": {
+			"columns": {
+				"description": "Beschreibung",
+				"type": "Typ",
+				"points": "Punkte",
+				"total": "Gesamt",
+				"balance": "Gleichgewicht",
+				"created": "Erstellt"
+			}
+		}
+	},
+	"store": {
+		"routes": {
+			"pointsStatement": {
+				"title": "Punkte Statement",
+				"subtitle": "Punkte Statement"
+			},
+			"coupons": {
+				"title": "Gutscheine",
+				"subtitle": "Gutscheine"
+			},
+			"customers": {
+				"title": "Kunden",
+				"subtitle": "Alle Kunden"
+			},
+			"downloads": {
+				"title": "Downloads",
+				"subtitle": "Alle Downloads"
+			},
+			"clubCard": {
+				"title": "Clubkarte",
+				"subtitle": "Alle Clubkarten"
+			}
+		},
+		"storeDashboard": {
+			"welcomeBack": "Willkommen zurück,",
+			"storeNameLabel": "Speichern:",
+			"enterStock": "Geben Sie Produkte auf Lager ein",
+			"scanCard": "Scan Club Card",
+			"cardNotFound": "Clubkartenbenutzer nicht gefunden!",
+			"scanClubCard": "Scannen oder Geben Sie Clubkartencode ein",
+			"summary": {
+				"storeTotalPoints": "Gesamtpunkte speichern",
+				"shopkeeperTotalPoints": "Ladenbesitzer Gesamtpunkte",
+				"activeCustomers": "Aktive Kunden",
+				"inactiveCustomers": "Inaktive Kunden",
+				"couponsToValidate": "Gutscheine (um zu validieren)",
+				"couponsValidated": "Gutscheine (validiert)"
+			},
+			"quickAccess": {
+				"customers": "Schneller Zugriff auf die Kundenseite",
+				"coupons": "Gutscheine verwalten",
+				"promotions": "Siehe verfügbare Werbeaktionen"
+			},
+			"targets": {
+				"prizeRequested": "Preis erfolgreich gewünscht!",
+				"reached": "Erreicht!",
+				"pointsInTarget": "Punkte in diesem Ziel",
+				"requestPrize": "Ziel erreicht! Klicken Sie hier, um den Preis anzufordern!",
+				"prizeRequestedWarning": "Preis angefordert!"
+			}
+		},
+		"storePointsTable": {
+			"title": "Punkte Statement - Store",
+			"entriesDropdown": "Einträge pro Seite",
+			"searchPlaceholder": "Suchen...",
+			"descriptionColumn": "Punktregistrierung",
+			"typeColumn": "Typ",
+			"pointsColumn": "Punkte",
+			"quantityColumn": "Menge",
+			"totalColumn": "Gesamt",
+			"balanceColumn": "Gleichgewicht",
+			"createdColumn": "Erstellt"
+		},
+		"storeStock": {
+			"title": "Aktie",
+			"entriesDropdown": "Einträge pro Seite",
+			"searchPlaceholder": "Suchen...",
+			"productColumn": "Produkt",
+			"lastUpdateColumn": "Letztes Update",
+			"inputColumn": "Eingang",
+			"outputColumn": "Ausgabe",
+			"totalColumn": "Gesamt"
+		},
+		"quiz": {
+			"title": "Quiz",
+			"description": "Alle erstellten Quises",
+			"unansweredQuizzes": "Unbeantwortete Quizen",
+			"answeredQuizzes": "Antwortete quiz",
+			"tableEntriesDropdown": "Einträge pro Seite",
+			"searchPlaceholder": "Suchen...",
+			"tableNameColumn": "Name",
+			"tablePointsColumn": "Punkte",
+			"tableCreatedColumn": "Erstellt",
+			"tableAnsweredColumn": "Antwortete",
+			"tableActionsColumn": "Aktionen",
+			"reply": "Antwort",
+			"pagination": {
+				"showing": "Zeigen",
+				"to": "Zu",
+				"of": "von",
+				"entries": "Einträge"
+			}
+		},
+		"notification": {
+			"title": "Benachrichtigungszentrum",
+			"description": "Überprüfen Sie Ihr Benachrichtigungszentrum regelmäßig, damit Sie keine unserer Nachrichten verpassen!",
+			"allNotifications": "Alle Benachrichtigungen",
+			"emptyState": "Keine Benachrichtigungen verfügbar",
+			"dateLabel": "Datum"
+		},
+		"notificationDetail": {
+			"title": "Benachrichtigungsdetails",
+			"backButton": "Zurück",
+			"linkText": "klicken Sie hier",
+			"linkComplement": "eintreten"
+		},
+		"pointsStatement": {
+			"title": "Punkte Statement",
+			"description": "Siehe Pontuation History",
+			"userStoreTitle": "Punktanweisung - Benutzerspeicher",
+			"addProductButton": "Geben Sie Produkte auf Lager ein",
+			"table": {
+				"entriesDropdown": "Einträge pro Seite",
+				"searchInput": "Suchen...",
+				"descriptionColumn": "Punktregistrierung",
+				"typeColumn": "Typ",
+				"pointsColumn": "Punkte",
+				"quantityColumn": "Menge",
+				"totalColumn": "Gesamt",
+				"balanceColumn": "Gleichgewicht",
+				"createdColumn": "Erstellt"
+			}
+		},
+		"productScan": {
+			"title": "Produktscan",
+			"subtitle": "Geben Sie Produkte auf Lager ein",
+			"backButton": "Zurück",
+			"barcodePlaceholder": "SCANS- oder Geben Sie Barcode ein",
+			"dropdownPlaceholder": "Wählen Sie aus der Produktliste",
+			"productNameLabel": "Produktname",
+			"quantityLabel": "Menge",
+			"stockLabel": "Insgesamt auf Lager",
+			"addItemButton": "Artikel hinzufügen",
+			"pointsLabel": "Produktpunkte für den Laden",
+			"submitButton": "Einreichen",
+			"stockSuccess": "Produkt registriert, um erfolgreich auf Lager zu werden!",
+			"productNotFound": "Produkt nicht von Barcode gefunden!",
+			"productNotFoundList": "Produkt nicht auf der verfügbaren Produktliste gefunden!",
+			"productNotOnStock": "Produkt nicht auf Lager!",
+			"productQuantityAdjusted": "Menge, die auf das auf Lager verfügbare maximale verfügbare Menge eingestellt ist",
+			"totalPointsCustomer": "Gesamtpunkte Kunde",
+			"table": {
+				"productColumn": "Produkt",
+				"quantityColumn": "Menge",
+				"pointsColumn": "Punkte",
+				"actionColumn": "Aktion"
+			}
+		},
+		"coupons": {
+			"title": "Gutscheine",
+			"subtitle": "Gutscheine, um zu validieren und Artikel verteilt",
+			"itemsToCheckTitle": "Artikel zu überprüfen",
+			"historyCheckedTitle": "Geschichte der überprüften Gegenstände",
+			"entriesDropdown": "Einträge pro Seite",
+			"searchPlaceholder": "Suchen...",
+			"itemRedeemed": "Artikel erfolgreich eingelöst!",
+			"tableToCheck": {
+				"codeColumn": "Code",
+				"itemColumn": "Artikel",
+				"amountColumn": "Menge",
+				"dateColumn": "Datum",
+				"customerColumn": "Kunde",
+				"actionsColumn": "Aktionen",
+				"viewTooltip": "Details anzeigen",
+				"validateTooltip": "Gutschein validieren"
+			},
+			"tableChecked": {
+				"codeColumn": "Code",
+				"promotionColumn": "Förderung",
+				"createdColumn": "Erstellt",
+				"checkedDateColumn": "Überprüftes Datum",
+				"itemColumn": "Artikel",
+				"amountColumn": "Menge",
+				"customerColumn": "Kunde"
+			}
+		},
+		"couponsDetailsModal": {
+			"title": "Gutscheininfo",
+			"promoLabel": "Promo",
+			"descriptionLabel": "Beschreibung",
+			"customerLabel": "Kunde",
+			"createdLabel": "Erstellt",
+			"closeButton": "Schließen"
+		},
+		"customers": {
+			"title": "Kunden",
+			"subtitle": "Alle Kunden",
+			"saleSubmited": "Verkauf eingereicht erfolgreich!",
+			"table": {
+				"title": "Kunden",
+				"entriesDropdown": "Einträge pro Seite",
+				"searchInput": "Suchen...",
+				"nameColumn": "Name",
+				"emailColumn": "E-Mail",
+				"joinedColumn": "Verbunden",
+				"statusColumn": "Status",
+				"actionsColumn": "Aktionen",
+				"viewTooltip": "Details anzeigen",
+				"purchaseTooltip": "Kaufgeschichte"
+			},
+			"cards": {
+				"title": "Karten",
+				"entriesDropdown": "Einträge pro Seite",
+				"searchInput": "Suchen...",
+				"cardIdColumn": "Karten -ID",
+				"nameColumn": "Name",
+				"emailColumn": "E-Mail",
+				"birthdateColumn": "Geburtsdatum",
+				"createdColumn": "Erstellt",
+				"linkedStoreColumn": "Verknüpfter Laden",
+				"statusColumn": "Status",
+				"actionsColumn": "Aktionen",
+				"editTooltip": "Bearbeiten",
+				"viewTooltip": "Details anzeigen"
+			},
+			"customerInfoModal": {
+				"title": "Benutzerinformationen",
+				"name": "Name",
+				"email": "E-Mail",
+				"sex": "Sex",
+				"birthdate": "Geburtsdatum",
+				"closeButton": "Schließen"
+			},
+			"promotions": {
+				"title": "Werbeaktionen",
+				"description": "Alle verfügbaren Werbeaktionen",
+				"table": {
+					"title": "Werbeaktionen",
+					"entriesDropdown": "Einträge pro Seite",
+					"searchInput": "Suchen...",
+					"columns": {
+						"thumb": "Daumen",
+						"promotion": "Förderung",
+						"coupons": "Gutscheine",
+						"created": "Erstellt",
+						"actions": "Aktionen"
+					},
+					"emptyMessage": "Keine Werbeaktionen gefunden."
+				}
+			},
+			"downloads": {
+				"title": "Downloads",
+				"description": "Geben Sie Ordner ein und laden Sie Dateien herunter",
+				"table": {
+					"title": "Ordner",
+					"entriesDropdown": "Einträge pro Seite",
+					"searchInput": "Suchen...",
+					"columns": {
+						"folder": "Ordner",
+						"actions": "Aktionen"
+					},
+					"emptyMessage": "Keine Ordner gefunden."
+				}
+			},
+			"archives": {
+				"title": "Archiv",
+				"download": "Herunterladen",
+				"allCountries": "Alle Länder",
+				"allUsers": "Alle Benutzer",
+				"table": {
+					"entriesDropdown": "Einträge pro Seite",
+					"searchInput": "Suchen...",
+					"columns": {
+						"archive": "Archiv",
+						"created": "Erstellt",
+						"userType": "Benutzerart",
+						"country": "Land",
+						"actions": "Aktionen"
+					},
+					"emptyMessage": "Keine Archive gefunden."
+				},
+				"backButton": "Zurück"
+			},
+			"clubCard": {
+				"title": "Clubkarte",
+				"subtitle": "Alle Karten",
+				"table": {
+					"entriesDropdown": "Einträge pro Seite",
+					"searchInput": "Suchen...",
+					"columns": {
+						"cardId": "Karten -ID",
+						"name": "Name",
+						"email": "E-Mail",
+						"birthdate": "Geburtsdatum",
+						"created": "Erstellt",
+						"linkedStore": "Verknüpfter Laden",
+						"status": "Status",
+						"actions": "Aktionen"
+					},
+					"emptyMessage": "Keine Karten gefunden."
+				}
+			},
+			"clubCardModal": {
+				"title": "Karte hinzufügen",
+				"codePlaceholder": "Code",
+				"createdAtLabel": "Erstellt at",
+				"namePlaceholder": "Name",
+				"lastNamePlaceholder": "Nachname",
+				"emailPlaceholder": "E-Mail",
+				"birthdatePlaceholder": "Yjyy/mm/dd",
+				"buttons": {
+					"close": "SCHLIESSEN",
+					"save": "SPEICHERN"
+				}
+			}
+		}
+	},
+	"customer": {
+		"customerDashboard": {
+			"welcome": "Willkommen zurück",
+			"generateCouponButton": "Erstellen Sie kostenlosen Gutschein",
+			"exchangePointsTitle": "Austauschpunkte",
+			"quizCard": {
+				"title": "Quiz",
+				"description": "Beantworten Sie Quiz und verdienen Sie Punkte!"
+			},
+			"notificationsCard": {
+				"title": "Benachrichtigungen",
+				"description": "Machen Sie mit unseren neuesten Updates auf dem Laufenden!"
+			},
+			"updateProfileCard": {
+				"title": "Profil aktualisieren",
+				"description": "Vervollständigen Sie Ihr Profil und verdienen Sie jetzt Punkte!"
+			},
+			"pointsStatement": {
+				"title": "Punkte Erklärung - Kunde",
+				"table": {
+					"description": "Punkte Registrierung",
+					"type": "Typ",
+					"points": "Punkte",
+					"quantity": "Menge",
+					"total": "Gesamt",
+					"balance": "Gleichgewicht",
+					"created": "Erstellt"
+				}
+			},
+			"couponHistory": {
+				"title": "Gutscheingeschichte",
+				"table": {
+					"key": "Schlüsselcode",
+					"item": "Artikel",
+					"promotion": "Förderung",
+					"store": "Speichern",
+					"createdAt": "Erstellt at",
+					"checked": "Überprüft",
+					"checkedDate": "Überprüftes Datum",
+					"yes": "Ja",
+					"no": "NEIN"
+				}
+			}
+		},
+		"promotionsPage": {
+			"title": "Werbeaktionen",
+			"subtitle": "Alle verfügbaren Werbeaktionen",
+			"noPromotionsTitle": "Im Moment keine Werbeaktionen!",
+			"noPromotionsDescription": "Derzeit haben wir keine Werbeaktionen zur Verfügung. Bitte bleiben Sie auf dem Laufenden, da wir ständig neue Angebote anbieten.",
+			"couponGenerated": "Gutschein erfolgreich generiert!",
+			"enjoy": "Genieße deine",
+			"copied": "Gutscheincode kopiert in die Zwischenablage!",
+			"couponGeneratedInit": "Sie haben bereits einen generierten Gutschein für diese Aktion: Verwenden Sie den Code",
+			"couponGeneratedEnd": "in Ihrem Geschäft, um Ihren Artikel einzulösen."
+		},
+		"quizPage": {
+			"title": "Quiz",
+			"subtitle": "Alle erstellten Quises",
+			"unansweredTitle": "Unbeantwortete Quizen",
+			"answeredTitle": "Antwortete quiz",
+			"table": {
+				"name": "Name",
+				"points": "Punkte",
+				"created": "Erstellt",
+				"answered": "Antwortete",
+				"actions": "Aktionen"
+			},
+			"pagination": {
+				"showing": "Anzeigen {Start} bis {End} von {Total} Einträgen"
+			},
+			"searchPlaceholder": "Suchen...",
+			"question": "Frage"
+		},
+		"customerNotificationsPage": {
+			"title": "Benachrichtigungszentrum",
+			"subtitle": "Überprüfen Sie Ihr Benachrichtigungszentrum regelmäßig, damit Sie keine unserer Nachrichten verpassen!",
+			"allNotifications": "Alle Benachrichtigungen"
+		},
+		"notificationDetailsPage": {
+			"title": "Benachrichtigungsdetails",
+			"back": "Zurück",
+			"linkPrefix": "klicken Sie hier",
+			"linkSuffix": "eintreten"
+		},
+		"exchangePointsPage": {
+			"title": "Austauschpunkte",
+			"subtitle": "Alle Austauschpunkte verfügbar",
+			"pointsSuffix": "Punkte"
+		},
+		"exchangePointsDetailsPage": {
+			"title": "Austauschpunkte Details",
+			"enjoyText": "Genießen Sie Ihren {productName}!",
+			"amount": "Menge",
+			"totalPoints": "Gesamtpunkte",
+			"generateCoupon": "Gutschein erstellen",
+			"back": "Zurück"
+		},
+		"couponsPage": {
+			"title": "Gutscheine",
+			"subtitle": "Gutscheine, um zu validieren und Artikel verteilt",
+			"table": {
+				"title": "Gutscheingeschichte",
+				"columns": {
+					"keyCode": "Schlüsselcode",
+					"item": "Artikel",
+					"promotion": "Förderung",
+					"store": "Speichern",
+					"createdAt": "Erstellt at",
+					"checked": "Überprüft",
+					"checkedDate": "Überprüftes Datum"
+				}
+			},
+			"pagination": {
+				"showing": "Anzeigen {Start} bis {End} von {Total} Einträgen"
+			}
+		},
+		"changeShopPage": {
+			"title": "Shop wechseln",
+			"subtitle": "Möchten Sie die Geschäfte wechseln? Informieren Sie uns!",
+			"form": {
+				"country": "Wählen Sie Land",
+				"store": "Wählen Sie Store",
+				"reason": "Beschreiben Sie Ihren Grund, den Laden zu wechseln",
+				"submit": "Änderung anfordern",
+				"changeShopRequested": "Ändern Sie die Shop -Anfrage, die erfolgreich erstellt wurde!"
+			},
+			"history": {
+				"title": "Geschichte verändern",
+				"table": {
+					"columns": {
+						"oldShop": "Alter Laden",
+						"newShop": "Neuer Laden",
+						"requestDate": "Antragsdatum",
+						"reason": "Grund",
+						"status": "Status"
+					}
+				},
+				"pagination": {
+					"showing": "Anzeigen {Start} bis {End} von {Total} Einträgen"
+				}
+			}
+		},
+		"downloadsPage": {
+			"title": "Downloads",
+			"subtitle": "Geben Sie Ordner ein und laden Sie Dateien herunter",
+			"table": {
+				"columns": {
+					"folder": "Ordner",
+					"actions": "Aktionen"
+				},
+				"pagination": {
+					"showing": "Anzeigen {Start} bis {End} von {Total} Einträgen"
+				},
+				"searchPlaceholder": "Suchen..."
+			}
+		}
+	},
+	"accountProfile": {
+		"profilePic": "Profilbild",
+		"language": "Wählen Sie Sprache",
+		"password": "Kennwort ändern",
+		"currentPassword": "Aktuelles Passwort",
+		"newPassword": "Neues Passwort",
+		"repeatPassword": "Neues Passwort wiederholen",
+		"passwordsMatch": "Passwörter müssen übereinstimmen!",
+		"changeEmail": "E-Mail ändern",
+		"currentEmail": "Aktuelle E -Mail",
+		"newEmail": "Neue E-Mail",
+		"informNewPassword": "Informieren Sie Ihr neues Passwort!"
+	},
+	"enums": {
+		"clubCardCodeList": {
+			"validated": "Bestätigt",
+			"notValidated": "Nicht verwendet"
+		},
+		"status": {
+			"active": "Aktiv",
+			"disabled": "Deaktiviert"
+		},
+		"couponType": {
+			"promo": "Promo",
+			"withPoints": "Mit Punkten"
+		},
+		"moneyBackStatus": {
+			"targetDisabled": "Deaktiviert",
+			"targetInProgress": "Im Gange"
+		},
+		"customersStatus": {
+			"activated": "Aktiviert",
+			"disabled": "Deaktiviert"
+		},
+		"extractOperator": {
+			"addition": "Zusatz",
+			"deduction": "Abzug"
+		},
+		"inviteStatus": {
+			"sent": "Gesendet",
+			"accepted": "Akzeptiert"
+		},
+		"productType": {
+			"clothing": "Kleidung",
+			"other": "Sonstiges"
+		},
+		"newsletterStatus": {
+			"send": "Schicken",
+			"draft": "Entwurf"
+		},
+		"newsletterUserType": {
+			"all": "Alle",
+			"store": "Speichern",
+			"customer": "Kunde"
+		},
+		"notificationStatus": {
+			"activated": "Aktiviert",
+			"disabled": "Deaktiviert"
+		},
+		"quizStatus": {
+			"unpublished": "Unveröffentlicht",
+			"published": "Veröffentlicht"
+		},
+		"shopStatus": {
+			"waiting": "Warten",
+			"accepted": "Akzeptiert",
+			"refused": "Abgelehnt"
+		},
+		"situation": {
+			"accepted": "Akzeptiert",
+			"rejected": "Abgelehnt",
+			"pending": "Ausstehend"
+		},
+		"targetStatus": {
+			"targetReached": "Erreicht",
+			"targetExpired": "Abgelaufen"
+		},
+		"userType": {
+			"customer": "Kunde",
+			"store": "Speichern",
+			"marketing": "Marketing"
+		}
+	},
+	"passwordValidation": {
+		"upperCase": "Großbuchstaben",
+		"lowerCase": "Kleinbuchstaben",
+		"specialCharacters": "Sonderzeichen",
+		"numbers": "Zahlen",
+		"shouldContain": "Ihr Passwort sollte enthalten:",
+		"length": "mindestens 6 Zeichen lang",
+		"validEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+	}
+}

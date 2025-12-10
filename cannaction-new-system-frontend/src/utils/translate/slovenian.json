@@ -1,0 +1,1709 @@
+{
+	"general": {
+		"submit": "Oddaj",
+		"tableFooter": {
+			"tableFooterShow": "Prikazati",
+			"tableFooterTo": "do",
+			"tableFooterOf": "od",
+			"tableFooterEntries": "Vpisi"
+		},
+		"informationIcon": {
+			"icon": "Izberite Slike Naložite samo slike z .JPG, .JPEG, .PNG in GIF podaljški in velikost manj kot 150kb, največja širina: 1024px in največja višina: 768px"
+		},
+		"active": "Aktivno",
+		"disabled": "Invalid",
+		"noImage": "Nobena slika ni naložena. Kliknite spodaj, da dodate sliko.",
+		"createFirst": "Ustvari najprej za dodajanje slike.",
+		"uploadNewImage": "Naložite novo sliko",
+		"clubCardNoPassword": "Uporabnik klubske kartice nima gesla!",
+		"clubCardUserFound": "Najdeno uporabnik klubske kartice! Vnesite geslo."
+	},
+	"cannaction": {
+		"samples": "Pridobite vzorce brezplačno, natisnite promocijske kode, nabirate točke, dobite nagrade,\nin še veliko več.",
+		"howItWorks": "Kako deluje",
+		"about": "Približno",
+		"masterclass": "Mojstrski razred"
+	},
+	"login": {
+		"welcome": "Dobrodošli v",
+		"signIn": "Prijavite se za nadaljevanje.",
+		"shareEmail": "Nikoli ne bomo delili vašega e -poštnega sporočila z nikomer drugim.",
+		"forgotPassword": "Ste pozabili geslo?",
+		"noAccount": "Še nimate računa?",
+		"register": "Pridružite se klubu tukaj",
+		"emailNickname": "Vaš e -poštni naslov ali vzdevek",
+		"password": "Vaše geslo",
+		"passwordMailSent": "Poslali smo vam e-pošto z vašim novim geslom!"
+	},
+	"register": {
+		"errors": {
+			"termsConditions": "Pogoji in pogoji so potrebni",
+			"privacyPolicy": "Politika zasebnosti je potrebna",
+			"userType": "Vrsta uporabnika je potrebna",
+			"firstName": "Potrebno je ime",
+			"lastName": "Priimek je potreben",
+			"store": "Store je potrebna za kupca",
+			"country": "Država je potrebna",
+			"language": "Jezik je potreben",
+			"nickname": "Ime nick je potrebno",
+			"email": "E -pošta je potrebna",
+			"password": "Vnesite geslo.",
+			"passwordNotMatch": "Gesla se ne ujemajo."
+		},
+		"userCreated": "Uporabnik je uspešno ustvaril!",
+		"previous": "Prejšnji",
+		"next": "Naslednji"
+	},
+	"marketing": {
+		"routes": {
+			"dashboard": {
+				"subtitle": "Pregled in povzetek"
+			},
+			"downloads": {
+				"subtitle": "Vnesite mape in prenesite datoteke"
+			},
+			"archives": {
+				"subtitle": "Arhivsko upravljanje"
+			},
+			"promoReport": {
+				"subtitle": "Izročeni predmeti"
+			},
+			"salesReport": {
+				"subtitle": "Po izdelkih"
+			},
+			"promotions": {
+				"subtitle": "Vse na voljo promocije",
+				"detailsTitle": "Podrobnosti o promociji"
+			},
+			"redeemedItems": {
+				"subtitle": "Preveriti"
+			},
+			"productsAvailable": {
+				"subtitle": "Na voljo izdelki",
+				"detailsTitle": "Podrobnosti o izdelku"
+			},
+			"quiz": {
+				"subtitle": "Vsi ustvarjeni kvizi",
+				"detailsTitle": "Podrobnosti o kvizu",
+				"editTitle": "Uredi kviz",
+				"replyTitle": "Kviz odgovora",
+				"reportTitle": "Kviz poročilo"
+			},
+			"stores": {
+				"subtitle": "Vse trgovine",
+				"detailsTitle": "Podrobnosti o shranjevanju"
+			},
+			"users": {
+				"subtitle": "Uporabniško poročilo",
+				"detailsTitle": "Podrobnosti o uporabniku"
+			},
+			"checkChangeShop": {
+				"subtitle": "Preverite poročilo o spremembah"
+			},
+			"profilePunctuation": {
+				"subtitle": "Upravljanje točk"
+			},
+			"upload": {
+				"subtitle": "Ustvarite mape in naložite datoteke"
+			},
+			"targets": {
+				"subtitle": "Vse cilje"
+			},
+			"newsletter": {
+				"subtitle": "Vse glasila"
+			},
+			"notification": {
+				"subtitle": "Vsa obvestila",
+				"detailsTitle": "Podrobnosti o obvestilu"
+			},
+			"coupons": {
+				"subtitle": "Kuponi za preverjanje in predmeti"
+			},
+			"pointsStatement": {
+				"subtitle": "Glej zgodovino Pontution"
+			},
+			"salesPointsStatement": {
+				"subtitle": "Po izdelkih"
+			},
+			"customers": {
+				"subtitle": "Vse stranke",
+				"detailsTitle": "Podrobnosti o strankah"
+			},
+			"exchangePoints": {
+				"subtitle": "Na voljo so vse menjalne točke",
+				"detailsTitle": "Podrobnosti o menjalnih točkah"
+			},
+			"inviteFriend": {
+				"subtitle": "Pošljite povabilo vsem prijateljem"
+			},
+			"changeShop": {
+				"subtitle": "Ali želite zamenjati trgovine? Obvestite nas!"
+			},
+			"generalReport": {
+				"subtitle": "Splošno poročilo"
+			},
+			"permissions": {
+				"subtitle": "Dovoljenja"
+			}
+		},
+		"dashboard": {
+			"title": "Armaturna plošča",
+			"description": "Pregled in povzetek",
+			"cannapediaTitleBox": "Cannapedia",
+			"cannapediaDescriptionBox": "Dostop do operativne dokumentacije sistema",
+			"storesTitleBox": "Trgovine",
+			"storesDescriptionBox": "Upravljanje trgovin",
+			"targetsTitleBox": "Cilje",
+			"targetsDescriptionBox": "Hiter dostop do armaturne plošče",
+			"usersTitleBox": "Uporabniki",
+			"usersDescriptionBox": "Hiter dostop do uporabniške plošče",
+			"storeTargets": {
+				"storeTargetReached": "Shranjeni cilj je dosežen!",
+				"store": "Shramba",
+				"target": "Cilj",
+				"prizeMoney": "Nagradni denar",
+				"prizeItem": "Nagradni element",
+				"limitDate": "Omejitveni datum",
+				"confirmTarget": "Potrdite cilj"
+			},
+			"userTargets": {
+				"targetReached": "Cilj dosežen!",
+				"user": "Uporabnik"
+			},
+			"shopsTableTitle": "Trgovine na državo",
+			"shopsCount": "Štetje trgovine",
+			"shopsTableCountryColumn": "Država",
+			"shopsTableActiveColumn": "Aktivno",
+			"shopsTableInactiveColumn": "Neaktiven",
+			"shopsTableTotalColumn": "Skupaj",
+			"usersTableTitle": "Uporabniki na državo",
+			"usersCount": "Uporabniki štejejo",
+			"usersTableCountryColumn": "Država",
+			"usersTableActiveColumn": "Aktivno",
+			"usersTableInactiveColumn": "Neaktiven",
+			"usersTableTotalColumn": "Skupaj",
+			"salesTitle": "Prodaja",
+			"byStore": "s trgovino",
+			"bestSellingTitle": "Najbolje prodajani izdelki",
+			"noSalesYet": "Še ni prodaje!",
+			"byYear": "Po letu"
+		},
+		"promoReport": {
+			"title": "Promocijsko poročilo",
+			"description": "Izročeni predmeti",
+			"ItemDropDown": "Izberite element",
+			"CountryDropDown": "Izberite državo",
+			"StoreDropDown": "Izberite trgovino",
+			"dateInit": "Datum init",
+			"dateEnd": "Konec datuma",
+			"filterButton": "Filter",
+			"clearButton": "Jasno",
+			"couponsTableTitle": "Kuponi",
+			"exchange": "Menjava",
+			"couponsTableEntriesDropdown": "Vnosi na stran",
+			"couponsTableSearchInput": "Iskanje ...",
+			"couponsTableCodeColumn": "Koda",
+			"couponsTableItemColumn": "Predmet",
+			"couponsTableDateColumn": "Datum",
+			"couponsTableCustomerColumn": "Stranka",
+			"couponsTableStoreColumn": "Shramba",
+			"couponsTableCountryColumn": "Država",
+			"couponsTableActionsColumn": "Dejanja",
+			"actionsColumnDetailsTooltip": "Podrobnosti",
+			"detailsModalTitle": "Informacije o kuponu",
+			"detailsModalPromo": "Promo",
+			"detailsModalDescription": "Opis",
+			"detailsModalCustomer": "Stranka",
+			"detailsModalStore": "Shramba",
+			"detailsModalCountry": "Država"
+		},
+		"salesReport": {
+			"title": "Prodajno poročilo",
+			"description": "Po izdelkih",
+			"byStore": "S trgovino",
+			"byProduct": "Po izdelku",
+			"ItemDropDown": "Izberite element",
+			"CountryDropDown": "Izberite državo",
+			"StoreDropDown": "Izberite trgovino",
+			"dateInit": "Datum init",
+			"dateEnd": "Konec datuma",
+			"filterButton": "Filter",
+			"clearButton": "Jasno",
+			"salesTableTitle": "Prodaja",
+			"salesTableEntriesDropdown": "Vnosi na stran",
+			"salesTableSearchInput": "Iskanje ...",
+			"salesTableStoresColumn": "Trgovine",
+			"salesTableCountryColumn": "Država",
+			"salesTableSalesColumn": "Prodaja",
+			"salesTablePercentColumn": "Odstotek (%)",
+			"salesGraphic": "Prodajna grafika",
+			"salesGraphicCountry": "Prodajna grafika po državi",
+			"columns": {
+				"stores": "Trgovine",
+				"products": "Izdelki",
+				"country": "Država",
+				"sales": "Prodaja",
+				"percent": "Odstotek (%)"
+			}
+		},
+		"promotions": {
+			"title": "Promocije",
+			"description": "Vse na voljo promocije",
+			"promotionsTableTitle": "Promocije",
+			"promotionsTableAddButtonTooltip": "Dodaj",
+			"promotionsTableEntriesDropdown": "Vnosi na stran",
+			"promotionsTableSearchInput": "Iskanje ...",
+			"promotionsTableThumbColumn": "Palec",
+			"promotionsTablePromotionColumn": "Proti",
+			"promotionsTableCouponsColumn": "Kuponi",
+			"promotionsTableCreatedColumn": "Ustvarjen",
+			"promotionsTableStatusColumn": "Status",
+			"promotionsTableActionsColumn": "Dejanja",
+			"actionsColumnMoreTooltip": "Več",
+			"actionsColumnRemoveTooltip": "Odstraniti",
+			"actionsMoreButtonDisable": "Onemogoči",
+			"actionsMoreButtonDetails": "Podrobnosti",
+			"actionsMoreButtonEdit": "Uredi",
+			"promotionUpdated": "Status promocije je uspešno posodobljen!",
+			"promotionDeleted": "Promocija uspešno izbriše!",
+			"promotionDeleteConfirm": "Ali ste prepričani, da želite izbrisati to promocijo? Tega dejanja ni mogoče razveljaviti.",
+			"promotionDelete": "Izbriši promocijo",
+			"columns": {
+				"code": "Koda",
+				"promotion": "Proti",
+				"item": "Predmet",
+				"date": "Datum",
+				"customer": "Stranka",
+				"store": "Shramba",
+				"country": "Država",
+				"actions": "Dejanja"
+			}
+		},
+		"addPromotion": {
+			"title": "Dodaj promocijo",
+			"backButton": "Nazaj",
+			"promotionThumb": "Promocijski palec",
+			"dropImagem": "Spusti in pad",
+			"PromotionInformation": "Informacije o promociji",
+			"itemListDropdown": "Seznam elementov",
+			"nameInput": "Ime",
+			"emailInput": "E -pošta",
+			"countryDropDown": "Država",
+			"couponsInput": "Kuponi",
+			"beginDateInput": "Začnite datum",
+			"endDateInput": "Končni datum",
+			"storesDropdown": "Trgovine",
+			"cancelButton": "Odpovedati",
+			"submitButton": "Oddaj",
+			"promotionThumbUpdate": "Promocijski palec uspešno posodobljen!",
+			"promotionMaxCoupons": "Promocija Največji kuponi",
+			"selectAll": "Izberite vse"
+		},
+		"editPromotion": {
+			"title": "Uredi promocijo"
+		},
+		"redeemedItems": {
+			"title": "Odkupljeni predmeti",
+			"description": "Preveriti",
+			"itemsCheckTableTitle": "Predmete za preverjanje",
+			"itemsCheckTableEntriesDropdown": "Vnosi na stran",
+			"itemsCheckTableSearchInput": "Iskanje ...",
+			"itemsCheckTableCodeColumn": "Koda",
+			"itemsCheckTablePromotionColumn": "Proti",
+			"itemsCheckTableCreatedColumn": "Ustvarjen",
+			"itemsCheckTableCustomerColumn": "Stranka",
+			"itemsCheckTableStoreColumn": "Shramba",
+			"itemsCheckTableLocationColumn": "Lokacija",
+			"itemsCheckTableActionsColumn": "Dejanja",
+			"historyCheckedTableTitle": "Zgodovina preverjenih predmetov",
+			"historyCheckedTableEntriesDropdown": "Vnosi na stran",
+			"historyCheckedTableSearchInput": "Iskanje ...",
+			"historyCheckedTableCodeColumn": "Koda",
+			"historyCheckedTablePromotionColumn": "Proti",
+			"historyCheckedTableCreatedColumn": "Ustvarjen",
+			"historyCheckedTableCustomerColumn": "Stranka",
+			"historyCheckedTableStoreColumn": "Shramba",
+			"historyCheckedTableLocationColumn": "Lokacija",
+			"historyCheckedTableActionsColumn": "Dejanja",
+			"itemRedeemed": "Predmet je uspešno unovčil!",
+			"columns": {
+				"code": "Koda",
+				"promotion": "Proti",
+				"created": "Ustvarjen",
+				"checked": "Preverjeno",
+				"customer": "Stranka",
+				"store": "Shramba",
+				"location": "Lokacija",
+				"actions": "Dejanja"
+			}
+		},
+		"productsAvailable": {
+			"title": "Na voljo izdelki",
+			"description": "Na voljo izdelki",
+			"productsTableTitle": "Izdelki",
+			"productsTableAddButtonTootip": "Dodaj",
+			"productsTableEntriesDropdown": "Vnosi na stran",
+			"productsTableSearchInput": "Iskanje ...",
+			"productsTableThumbColumn": "Palec",
+			"productsTableProductNameColumn": "Ime izdelka",
+			"productsTableDescriptionColumn": "Opis",
+			"productsTablePointsColumn": "Točke",
+			"productsTableStatusColumn": "Status",
+			"productsTableActionsColumn": "Dejanja",
+			"actionsMoreButtonActivate": "Aktivirajte",
+			"actionsMoreButtonDisable": "Onemogoči",
+			"actionsMoreButtonDetails": "Podrobnosti",
+			"actionsMoreButtonEdit": "Uredi",
+			"productRemoved": "Izdelek uspešno odstranjen!",
+			"productStatus": "Status izdelka se je uspešno spremenil!",
+			"productDeleteConfirm": "Ali ste prepričani, da želite izbrisati ta izdelek? Tega dejanja ni mogoče razveljaviti.",
+			"productDelete": "Izbriši element"
+		},
+		"addProduct": {
+			"title": "Dodaj izdelek",
+			"backButton": "Nazaj",
+			"productThumb": "TALK",
+			"dropImagem": "Spusti in pad",
+			"productInformation": "Informacije o izdelku",
+			"productCategoryDropdown": "Kategorija izdelka",
+			"nameInput": "Ime izdelka",
+			"descriptionInput": "Opis izdelka",
+			"pointsInput": "Točke",
+			"maxCouponsInput": "Največ kuponov",
+			"barCodeInput": "Črtna koda",
+			"cancelButton": "Odpovedati",
+			"submitButton": "Oddaj",
+			"itemThumbUpdate": "Palec za element uspešno posodobljen!",
+			"productSize": "Velikost izdelka",
+			"productType": "Vrsta izdelka"
+		},
+		"editProduct": {
+			"title": "Uredi izdelek"
+		},
+		"Quiz": {
+			"title": "Kviz",
+			"description": "Vsi ustvarjeni kvizi",
+			"quizTableTitle": "Kviz",
+			"quizTableAddButtonTooltip": "Dodaj",
+			"quizTableEntriesDropdown": "Vnosi na stran",
+			"quizTableSearchInput": "Iskanje ...",
+			"quizTableNameColumn": "Ime",
+			"quizTablePointsColumn": "Točke",
+			"quizTableCountryColumn": "Država",
+			"quizTableCreatedColumn": "Ustvarjen",
+			"quizTableStatusColumn": "Status",
+			"quizTableActionsColumn": "Dejanja",
+			"actionsColumnMoreTooltip": "Več",
+			"actionsColumnViewReportTooltip": "Poročilo",
+			"actionsColumnRemoveTooltip": "Odstraniti",
+			"actionsMoreButtonActivate": "Aktivirajte",
+			"actionsMoreButtonDisable": "Onemogoči",
+			"actionsMoreButtonDetails": "Podrobnosti",
+			"actionsMoreButtonEdit": "Uredi",
+			"quizStatus": "Status kviza je uspešno posodobljen!",
+			"quizDeleted": "Kviz uspešno izbrisan!",
+			"quizRemoveConfirm": "Ste prepričani, da želite izbrisati ta kviz? Tega dejanja ni mogoče razveljaviti.",
+			"quizRemove": "Izbriši kviz"
+		},
+		"addQuiz": {
+			"addQuiz": "Dodaj kviz",
+			"quizInfo": "Podatki o kvizu",
+			"questionText": "Vprašanje besedila",
+			"typeQuestion": "Vrsta vprašanja",
+			"addQuestion": "Dodaj vprašanje",
+			"removeQuestion": "Odstranite vprašanje",
+			"text": "Besedilo",
+			"select": "Izberite",
+			"separateQuestions": "Vprašanja ločite s podpičjem",
+			"quizName": "Ime kviza"
+		},
+		"Stores": {
+			"title": "Trgovine",
+			"description": "Vse trgovine",
+			"CountryDropDown": "Izberite državo",
+			"RegionDropDown": "Regija/država",
+			"CityDropDown": "Izberite mesto",
+			"filterButton": "Filter",
+			"clearButton": "Jasno",
+			"storesTableTitle": "Trgovine",
+			"storesleAddButtonTooltip": "Dodaj",
+			"storesTableEntriesDropdown": "Vnosi na stran",
+			"storesTableSearchInput": "Iskanje ...",
+			"storesTableCodeColumn": "Koda",
+			"storesTableItemColumn": "Predmet",
+			"storesTableDateColumn": "Datum",
+			"storesTableCustomerColumn": "Stranka",
+			"storesTableStoreColumn": "Shramba",
+			"storesTableCountryColumn": "Država",
+			"storesTableActionsColumn": "Dejanja",
+			"actionsColumnMoreTooltip": "Več",
+			"actionsColumnViewReportTooltip": "Nastavitev trgovin",
+			"actionsMoreButtonActivate": "Aktivirajte",
+			"actionsMoreButtonDisable": "Onemogoči",
+			"actionsMoreButtonDetails": "Podrobnosti",
+			"actionsMoreButtonEdit": "Uredi",
+			"storeStatus": "Status trgovine je uspešno posodobljen!"
+		},
+		"addStore": {
+			"title": "Dodaj trgovino",
+			"backButton": "Nazaj",
+			"promotionThumb": "Shranjevanje palca",
+			"storeInformation": "Shrani informacije",
+			"dropImagem": "Spusti in pad",
+			"doingBusinessInput": "Posluje kot",
+			"phoneInput": "Telefon",
+			"emailInput": "E -pošta",
+			"adressInput": "Adsess",
+			"countryDropDown": "Država",
+			"stateDropdown": "Država/regija",
+			"cityDropdown": "Mesto",
+			"masterUserDropdown": "Glavni uporabnik",
+			"storeNameMandatory": "Ime trgovine je obvezno!",
+			"storeCountryMandatory": "Država je obvezna!",
+			"storeUpdated": "Posodobljeno posodobljeno!",
+			"storeCreated": "Ustvaril uspešno!",
+			"selectStoreWorkers": "Izberite Trgovine",
+			"storeLogoUpdated": "Uspešno posodobljen logotip trgovine!"
+		},
+		"editStore": {
+			"title": "Uredi trgovino"
+		},
+		"storesSetting": {
+			"title": "Nastavitev trgovine",
+			"backButton": "Nazaj",
+			"linkCustomer": "Povezava do registra strank",
+			"saveButtonLinkTooltip": "Shrani",
+			"stockTableTitle": "Zaloga",
+			"stockTableEntriesDropdown": "Vnosi na stran",
+			"stockTableSearchInput": "Iskanje ...",
+			"stockTableProductColumn": "Izdelek",
+			"stockTableLastUpdateColumn": "Zadnja posodobitev",
+			"stockTableInputColumn": "Vnos",
+			"stockTableOutputColumn": "Izhod",
+			"stockTableBalanceColumn": "Ravnotežje",
+			"stockTableActionsColumn": "Dejanja",
+			"pointsBox": "Zbrane točke",
+			"couponsBox": "Kuponi so bili potrjeni",
+			"ProducstsBox": "Na voljo izdelki",
+			"totalSalesBox": "Skupna prodaja trgovin",
+			"customersBox": "Aktivne stranke",
+			"promotionsBox": "Teče promocije",
+			"pointsTableTitle": "Izjava o točkah",
+			"pointsTableEntriesDropdown": "Vnosi na stran",
+			"pointsTableSearchInput": "Iskanje ...",
+			"pointsTableDescriptionColumn": "Opis",
+			"pointsTableTypeColumn": "Tip",
+			"pointsTablePointsColumn": "Točke",
+			"pointsTableTotalColumn": "Skupaj",
+			"pointsTableBalanceColumn": "Ravnotežje",
+			"pointsTablecreatedColumn": "ustvarjen",
+			"promotionsTableTitle": "Promocije",
+			"promotionsTableEntriesDropdown": "Vnosi na stran",
+			"promotionsTableSearchInput": "Iskanje ...",
+			"promotionsTablePromotionColumn": "Proti",
+			"promotionsTableCouponsColumn": "Kuponi",
+			"promotionsTableCreatedColumn": "Ustvarjen",
+			"promotionsTableStatusColumn": "Status",
+			"customersTableTitle": "Stranke",
+			"customersTableEntriesDropdown": "Vnosi na stran",
+			"customersTableSearchInput": "Iskanje ...",
+			"customersTableCodeColumn": "Koda",
+			"customersTableNameColumn": "Ime",
+			"customersTableEmailColumn": "E -pošta",
+			"customersTableStatusColumn": "Status",
+			"moneybackTarget": "Cilj denarja",
+			"moneyPrizeInput": "Denarna nagrada",
+			"itembackTarget": "Promo tarča",
+			"itemPrizeInput": "Izberite nagrado",
+			"userTargets": "Trgovinski cilji",
+			"targetInput": "Cilj",
+			"dateFinalTarget": "Datum končnega cilja",
+			"storeTargetCreated": "Target Store Uspešno ustvarjen!",
+			"storeTargetUpdated": "Shrani ciljno posodobljeno!",
+			"userTargetCreated": "Target Shopkeeper Target je uspešno ustvaril!",
+			"userTargetUpdated": "Target Shopkeeper je uspešno posodobljen!",
+			"itemMandatory": "Predmet je obvezen!",
+			"targetMandatory": "Cilj je obvezen!",
+			"dateMandatory": "Ciljni končni datum je obvezen!",
+			"userTarget": "Target Shopkeeper",
+			"activeTarget": "Aktivni cilj",
+			"workers": "Delavci",
+			"shopkeeperTargetUser": "Target Shopkeeper - uporabnik",
+			"storeSlugUpdated": "Shranjeni polž je uspešno posodobljen!",
+			"storeSlug": "Vstopite v trgovino Slug",
+			"linkCustomeRegister": "Povezava do registra strank"
+		},
+		"users": {
+			"title": "Uporabniki",
+			"description": "Uporabniško poročilo",
+			"CountryDropDown": "Izberite državo",
+			"RegionDropDown": "Regija/država",
+			"CityDropDown": "Izberite mesto",
+			"filterButton": "Filter",
+			"clearButton": "Jasno",
+			"usersTableTitle": "Uporabniki",
+			"usersTableDownloadButtonTooltip": "Prenos",
+			"usersTableAddButtonTooltip": "Dodaj",
+			"usersTableEntriesDropdown": "Vnosi na stran",
+			"usersTableSearchInput": "Iskanje ...",
+			"usersTableNameColumn": "Ime",
+			"usersTableStoreColumn": "Shramba",
+			"usersTableLastInteractionColumn": "Zadnji datum interakcije",
+			"usersTableCountryColumn": "Država",
+			"usersTableRoleColumn": "Vloga",
+			"usersTableStatusColumn": "Status",
+			"usersTableActionsColumn": "Dejanja",
+			"actionsColumnMoreTooltip": "Več",
+			"actionsColumnRemoveTooltip": "Odstraniti",
+			"actionsMoreButtonActivate": "Aktivirajte",
+			"actionsMoreButtonDisable": "Onemogoči",
+			"actionsMoreButtonDetails": "Podrobnosti",
+			"actionsMoreButtonEdit": "Uredi",
+			"userStatusUpdated": "Status uporabnika uspešno posodobljen!",
+			"userDeleted": "Uporabnik uspešno izbriše!",
+			"userDeleteConfirm": "Ali ste prepričani, da želite izbrisati tega uporabnika? Tega dejanja ni mogoče razveljaviti.",
+			"userDelete": "Izbriši uporabnika"
+		},
+		"addUser": {
+			"title": "Dodaj uporabnika",
+			"backButton": "Nazaj",
+			"userPic": "Slika uporabniškega profila",
+			"dropImagem": "Spusti in pad",
+			"userInformation": "Informacije uporabnika",
+			"firstNameInput": "Ime",
+			"lastName": "Priimek",
+			"nicknameInput": "Vzdevek",
+			"emailInput": "E -pošta",
+			"userTypeDropdown": "Vrsta uporabnika",
+			"countryDropDown": "Država",
+			"switchInput": "Prejemanje glasila",
+			"userPicUpdated": "PIC uporabniškega profila je uspešno posodobljen!",
+			"password": "Geslo",
+			"createUser": "Ustvari uporabnika",
+			"updateUser": "Posodobi uporabnika"
+		},
+		"editUser": {
+			"title": "Uredi uporabnika"
+		},
+		"clubCard": {
+			"title": "Klubska kartica",
+			"description": "Vse karte",
+			"cardsTableTitle": "Kartice",
+			"cardsTableAddButtonTooltip": "Dodaj",
+			"cardsTableEntriesDropdown": "Vnosi na stran",
+			"cardsTableSearchInput": "Iskanje ...",
+			"cardsTableCardIdColumn": "ID kartice",
+			"cardsTableCreatedColumn": "Ustvarjen",
+			"cardsTableLinkedStoreColumn": "Povezana trgovina",
+			"cardsTableStatusColumn": "Status",
+			"cardsTableActionsColumn": "Dejanja",
+			"actionsColumnEditTooltip": "Uredi",
+			"actionsColumnRemoveTooltip": "Odstraniti",
+			"clubCardRemoved": "Uporabnik klubske kartice je uspešno izbrisal!",
+			"clubCardRemoveConfirm": "Ali ste prepričani, da želite izbrisati to kartico? Tega dejanja ni mogoče razveljaviti.",
+			"clubCardRemove": "Izbriši kartico"
+		},
+		"addCard": {
+			"title": "Dodaj kartico",
+			"codeInput": "Koda",
+			"dateInput": "Ustvarjen na",
+			"storeDropdown": "Izberite povezano trgovino",
+			"enterValidEmail": "Vnesite veljavno e ​​-poštno sporočilo!"
+		},
+		"editCard": {
+			"title": "Uredi kartico"
+		},
+		"checkChangShop": {
+			"title": "Preverite trgovino s spremembami",
+			"description": "Preverite poročilo o spremembah",
+			"shopTableTitle": "Nakupovanje za preverjanje",
+			"shopTableEntriesDropdown": "Vnosi na stran",
+			"shopTableSearchInput": "Iskanje ...",
+			"shopTableCustomerColumn": "Stranka",
+			"shopTableOldShopColumn": "Stara trgovina",
+			"shopTableNewShopColumn": "Nova trgovina",
+			"shopTableCreatedColumn": "Ustvarjen",
+			"shopTableReasontoChangeColumn": "Razlog za spremembo",
+			"shopTableActionsColumn": "Dejanja",
+			"historyShopTableTitle": "Zgodovina preverjenih trgovin",
+			"historyShopTableEntriesDropdown": "Vnosi na stran",
+			"historyShopTableSearchInput": "Iskanje ...",
+			"historyShopTableCustomerColumn": "Stranka",
+			"historyShopTableOldShopColumn": "Stara trgovina",
+			"historyShopTableNewShopColumn": "Nova trgovina",
+			"historyShopTableCreatedColumn": "Ustvarjen",
+			"historyShopTableReasontoChangeColumn": "Razlog za spremembo",
+			"historyShopTableStatusColumn": "Status",
+			"changeShopRequest": "Zahtevajte zahtevo za trgovino",
+			"denied": "Zanikano zanikano!",
+			"accepted": "Prepričano sprejel!",
+			"accept": "Sprejemati",
+			"reject": "Zavrnitev"
+		},
+		"profilePunctuation": {
+			"title": "Ločila profila",
+			"description": "Upravljanje točk",
+			"signupBoxTitle": "Prijava",
+			"signupBoxInput": "Prijava",
+			"signupBoxText": "Točke, ki jih zagotavlja registracija uporabnikov.",
+			"signupStoreBoxTitle": "Trgovina za prijavo",
+			"signupStoreBoxInput": "Trgovina za prijavo",
+			"signupStoreBoxText": "Točke, ki jih ponuja registracija trgovine.",
+			"couponBoxTitle": "Validacija kupona",
+			"couponBoxInput": "Validacija kupona",
+			"couponBoxText": "Točke, ki so navedene, kadar je kupon potrjen.",
+			"lastNameBoxTitle": "Priimek",
+			"lastNameBoxInput": "Priimek",
+			"lastNameBoxText": "Točke, ki so navedene pri obveščanju o priimku.",
+			"birthdateBoxTitle": "Rojstni datum",
+			"birthdateBoxInput": "Rojstni datum",
+			"birthdateBoxText": "Točke, ki so navedene pri obveščanju o rojstnem dnevu.",
+			"genderBoxTitle": "Spol",
+			"genderBoxInput": "Spol",
+			"genderBoxText": "Točke, ki so navedene pri obveščanju o spolu.",
+			"emailBoxTitle": "E-pošta",
+			"emailBoxInput": "E-pošta",
+			"emailBoxText": "Točke, ki so navedene pri obveščanju o e-pošti.",
+			"telephoneBoxTitle": "Telefon",
+			"telephoneBoxInput": "Telefon",
+			"telephoneBoxText": "Točke, ki so navedene pri obveščanju telefonske številke.",
+			"friendInvitationBoxTitle": "Povabilo za prijatelje",
+			"friendInvitationBoxInput": "Povabilo za prijatelje",
+			"friendInvitationBoxText": "Točke, ki so navedene, kadar je poštno povabilo.",
+			"friendSubscribeBoxTitle": "Prijatelj se naroči",
+			"friendSubscribeBoxInput": "Prijatelj se naroči",
+			"friendSubscribeBoxText": "Točke, ki jih daje, kadar prijatelj sprejme povabilo.",
+			"saveButton": "Shrani"
+		},
+		"targets": {
+			"title": "Cilje",
+			"description": "Vse cilje",
+			"moneybackTargets": "Cilji denarja",
+			"itembackTargets": "Promocijske cilje",
+			"userbackTargets": "Trgovinski cilji",
+			"CountryDropDown": "Izberite državo",
+			"StoreDropDown": "Izberite trgovino",
+			"filterButton": "Filter",
+			"clearButton": "Jasno",
+			"moneyTableTitle": "Denar",
+			"moneyTableEntriesDropdown": "Vnosi na stran",
+			"moneyTableSearchInput": "Iskanje ...",
+			"moneyTableCountryColumn": "Država",
+			"moneyTableStoreColumn": "Shramba",
+			"moneyTableTargetColumn": "Cilj",
+			"moneyTableProgressColumn": "Napredek",
+			"moneyTablePrizeColumn": "Nagrada",
+			"moneyTableDeadlineColumn": "Rok",
+			"moneyTableStatusColumn": "Status",
+			"moneyTableActionsColumn": "Dejanja",
+			"actionsColumnDisableTooltip": "Onemogoči",
+			"actionsColumnRemoveTooltip": "Odstraniti",
+			"targetsReachedTableTitle": "Cilji dosežene ali potekle",
+			"targetsReachedTableEntriesDropdown": "Vnosi na stran",
+			"targetsReachedTableSearchInput": "Iskanje ...",
+			"targetsReachedTableCountryColumn": "Država",
+			"targetsReachedTableStoreColumn": "Shramba",
+			"targetsReachedTableTargetColumn": "Cilj",
+			"targetsReachedTableProgressColumn": "Napredek",
+			"targetsReachedTablePrizeColumn": "Nagrada",
+			"targetsReachedTableCreatedColumn": "Ustvarjen",
+			"targetsReachedTableDeadlineColumn": "Rok",
+			"targetsReachedTableStatusColumn": "Status",
+			"prizeGraphic": "Nagradna grafika po shranjevanju",
+			"prizeGraphicCountry": "Nagrada grafika po državah",
+			"targetStatus": "Ciljni status je uspešno posodobljen!",
+			"targetDeleted": "Cilj uspešno izbrisan!",
+			"targetDeleteConfirm": "Ali ste prepričani, da želite izbrisati ta cilj? Tega dejanja ni mogoče razveljaviti.",
+			"targetDelete": "Izbriši tarčo",
+			"activeAllTargets": "Cilji so se uspešno aktivirali!",
+			"activeTargets": "Aktivno vse cilje"
+		},
+		"newsletter": {
+			"title": "Nesletter",
+			"description": "Vse glasila",
+			"newslettersTableTitle": "Nesletters",
+			"newslettersTableAddButtonTooltip": "Dodaj",
+			"newslettersTableEntriesDropdown": "Vnosi na stran",
+			"newslettersTableSearchInput": "Iskanje ...",
+			"newslettersTableNewsletterTitleColumn": "Naslov glasila",
+			"newslettersTableUserTypeColumn": "Vrsta uporabnika",
+			"newslettersTableCountryColumn": "Država",
+			"newslettersTableCreatedColumn": "Ustvarjen",
+			"newslettersTableStatusColumn": "Status",
+			"newslettersTableActionsColumn": "Dejanja",
+			"actionsColumnEditTooltip": "Uredi",
+			"actionsColumnRemoveTooltip": "Odstraniti"
+		},
+		"addNewsletter": {
+			"title": "Dodajte glasilo",
+			"backButton": "Nazaj",
+			"countryDropdown": "Izberite državo",
+			"userTypeDropdown": "Vrsta uporabnika",
+			"userTypeDropdownAll": "Vse",
+			"userTypeDropdownCustomer": "Stranka",
+			"userTypeDropdownStore": "Shramba",
+			"clearButton": "Jasno",
+			"newsletterTitleInput": "Naslov glasila",
+			"newsletterBody": "Tukaj vnesite telo",
+			"saveDraft": "Shrani kot osnutek",
+			"saveNow": "Shranite in pošljite zdaj",
+			"newsletterDeleted": "Nosilo je uspešno izbrisano!",
+			"newsletterDeleteConfirm": "Ali ste prepričani, da želite izbrisati to glasilo? Tega dejanja ni mogoče razveljaviti.",
+			"newsletterDelete": "Izbriši glasilo"
+		},
+		"editNewsletter": {
+			"title": "Uredi glasilo"
+		},
+		"notification": {
+			"title": "Obvestilo",
+			"description": "Vse obvestilo",
+			"notificationTableTitle": "Seznam obvestil",
+			"notificationTableAddButtonTooltip": "Dodaj",
+			"notificationTableEntriesDropdown": "Vnosi na stran",
+			"notificationTableSearchInput": "Iskanje ...",
+			"notificationTableNewsletterTitleColumn": "Naslov glasila",
+			"notificationTableUserTypeColumn": "Vrsta uporabnika",
+			"notificationTableCountryColumn": "Država",
+			"notificationTableCreatedColumn": "Ustvarjen",
+			"notificationTableStatusColumn": "Status",
+			"notificationTableActionsColumn": "Dejanja",
+			"actionsColumnMoreTooltip": "Več",
+			"actionsColumnRemoveTooltip": "Odstraniti",
+			"actionsMoreButtonActivate": "Aktivirajte",
+			"actionsMoreButtonDisable": "Onemogoči",
+			"actionsMoreButtonDetails": "Podrobnosti",
+			"actionsMoreButtonEdit": "Uredi",
+			"notificationStatus": "Status obvestila se je uspešno spremenil!",
+			"notificationDeleted": "Obvestilo je uspešno odstranjeno!",
+			"notificationDeleteConfirm": "Ali ste prepričani, da želite izbrisati to obvestilo? Tega dejanja ni mogoče razveljaviti.",
+			"notificationDelete": "Izbrišite obvestilo"
+		},
+		"addNotification": {
+			"title": "Dodajte obvestilo",
+			"backButton": "Nazaj",
+			"countryDropdown": "Izberite državo",
+			"userTypeDropdown": "Vrsta uporabnika",
+			"userTypeDropdownAll": "Vse",
+			"userTypeDropdownCustomer": "Stranka",
+			"userTypeDropdownStore": "Shramba",
+			"clearButton": "Jasno",
+			"newsletterTitleInput": "Naslov obvestila",
+			"newsletterBody": "Tukaj vnesite telo",
+			"saveNow": "Shranite in pošljite zdaj",
+			"saveDisabled": "Shrani kot onemogočeno"
+		},
+		"editNotification": {
+			"title": "Uredi obvestilo"
+		},
+		"upload": {
+			"title": "Nalaganje",
+			"description": "Naložite datoteke in dokumente"
+		}
+	},
+	"menu": {
+		"dashboard": "Armaturna plošča",
+		"promotions": "Promocije",
+		"quiz": "Kviz",
+		"notification": "Obvestilo",
+		"promoReport": "Promocijsko poročilo",
+		"salesReport": "Prodajno poročilo",
+		"redeemedItems": "Odkupljeni predmeti",
+		"clubCard": "Klubska kartica",
+		"productsAvailable": "Na voljo izdelki",
+		"stores": "Trgovine",
+		"users": "Uporabniki",
+		"checkChangeShop": "Preverite trgovino s spremembami",
+		"profilePunctuation": "Ločila profila",
+		"targets": "Cilje",
+		"upload": "Nalaganje",
+		"pointsStatement": "Izjava o točkah",
+		"coupons": "Kuponi",
+		"customers": "Stranke",
+		"downloads": "Prenosi",
+		"exchangePoints": "Menjalne točke",
+		"changeShop": "Trgovina za menjave"
+	},
+	"tables": {
+		"userStore": {
+			"dashboard": {
+				"pointRegistration": {
+					"tableTitle": "Registracija točk",
+					"pointRegistration": "Registracija točk",
+					"type": "Tip",
+					"points": "Točke",
+					"quantity": "Količina",
+					"total": "Skupaj",
+					"balance": "Ravnotežje",
+					"created": "Ustvarjen"
+				},
+				"stock": {
+					"tableTitle": "Zaloga",
+					"product": "Izdelek",
+					"lastUpdate": "Zadnja posodobitev",
+					"input": "Vnos",
+					"output": "Izhod",
+					"total": "Skupaj"
+				}
+			},
+			"promotions": {
+				"tableTitle": "Promocije",
+				"thumb": "Palec",
+				"promotion": "Proti",
+				"coupons": "Kuponi",
+				"created": "Ustvarjen",
+				"actions": "Dejanja"
+			},
+			"quiz": {
+				"tableTitle": "Kviz",
+				"name": "Ime",
+				"points": "Točke",
+				"created": "Ustvarjen",
+				"actions": "Dejanja"
+			},
+			"quizAnswered": {
+				"tableTitle": "Je odgovoril kviz",
+				"name": "Ime",
+				"points": "Točke",
+				"created": "Ustvarjen",
+				"answered": "Odgovoril"
+			},
+			"coupon": {
+				"coupons": {
+					"tableTitle": "Kuponi",
+					"code": "Koda",
+					"item": "Predmet",
+					"amount": "Znesek",
+					"date": "Datum",
+					"customer": "Stranka",
+					"actions": "Dejanja"
+				},
+				"couponsChecked": {
+					"tableTitle": "Preverjeni kuponi",
+					"code": "Koda",
+					"promotion": "Proti",
+					"created": "Ustvarjen",
+					"checked": "Preverjeno"
+				}
+			},
+			"customer": {
+				"customers": {
+					"tableTitle": "Stranke",
+					"name": "Ime",
+					"email": "E -pošta",
+					"joined": "Pridruženi",
+					"status": "Status",
+					"actions": "Dejanja",
+					"cardId": "ID kartice"
+				},
+				"cards": {
+					"tableTitle": "Kartice",
+					"cardId": "ID kartice",
+					"joined": "Pridruženi",
+					"status": "Status",
+					"actions": "Dejanja"
+				}
+			},
+			"download": {
+				"downloads": {
+					"tableTitle": "Mape",
+					"folder": "Mapa",
+					"actions": "Dejanja"
+				}
+			},
+			"clubCard": {
+				"tableTitle": "Kartice",
+				"cardId": "ID kartice",
+				"name": "Ime",
+				"email": "E -pošta",
+				"birthdate": "Rojstni datum",
+				"created": "Ustvarjen",
+				"linkedStore": "Povezana trgovina",
+				"status": "Status",
+				"actions": "Dejanja"
+			}
+		},
+
+		"userMarketing": {
+			"clubCardCodeList": {
+				"tableTitle": "Seznam kodov klubske kartice",
+				"code": "Koda",
+				"status": "Status"
+			},
+			"promotions": {
+				"tableTitle": "Promocije",
+				"thumb": "Palec",
+				"promotion": "Proti",
+				"maxCoupons": "Največ kuponov",
+				"created": "Ustvarjen",
+				"status": "Status",
+				"actions": "Dejanja"
+			},
+			"quiz": {
+				"tableTitle": "Kviz",
+				"name": "Ime",
+				"points": "Točke",
+				"country": "Država",
+				"created": "Ustvarjen",
+				"status": "Status",
+				"actions": "Dejanja"
+			},
+			"notification": {
+				"tableTitle": "Obvestilo",
+				"title": "Naslov",
+				"typeUser": "Vrsta uporabnika",
+				"country": "Država",
+				"created": "Ustvarjen",
+				"status": "Status",
+				"actions": "Dejanja"
+			},
+			"clubCard": {
+				"tableTitle": "Kartice",
+				"cardId": "ID kartice",
+				"name": "Ime",
+				"email": "E -pošta",
+				"birthdate": "Rojstni datum",
+				"created": "Ustvarjen",
+				"linkedStore": "Povezana trgovina",
+				"status": "Status",
+				"actions": "Dejanja"
+			},
+			"productsAvailable": {
+				"tableTitle": "Na voljo izdelki",
+				"thumb": "Palec",
+				"name": "Ime",
+				"description": "Opis",
+				"points": "Točke",
+				"status": "Status",
+				"type": "Vrsta",
+				"actions": "Dejanja"
+			},
+			"users": {
+				"tableTitle": "Uporabniki",
+				"name": "Ime",
+				"email": "E -pošta",
+				"country": "Država",
+				"role": "Vloga",
+				"status": "Status",
+				"actions": "Dejanja"
+			},
+			"checkChangeShop": {
+				"columnsShopToCheck": {
+					"tableTitle": "Nakupovanje za preverjanje",
+					"customer": "Stranka",
+					"oldShop": "Stara trgovina",
+					"newShop": "Nova trgovina",
+					"created": "Ustvarjen",
+					"reasonToChange": "Razlog za spremembo",
+					"actions": "Dejanja"
+				},
+				"columnsHistoryCheckedShops": {
+					"tableTitle": "Zgodovina preverjala trgovine",
+					"customer": "Stranka",
+					"oldShop": "Stara trgovina",
+					"newShop": "Nova trgovina",
+					"created": "Ustvarjen",
+					"checked": "Preverjeno"
+				}
+			},
+			"targets": {
+				"moneybackTargets": {
+					"tableTitle": "Cilje",
+					"country": "Država",
+					"store": "Shramba",
+					"target": "Cilj",
+					"prize": "Nagrada",
+					"deadline": "Rok",
+					"progress": "Napredek",
+					"status": "Status",
+					"actions": "Dejanja"
+				},
+				"targetsReachedOrExpired": {
+					"tableTitle": "Cilji dosežene ali potekle",
+					"country": "Država",
+					"store": "Shramba",
+					"target": "Cilj",
+					"progress": "Napredek",
+					"prize": "Nagrada",
+					"created": "Ustvarjen",
+					"deadline": "Rok",
+					"status": "Status"
+				}
+			},
+			"upload": {
+				"tableTitle": "Nalaganje",
+				"folder": "Mapa",
+				"created": "Ustvarjen",
+				"actions": "Dejanja"
+			}
+		},
+		"products": {
+			"columns": {
+				"thumb": "Palec",
+				"productName": "Ime izdelka",
+				"description": "Opis",
+				"points": "Točke",
+				"status": "Status",
+				"actions": "Dejanja"
+			}
+		},
+		"quiz": {
+			"columns": {
+				"name": "Ime",
+				"points": "Točke",
+				"country": "Država",
+				"created": "Ustvarjen",
+				"status": "Status",
+				"actions": "Dejanja"
+			}
+		},
+		"stores": {
+			"columns": {
+				"name": "Ime",
+				"country": "Država",
+				"region": "Regija/država",
+				"city": "Mesto",
+				"status": "Status",
+				"lastInteraction": "Zadnja interakcija",
+				"actions": "Dejanja"
+			}
+		},
+		"users": {
+			"columns": {
+				"name": "Ime",
+				"store": "Shramba",
+				"lastInteraction": "Zadnji datum interakcije",
+				"country": "Država",
+				"role": "Vloga",
+				"status": "Status",
+				"actions": "Dejanja"
+			}
+		},
+		"clubCard": {
+			"columns": {
+				"cardId": "ID kartice",
+				"created": "Ustvarjen",
+				"linkedStore": "Povezana trgovina",
+				"status": "Status",
+				"actions": "Dejanja"
+			}
+		},
+		"checkChangeShop": {
+			"columns": {
+				"customer": "Stranka",
+				"oldShop": "Stara trgovina",
+				"newShop": "Nova trgovina",
+				"created": "Ustvarjen",
+				"reasonToChange": "Razlog za spremembo",
+				"status": "Status",
+				"actions": "Dejanja"
+			}
+		},
+		"targets": {
+			"columns": {
+				"country": "Država",
+				"store": "Shramba",
+				"target": "Cilj",
+				"progress": "Napredek",
+				"prize": "Nagrada",
+				"deadline": "Rok",
+				"status": "Status",
+				"actions": "Dejanja"
+			}
+		},
+		"newsletter": {
+			"columns": {
+				"title": "Naslov glasila",
+				"userType": "Vrsta uporabnika",
+				"country": "Država",
+				"created": "Ustvarjen",
+				"status": "Status",
+				"actions": "Dejanja"
+			}
+		},
+		"notification": {
+			"columns": {
+				"title": "Naslov obvestila",
+				"userType": "Vrsta uporabnika",
+				"country": "Država",
+				"created": "Ustvarjen",
+				"status": "Status",
+				"actions": "Dejanja"
+			}
+		},
+		"downloads": {
+			"columns": {
+				"name": "Ime",
+				"type": "Tip",
+				"size": "Velikost",
+				"created": "Ustvarjen",
+				"actions": "Dejanja"
+			}
+		},
+		"pointsStatement": {
+			"columns": {
+				"description": "Opis",
+				"type": "Tip",
+				"points": "Točke",
+				"total": "Skupaj",
+				"balance": "Ravnotežje",
+				"created": "Ustvarjen"
+			}
+		}
+	},
+	"store": {
+		"routes": {
+			"pointsStatement": {
+				"title": "Izjava o točkah",
+				"subtitle": "Izjava o točkah"
+			},
+			"coupons": {
+				"title": "Kuponi",
+				"subtitle": "Kuponi"
+			},
+			"customers": {
+				"title": "Stranke",
+				"subtitle": "Vse stranke"
+			},
+			"downloads": {
+				"title": "Prenosi",
+				"subtitle": "Vsi prenosi"
+			},
+			"clubCard": {
+				"title": "Klubska kartica",
+				"subtitle": "Vse klubske karte"
+			}
+		},
+		"storeDashboard": {
+			"welcomeBack": "Dobrodošli nazaj,",
+			"storeNameLabel": "Trgovina:",
+			"enterStock": "Vnesite izdelke za zalogo",
+			"scanCard": "Kartica za skeniranje kluba",
+			"cardNotFound": "Uporabnik klubske kartice ni najden!",
+			"scanClubCard": "Skeniranje ali kodo tipk klubske kartice",
+			"summary": {
+				"storeTotalPoints": "Shranite skupne točke",
+				"shopkeeperTotalPoints": "Skupne točke prodajalca",
+				"activeCustomers": "Aktivne stranke",
+				"inactiveCustomers": "Neaktivne stranke",
+				"couponsToValidate": "Kuponi (za potrditev)",
+				"couponsValidated": "Kuponi (potrjeni)"
+			},
+			"quickAccess": {
+				"customers": "Hiter dostop do strani strank",
+				"coupons": "Upravljanje kuponov",
+				"promotions": "Glej razpoložljive promocije"
+			},
+			"targets": {
+				"prizeRequested": "Nagrada, ki je bila uspešno zahtevana!",
+				"reached": "Dosežen!",
+				"pointsInTarget": "Točke v tem cilju",
+				"requestPrize": "Cilj dosežen! Kliknite tukaj, da zahtevate nagrado!",
+				"prizeRequestedWarning": "Zahtevana nagrada!"
+			}
+		},
+		"storePointsTable": {
+			"title": "Izjava o točkah - Store",
+			"entriesDropdown": "Vnosi na stran",
+			"searchPlaceholder": "Iskanje ...",
+			"descriptionColumn": "Registracija točk",
+			"typeColumn": "Tip",
+			"pointsColumn": "Točke",
+			"quantityColumn": "Količina",
+			"totalColumn": "Skupaj",
+			"balanceColumn": "Ravnotežje",
+			"createdColumn": "Ustvarjen"
+		},
+		"storeStock": {
+			"title": "Zaloga",
+			"entriesDropdown": "Vnosi na stran",
+			"searchPlaceholder": "Iskanje ...",
+			"productColumn": "Izdelek",
+			"lastUpdateColumn": "Zadnja posodobitev",
+			"inputColumn": "Vnos",
+			"outputColumn": "Izhod",
+			"totalColumn": "Skupaj"
+		},
+		"quiz": {
+			"title": "Kviz",
+			"description": "Vsi ustvarjeni kvizi",
+			"unansweredQuizzes": "Neobremenjeni kvizi",
+			"answeredQuizzes": "So odgovorili kviz",
+			"tableEntriesDropdown": "Vnosi na stran",
+			"searchPlaceholder": "Iskanje ...",
+			"tableNameColumn": "Ime",
+			"tablePointsColumn": "Točke",
+			"tableCreatedColumn": "Ustvarjen",
+			"tableAnsweredColumn": "Odgovoril",
+			"tableActionsColumn": "Dejanja",
+			"reply": "Odgovor",
+			"pagination": {
+				"showing": "Prikazati",
+				"to": "do",
+				"of": "od",
+				"entries": "vpisi"
+			}
+		},
+		"notification": {
+			"title": "Center za obveščanje",
+			"description": "Občasno preverite svoj center za obveščanje, da ne boste zamudili nobenega od naših sporočil!",
+			"allNotifications": "Vsa obvestila",
+			"emptyState": "Ni na voljo nobenih obvestil",
+			"dateLabel": "Datum"
+		},
+		"notificationDetail": {
+			"title": "Podrobnosti o obvestilu",
+			"backButton": "Nazaj",
+			"linkText": "Kliknite tukaj",
+			"linkComplement": "za vstop"
+		},
+		"pointsStatement": {
+			"title": "Izjava o točkah",
+			"description": "Glej zgodovino Pontution",
+			"userStoreTitle": "Izjava točk - trgovina z uporabniki",
+			"addProductButton": "Vnesite izdelke za zalogo",
+			"table": {
+				"entriesDropdown": "Vnosi na stran",
+				"searchInput": "Iskanje ...",
+				"descriptionColumn": "Registracija točk",
+				"typeColumn": "Tip",
+				"pointsColumn": "Točke",
+				"quantityColumn": "Količina",
+				"totalColumn": "Skupaj",
+				"balanceColumn": "Ravnotežje",
+				"createdColumn": "Ustvarjen"
+			}
+		},
+		"productScan": {
+			"title": "Skeniranje izdelka",
+			"subtitle": "Vnesite izdelke za zalogo",
+			"backButton": "Nazaj",
+			"barcodePlaceholder": "Skeniranje ali vrsto črtne kode",
+			"dropdownPlaceholder": "Izbirajte na seznamu izdelkov",
+			"productNameLabel": "Ime izdelka",
+			"quantityLabel": "Količina",
+			"stockLabel": "Skupaj na zalogi",
+			"addItemButton": "Dodajte element",
+			"pointsLabel": "Točke izdelka za trgovino",
+			"submitButton": "Oddaj",
+			"stockSuccess": "Izdelek, registriran za na zalogi!",
+			"productNotFound": "Izdelek ne najde črtne kode!",
+			"productNotFoundList": "Izdelek ni na voljo na razpoložljivem seznamu izdelkov!",
+			"productNotOnStock": "Izdelek ni na voljo na zalogi!",
+			"productQuantityAdjusted": "Količina, prilagojena največji na voljo na zalogi",
+			"totalPointsCustomer": "Skupna točka stranka",
+			"table": {
+				"productColumn": "Izdelek",
+				"quantityColumn": "Količina",
+				"pointsColumn": "Točke",
+				"actionColumn": "Dejanje"
+			}
+		},
+		"coupons": {
+			"title": "Kuponi",
+			"subtitle": "Kuponi za preverjanje in predmeti",
+			"itemsToCheckTitle": "Predmete za preverjanje",
+			"historyCheckedTitle": "Zgodovina preverjenih predmetov",
+			"entriesDropdown": "Vnosi na stran",
+			"searchPlaceholder": "Iskanje ...",
+			"itemRedeemed": "Predmet je uspešno unovčil!",
+			"tableToCheck": {
+				"codeColumn": "Koda",
+				"itemColumn": "Predmet",
+				"amountColumn": "Znesek",
+				"dateColumn": "Datum",
+				"customerColumn": "Stranka",
+				"actionsColumn": "Dejanja",
+				"viewTooltip": "Pogled na podrobnosti",
+				"validateTooltip": "Preverjanje kupona"
+			},
+			"tableChecked": {
+				"codeColumn": "Koda",
+				"promotionColumn": "Proti",
+				"createdColumn": "Ustvarjen",
+				"checkedDateColumn": "Preverjeni datum",
+				"itemColumn": "Predmet",
+				"amountColumn": "Znesek",
+				"customerColumn": "Stranka"
+			}
+		},
+		"couponsDetailsModal": {
+			"title": "Informacije o kuponu",
+			"promoLabel": "Promo",
+			"descriptionLabel": "Opis",
+			"customerLabel": "Stranka",
+			"createdLabel": "Ustvarjen",
+			"closeButton": "Blizu"
+		},
+		"customers": {
+			"title": "Stranke",
+			"subtitle": "Vse stranke",
+			"saleSubmited": "Prodaja je bila podana uspešno!",
+			"table": {
+				"title": "Stranke",
+				"entriesDropdown": "Vnosi na stran",
+				"searchInput": "Iskanje ...",
+				"nameColumn": "Ime",
+				"emailColumn": "E -pošta",
+				"joinedColumn": "Pridruženi",
+				"statusColumn": "Status",
+				"actionsColumn": "Dejanja",
+				"viewTooltip": "Pogled na podrobnosti",
+				"purchaseTooltip": "Zgodovina nakupa"
+			},
+			"cards": {
+				"title": "Kartice",
+				"entriesDropdown": "Vnosi na stran",
+				"searchInput": "Iskanje ...",
+				"cardIdColumn": "ID kartice",
+				"nameColumn": "Ime",
+				"emailColumn": "E -pošta",
+				"birthdateColumn": "Rojstni datum",
+				"createdColumn": "Ustvarjen",
+				"linkedStoreColumn": "Povezana trgovina",
+				"statusColumn": "Status",
+				"actionsColumn": "Dejanja",
+				"editTooltip": "Uredi",
+				"viewTooltip": "Pogled na podrobnosti"
+			},
+			"customerInfoModal": {
+				"title": "Informacije o uporabniku",
+				"name": "Ime",
+				"email": "E -pošta",
+				"sex": "Spol",
+				"birthdate": "Rojstni datum",
+				"closeButton": "Blizu"
+			},
+			"promotions": {
+				"title": "Promocije",
+				"description": "Vse na voljo promocije",
+				"table": {
+					"title": "Promocije",
+					"entriesDropdown": "Vnosi na stran",
+					"searchInput": "Iskanje ...",
+					"columns": {
+						"thumb": "Palec",
+						"promotion": "Proti",
+						"coupons": "Kuponi",
+						"created": "Ustvarjen",
+						"actions": "Dejanja"
+					},
+					"emptyMessage": "Ni bilo najdenih promocij."
+				}
+			},
+			"downloads": {
+				"title": "Prenosi",
+				"description": "Vnesite mape in prenesite datoteke",
+				"table": {
+					"title": "Mape",
+					"entriesDropdown": "Vnosi na stran",
+					"searchInput": "Iskanje ...",
+					"columns": {
+						"folder": "Mapa",
+						"actions": "Dejanja"
+					},
+					"emptyMessage": "Mape ni mogoče najti."
+				}
+			},
+			"archives": {
+				"title": "Arhiv",
+				"download": "Prenos",
+				"allCountries": "Vse države",
+				"allUsers": "Vsi uporabniki",
+				"table": {
+					"entriesDropdown": "Vnosi na stran",
+					"searchInput": "Iskanje ...",
+					"columns": {
+						"archive": "Arhiv",
+						"created": "Ustvarjen",
+						"userType": "Vrsta uporabnika",
+						"country": "Država",
+						"actions": "Dejanja"
+					},
+					"emptyMessage": "Ni mogoče najti nobenih arhivov."
+				},
+				"backButton": "Nazaj"
+			},
+			"clubCard": {
+				"title": "Klubska kartica",
+				"subtitle": "Vse karte",
+				"table": {
+					"entriesDropdown": "Vnosi na stran",
+					"searchInput": "Iskanje ...",
+					"columns": {
+						"cardId": "ID kartice",
+						"name": "Ime",
+						"email": "E -pošta",
+						"birthdate": "Rojstni datum",
+						"created": "Ustvarjen",
+						"linkedStore": "Povezana trgovina",
+						"status": "Status",
+						"actions": "Dejanja"
+					},
+					"emptyMessage": "Ni najdenih kartic."
+				}
+			},
+			"clubCardModal": {
+				"title": "Dodaj kartico",
+				"codePlaceholder": "Koda",
+				"createdAtLabel": "Ustvarjen na",
+				"namePlaceholder": "Ime",
+				"lastNamePlaceholder": "Priimek",
+				"emailPlaceholder": "E -pošta",
+				"birthdatePlaceholder": "Yyyy/mm/dd",
+				"buttons": {
+					"close": "Blizu",
+					"save": "Shrani"
+				}
+			}
+		}
+	},
+	"customer": {
+		"customerDashboard": {
+			"welcome": "Dobrodošli nazaj",
+			"generateCouponButton": "Ustvari brezplačni kupon",
+			"exchangePointsTitle": "Menjalne točke",
+			"quizCard": {
+				"title": "Kviz",
+				"description": "Odgovorite kvize in zaslužite točke!"
+			},
+			"notificationsCard": {
+				"title": "Obvestila",
+				"description": "Spremljajte naše najnovejše posodobitve!"
+			},
+			"updateProfileCard": {
+				"title": "Profil posodobitve",
+				"description": "Dokončajte svoj profil in zaslužite točke zdaj!"
+			},
+			"pointsStatement": {
+				"title": "Izjava o točkah - stranka",
+				"table": {
+					"description": "Registracija točk",
+					"type": "Tip",
+					"points": "Točke",
+					"quantity": "Količina",
+					"total": "Skupaj",
+					"balance": "Ravnotežje",
+					"created": "Ustvarjen"
+				}
+			},
+			"couponHistory": {
+				"title": "Zgodovina kuponov",
+				"table": {
+					"key": "Ključna koda",
+					"item": "Predmet",
+					"promotion": "Proti",
+					"store": "Shramba",
+					"createdAt": "Ustvarjen na",
+					"checked": "Preverjeno",
+					"checkedDate": "Preverjeni datum",
+					"yes": "DA",
+					"no": "Ne"
+				}
+			}
+		},
+		"promotionsPage": {
+			"title": "Promocije",
+			"subtitle": "Vse na voljo promocije",
+			"noPromotionsTitle": "Trenutno ni promocij!",
+			"noPromotionsDescription": "Trenutno nimamo na voljo nobenih promocij. Vendar pa bodite pozorni na posodobitve, saj nenehno ponujamo nove ponudbe.",
+			"couponGenerated": "Kupon uspešno ustvarjen!",
+			"enjoy": "Uživajte v svojem",
+			"copied": "Kuponska koda, kopirana v odložišče!",
+			"couponGeneratedInit": "Za to promocijo že imate ustvarjen kupon: uporabite kodo",
+			"couponGeneratedEnd": "v vaši trgovini, da unovčite svoj izdelek."
+		},
+		"quizPage": {
+			"title": "Kviz",
+			"subtitle": "Vsi ustvarjeni kvizi",
+			"unansweredTitle": "Neobremenjeni kvizi",
+			"answeredTitle": "So odgovorili kviz",
+			"table": {
+				"name": "Ime",
+				"points": "Točke",
+				"created": "Ustvarjen",
+				"answered": "Odgovoril",
+				"actions": "Dejanja"
+			},
+			"pagination": {
+				"showing": "Prikaži {start} to {end} od {total} vnosov"
+			},
+			"searchPlaceholder": "Iskanje ...",
+			"question": "Vprašanje"
+		},
+		"customerNotificationsPage": {
+			"title": "Center za obveščanje",
+			"subtitle": "Občasno preverite svoj center za obveščanje, da ne boste zamudili nobenega od naših sporočil!",
+			"allNotifications": "Vsa obvestila"
+		},
+		"notificationDetailsPage": {
+			"title": "Podrobnosti o obvestilu",
+			"back": "Nazaj",
+			"linkPrefix": "Kliknite tukaj",
+			"linkSuffix": "za vstop"
+		},
+		"exchangePointsPage": {
+			"title": "Menjalne točke",
+			"subtitle": "Na voljo so vse menjalne točke",
+			"pointsSuffix": "točke"
+		},
+		"exchangePointsDetailsPage": {
+			"title": "Podrobnosti o menjalnih točkah",
+			"enjoyText": "Uživajte v svojem {productName}!",
+			"amount": "Znesek",
+			"totalPoints": "Skupne točke",
+			"generateCoupon": "Ustvari kupon",
+			"back": "Nazaj"
+		},
+		"couponsPage": {
+			"title": "Kuponi",
+			"subtitle": "Kuponi za preverjanje in predmeti",
+			"table": {
+				"title": "Zgodovina kuponov",
+				"columns": {
+					"keyCode": "Ključna koda",
+					"item": "Predmet",
+					"promotion": "Proti",
+					"store": "Shramba",
+					"createdAt": "Ustvarjen na",
+					"checked": "Preverjeno",
+					"checkedDate": "Preverjeni datum"
+				}
+			},
+			"pagination": {
+				"showing": "Prikaži {start} to {end} od {total} vnosov"
+			}
+		},
+		"changeShopPage": {
+			"title": "Trgovina za menjave",
+			"subtitle": "Ali želite zamenjati trgovine? Obvestite nas!",
+			"form": {
+				"country": "Izberite državo",
+				"store": "Izberite trgovino",
+				"reason": "Opišite svoj razlog za menjavo trgovine",
+				"submit": "Zahteva za spremembo",
+				"changeShopRequested": "Zahteva za zamenjavo trgovine je bila ustvarjena uspešno!"
+			},
+			"history": {
+				"title": "Sprememba zgodovine",
+				"table": {
+					"columns": {
+						"oldShop": "Stara trgovina",
+						"newShop": "Nova trgovina",
+						"requestDate": "Datum zahteve",
+						"reason": "Razlog",
+						"status": "Status"
+					}
+				},
+				"pagination": {
+					"showing": "Prikaži {start} to {end} od {total} vnosov"
+				}
+			}
+		},
+		"downloadsPage": {
+			"title": "Prenosi",
+			"subtitle": "Vnesite mape in prenesite datoteke",
+			"table": {
+				"columns": {
+					"folder": "Mapa",
+					"actions": "Dejanja"
+				},
+				"pagination": {
+					"showing": "Prikaži {start} to {end} od {total} vnosov"
+				},
+				"searchPlaceholder": "Iskanje ..."
+			}
+		}
+	},
+	"accountProfile": {
+		"profilePic": "Slika profila",
+		"language": "Izberite jezik",
+		"password": "Spremeni geslo",
+		"currentPassword": "Trenutno geslo",
+		"newPassword": "Novo geslo",
+		"repeatPassword": "Ponovite novo geslo",
+		"passwordsMatch": "Gesla se morajo ujemati!",
+		"changeEmail": "Spremenite e-pošto",
+		"currentEmail": "Trenutni e -poštni naslov",
+		"newEmail": "Novo e-pošto",
+		"informNewPassword": "Obvestite svoje novo geslo!"
+	},
+	"enums": {
+		"clubCardCodeList": {
+			"validated": "Potrjeno",
+			"notValidated": "Ni uporabljeno"
+		},
+		"status": {
+			"active": "Aktivno",
+			"disabled": "Invalid"
+		},
+		"couponType": {
+			"promo": "Promo",
+			"withPoints": "S točkami"
+		},
+		"moneyBackStatus": {
+			"targetDisabled": "Invalid",
+			"targetInProgress": "V teku"
+		},
+		"customersStatus": {
+			"activated": "Aktivirano",
+			"disabled": "Invalid"
+		},
+		"extractOperator": {
+			"addition": "Dodatek",
+			"deduction": "Odbitek"
+		},
+		"inviteStatus": {
+			"sent": "Poslano",
+			"accepted": "Sprejeto"
+		},
+		"productType": {
+			"clothing": "Oblačila",
+			"other": "Drugo"
+		},
+		"newsletterStatus": {
+			"send": "Pošlji",
+			"draft": "Osnutek"
+		},
+		"newsletterUserType": {
+			"all": "Vse",
+			"store": "Shramba",
+			"customer": "Stranka"
+		},
+		"notificationStatus": {
+			"activated": "Aktivirano",
+			"disabled": "Invalid"
+		},
+		"quizStatus": {
+			"unpublished": "Neobjavljeno",
+			"published": "Objavljeno"
+		},
+		"shopStatus": {
+			"waiting": "Čakanje",
+			"accepted": "Sprejeto",
+			"refused": "Zavrnjen"
+		},
+		"situation": {
+			"accepted": "Sprejeto",
+			"rejected": "Zavrnjeno",
+			"pending": "V teku"
+		},
+		"targetStatus": {
+			"targetReached": "Dosežen",
+			"targetExpired": "Poteklo"
+		},
+		"userType": {
+			"customer": "Stranka",
+			"store": "Shramba",
+			"marketing": "Trženje"
+		}
+	},
+	"passwordValidation": {
+		"upperCase": "Velike črke",
+		"lowerCase": "Male črke",
+		"specialCharacters": "Posebni znaki",
+		"numbers": "Številke",
+		"shouldContain": "Geslo naj vsebuje:",
+		"length": "najmanj 6 znakov",
+		"validEmail": "Prosimo, vnesite veljaven e-poštni naslov."
+	}
+}

@@ -1,0 +1,13 @@
+.delete-account-link:hover {
+	text-decoration: underline;
+	transition: 0.3s ease;
+	opacity: 0.9;
+}
+
+.custom-datepicker {
+	width: 100%;
+}
+
+.react-datepicker-wrapper {
+	width: 100%;
+}
