@@ -2,6 +2,14 @@ FROM node:18-alpine AS builder
 
 WORKDIR /app
 
+# Build arguments for Vite environment variables
+ARG VITE_APP_BASE_URL
+ARG VITE_APP_BASIC_TOKEN
+
+# Set as environment variables for Vite to pick up during build
+ENV VITE_APP_BASE_URL=${VITE_APP_BASE_URL}
+ENV VITE_APP_BASIC_TOKEN=${VITE_APP_BASIC_TOKEN}
+
 # Copy package files
 COPY package.json yarn.lock ./
 

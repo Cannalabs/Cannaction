@@ -60,15 +60,15 @@ services:
     build:
       context: ./cannaction-new-system-frontend
       dockerfile: Dockerfile
+      args:
+        - VITE_APP_BASE_URL=${VITE_APP_BASE_URL}
+        - VITE_APP_BASIC_TOKEN=${VITE_APP_BASIC_TOKEN}
     container_name: cannaction-frontend
     restart: unless-stopped
     env_file:
       - .env
     ports:
       - "5174:80"
-    environment:
-      - VITE_APP_BASE_URL=${VITE_APP_BASE_URL}
-      - VITE_APP_BASIC_TOKEN=${VITE_APP_BASIC_TOKEN}
     depends_on:
       - backend
 
