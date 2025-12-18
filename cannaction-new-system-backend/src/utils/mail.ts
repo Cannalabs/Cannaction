@@ -14,17 +14,28 @@ const transportOptions: SMTPTransport.Options = {
 		user: env.MAIL_USER,
 		pass: env.MAIL_PASSWORD,
 	},
+	connectionTimeout: 10000, // 10 seconds
+	greetingTimeout: 10000, // 10 seconds
+	socketTimeout: 10000, // 10 seconds
 };
 
 export const transporter = nodemailer.createTransport(transportOptions);
 
 export const sendMail = async (to: string, subject: string, html: string) => {
-	await transporter.sendMail({
+	const mailOptions = {
 		from: `No reply <${env.MAIL_USER}>`,
 		to,
 		subject,
 		html,
-	});
+	};
+	
+	// Add timeout wrapper to prevent hanging
+	return Promise.race([
+		transporter.sendMail(mailOptions),
+		new Promise((_, reject) => 
+			setTimeout(() => reject(new Error('Email sending timeout')), 15000)
+		)
+	]);
 };
 
 export const createForgotPasswordEmail = (password: string) => {

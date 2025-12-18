@@ -25,8 +25,8 @@ import { useTranslation } from 'react-i18next';
 interface FirstStepProps {
 	formik: FormikHook<FormValues>;
 	step: number;
-	languageList: StoreEntity[];
-	storeList: LanguageEntity[];
+	languageList: LanguageEntity[];
+	storeList: StoreEntity[];
 	countryList: CountryEntity[];
 }
 

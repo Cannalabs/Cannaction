@@ -62,20 +62,25 @@ export class UserPersistenceService {
 		if (userByEmail) throw new UserNotCreatedError('Email already in use.');
 
 		const hashPassword = await hash(newUser.password);
-		const country = new Country({ id: newUser.countryId });
+		const country = await this.countryService.findOne(newUser.countryId);
+		if (!country) {
+			throw new UserNotCreatedError('Country not found.');
+		}
 		const pontuations = await this.profilePontuationService.findAll();
 
-		let active: boolean = false;
+		// Mark users as active by default
+		let active: boolean = true;
 
+		// Attempt to send email, but don't block user creation if it fails
 		try {
 			await sendMail(
 				newUser.email,
 				'New Account Password',
 				createNewAccountEmail(newUser.password)
 			);
-			active = true;
 		} catch (e) {
-			active = false;
+			// Email sending failed, but user is still active
+			console.log('Failed to send welcome email:', e);
 		}
 
 

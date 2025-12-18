@@ -12,6 +12,14 @@
 # Shell scripts (deployment scripts)
 *.sh
 
+# Documentation and templates (exclude from push)
+*.md
+*.txt
+*.sql
+
+# Scripts (exclude from push)
+**/scripts/create-super-admin.ts
+cannaction-new-system-backend/scripts/create-super-admin.ts
 # Docker
 docker-compose.override.yml
 .docker/

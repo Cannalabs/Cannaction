@@ -37,42 +37,80 @@ const Register: React.FC = () => {
 	const { data: countryList } = useCountries();
 	const { data: languageList } = useLanguages();
 
-	const composeRequestBody = (user: FormValues): CreateUserRequest => ({
-		name: user.name.trim(),
-		lastName: user.lastName.trim(),
-		email: user.email.trim(),
-		nickname: user.nickname.trim(),
-		password: user.password,
-		countryId: user.countryId,
-		languageId: user.languageId,
-		birthdate: user.birthdate || '',
-		userType: user.userType as UserTypeEnum,
-		cityId: user.cityId,
-		stateId: user.stateId,
-		storeAddress: user.address?.trim() || '',
-		storeContactEmail: user.storeContactEmail?.trim() || '',
-		storeContactTelephone: user.storeContactTelephone,
-		storeId: user.storeId,
-		storeName: user.storeName?.trim(),
-		telephone: user.telephone,
-	});
+	const composeRequestBody = (user: FormValues): CreateUserRequest => {
+		// Validation should be handled by formik, but adding safety checks
+		if (!user.countryId) {
+			throw new Error('Country is required');
+		}
+		if (!user.languageId) {
+			throw new Error('Language is required');
+		}
+		
+		// For customer users, storeId is mandatory
+		if (user.userType === UserTypeEnum.CUSTOMER) {
+			if (!user.storeId || user.storeId === 0 || user.storeId === undefined) {
+				throw new Error('Store is required for customer users');
+			}
+		}
+
+		const request: CreateUserRequest = {
+			name: user.name.trim(),
+			lastName: user.lastName.trim(),
+			email: user.email.trim(),
+			nickname: user.nickname.trim(),
+			password: user.password,
+			countryId: Number(user.countryId),
+			languageId: Number(user.languageId),
+			birthdate: user.birthdate || '',
+			userType: user.userType as UserTypeEnum,
+			telephone: user.telephone,
+		};
+
+		// For customer users, storeId is required and must be included
+		if (user.userType === UserTypeEnum.CUSTOMER) {
+			request.storeId = Number(user.storeId);
+		}
+
+		// Only include optional fields if they have values
+		if (user.cityId) request.cityId = Number(user.cityId);
+		if (user.stateId) request.stateId = Number(user.stateId);
+		if (user.userType !== UserTypeEnum.CUSTOMER && user.storeId && user.storeId !== 0) {
+			request.storeId = Number(user.storeId);
+		}
+		if (user.address?.trim()) request.storeAddress = user.address.trim();
+		if (user.storeContactEmail?.trim()) request.storeContactEmail = user.storeContactEmail.trim();
+		if (user.storeContactTelephone) request.storeContactTelephone = user.storeContactTelephone;
+		if (user.storeName?.trim()) request.storeName = user.storeName.trim();
+
+		return request;
+	};
 
 	const onSubmit = async (values: FormValues) => {
 		try {
-			await UserService.createNewUser(composeRequestBody(values));
+			console.log('Form values before composing request:', values);
+			const requestBody = composeRequestBody(values);
+			console.log('Sending user creation request:', JSON.stringify(requestBody, null, 2));
+			await UserService.createNewUser(requestBody);
 			openSnackbar('User created sucessfully!', 'success');
 
 			setTimeout(() => {
 				navigate('/login');
 			}, 15 * 1000);
 		} catch (e: unknown) {
+			console.error('Error creating user:', e);
 			if (isAxiosError(e)) {
-				openSnackbar(
-					Array.isArray(e.response?.data.message)
-						? e.response?.data.message[0]
-						: e.response?.data.message,
-					'error'
-				);
+				const errorMessage = 
+					Array.isArray(e.response?.data?.message)
+						? e.response.data.message[0]
+						: e.response?.data?.message || 
+						Array.isArray(e.response?.data?.data?.message)
+						? e.response.data.data.message[0]
+						: e.response?.data?.data?.message ||
+						e.message ||
+						'Failed to create user';
+				openSnackbar(errorMessage, 'error');
+			} else if (e instanceof Error) {
+				openSnackbar(e.message, 'error');
 			} else {
 				openSnackbar('An unexpected error occurred.', 'error');
 			}
@@ -90,8 +128,12 @@ const Register: React.FC = () => {
 	const { values, handleSubmit } = formik;
 
 	const getStoresByCountry = async () => {
+		if (!values.countryId || values.countryId == 0) {
+			setStoreList([]);
+			return;
+		}
 		const stores = await StoreService.getLabeledStoresByCountry(
-			values?.countryId
+			values.countryId
 		);
 		if (stores) setStoreList(stores);
 	};
@@ -119,6 +161,7 @@ const Register: React.FC = () => {
 
 	return (
 		<Grid
+			item
 			xs={12}
 			md={6}
 			sx={{ marginTop: { xs: '1rem', md: 0 } }}
@@ -133,7 +176,7 @@ const Register: React.FC = () => {
 						<FirstStep
 							step={step}
 							countryList={countryList != undefined ? countryList : []}
-							languageList={languageList}
+							languageList={languageList != undefined ? languageList : []}
 							storeList={storeList}
 							formik={formik}
 						/>

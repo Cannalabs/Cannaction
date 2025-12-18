@@ -27,14 +27,9 @@ async function bootstrap() {
 	app.useGlobalFilters(new AxiosExceptionFilter());
 	app.useGlobalFilters(new BaseHttpExceptionFilter());
 	app.useGlobalPipes(new ValidationPipe({ transform: true }));
-	app.register(multipart);
+	await app.register(multipart);
 
-	app.listen(env.PORT, '0.0.0.0', (err, address) => {
-		if (err) {
-			Logger.error(err, err.stack);
-			process.exit(1);
-		}
-		Logger.log(`Server listening on ${address}`);
-	});
+	const address = await app.listen(env.PORT, '0.0.0.0');
+	Logger.log(`Server listening on ${address}`);
 }
 bootstrap();
