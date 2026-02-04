@@ -343,8 +343,8 @@ export const FormNewsletter: React.FC = () => {
 						</div>
 						<div className="d-grid">
 							<Button
-								disabled={true}
-								// onClick={handleClear}
+								disabled={isLoading || isSubmitting}
+								onClick={() => onSubmit(values)}
 								variant="contained"
 							>
 								Save and Send Now

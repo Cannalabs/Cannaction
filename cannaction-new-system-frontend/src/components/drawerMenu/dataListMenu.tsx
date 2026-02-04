@@ -96,7 +96,7 @@ export const useMenuItems = () => {
 		},
 		{ label: t('marketing.targets.title'), url: 'targets', icon: <FiTarget /> },
 		{ label: t('marketing.upload.title'), url: 'upload', icon: <BsUpload /> },
-		// { label: 'Newsletter', url: 'newsletter', icon: <BsEnvelope /> },
+		{ label: 'Newsletter', url: 'newsletter', icon: <BsEnvelope /> },
 	];
 
 	const superMenuItems = [
